@@ -1,0 +1,10 @@
+-The transgender thoughts sometimes disappear if you perform a chain of sex operations on the same pawn.
+Probably some oversight in algorithm that gives thoughts on transition (some underthought chaining of effects).
+Fix somewhere in the future. 
+
+-There's some weird null exception thrown during futa dick addition. It happens sometimes and everything works anyway.
+
+-Whores with untended diseases (flu, herpes, warts) will try hookup and may succeed but the job will get cancelled shortly afterwards resulting in message spam.
+Currently added different message to notify players of problem.
+
+-Gential helper is shit. It does not account for later added animal dicks. has_<x> methods are fucking runtime regex searches

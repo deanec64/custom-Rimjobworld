@@ -1,0 +1,39 @@
+﻿=========================================
+|||   RimJobWorld Community Project   |||
+=========================================
+
+
+Special thanks to
+
+Void Main              Original Author
+
+UnlimitedHugs          HugsLib mod library for Rimworld
+pardeike               Harmony library
+Fluffy                 Architecture Sense mod DLL
+
+Loverslab              Housing this mod
+
+Skystreet              Saved A16 version from nexus oblivion
+nethrez1m              HugsLib / RimWorldChildren fixes
+prkr_jmsn              A17 compatibility, Genital injection, sounds, filth
+Goddifist              Ideas
+shark510               Textures, testing
+Soronarr               Surgery recipes, monstergirls
+semigimp               General coding
+AngleWyrm              Textures
+Alanetsai              Chinese traditional translations
+nizhuan-jjr            Chinese simplified translations, general coding, bugsfix, 
+                       whore system, broken body system, balancing, testing, textures, 
+                       previews, etc.
+g0ring                 Coding idea, bugfix
+StarlightG             Coding idea, bugfix
+SuperHotSausage        Coding, stuff
+Sidfu                  Coding, XML modding
+NEPH                   Graphics & textures, testing, Korean translation
+hogehoge1942           Coding, Japanese translation
+TheSleeplessSorclock   Coding
+asdiky                 Russian translation
+Atrer                  Coding
+exoxe                  Korean translation
+
+And anyone we might have missed.

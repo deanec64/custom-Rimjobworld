@@ -1,0 +1,644 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{22F82FFF-8BD4-4CEE-9F22-C7DA71281E72}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>RJW</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <ShouldCreateLogs>True</ShouldCreateLogs>
+    <AdvancedSettingsExpanded>True</AdvancedSettingsExpanded>
+    <UpdateAssemblyVersion>True</UpdateAssemblyVersion>
+    <UpdateAssemblyFileVersion>True</UpdateAssemblyFileVersion>
+    <UpdateAssemblyInfoVersion>True</UpdateAssemblyInfoVersion>
+    <AssemblyVersionSettings>None.None.IncrementOnDemand.Increment</AssemblyVersionSettings>
+    <AssemblyFileVersionSettings>None.None.IncrementOnDemand.None</AssemblyFileVersionSettings>
+    <AssemblyInfoVersionSettings>None.None.IncrementOnDemand.None</AssemblyInfoVersionSettings>
+    <PrimaryVersionType>AssemblyVersionAttribute</PrimaryVersionType>
+    <AssemblyVersion>1.6.0.493</AssemblyVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Assemblies\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <FileAlignment>4096</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Assemblies\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>rjw</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include=".gitattributes" />
+    <Content Include=".gitignore" />
+    <Content Include="About\About.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="About\Preview.png" />
+    <Content Include="Assemblies\RJW.dll" />
+    <Content Include="changelog.txt" />
+    <Content Include="credits.txt" />
+    <Content Include="Defs\BodyPartTagDefs\BodyPartTags_FertilitySource.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Defs\BodyPartDefs\BodyParts_Insect.xml" />
+    <Content Include="Defs\BodyPartDefs\BodyParts_Mech.xml" />
+    <Content Include="Defs\BodyPartDefs\BodyParts_Humanlike.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Defs\HediffDefs\Hediffs_Bondage.xml" />
+    <Content Include="Defs\IncidentDef\Incidents_Testing.xml" />
+    <Content Include="Defs\InteractionDef\Interactions_Oral.xml" />
+    <Content Include="Defs\InteractionDef\Interactions_Sex.xml" />
+    <Content Include="Defs\InteractionDef\Interactions_Breed.xml" />
+    <Content Include="Defs\JobDefs\Jobs_Whore.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Defs\JobDefs\Jobs_Nymph.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Defs\JobDefs\Jobs_Necrophile.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Defs\JobDefs\Jobs_Bondage.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Defs\JobDefs\Jobs_Bestiality.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Defs\JobDefs\Jobs_Rapist.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Defs\ThingDefs\Items_Bondage.xml" />
+    <Content Include="Defs\RecipeDefs\Recipes_Bondage.xml" />
+    <Content Include="Defs\RecipeDefs\Recipes_ForceRemoveBondage.xml" />
+    <Content Include="Defs\ThinkTreeDefs\ThinkTrees_Necrophile.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Defs\ThinkTreeDefs\ThinkTrees_Whore.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Defs\ThinkTreeDefs\ThinkTrees_Nymph.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Defs\ThinkTreeDefs\ThinkTrees_Zoophile.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Defs\ThoughtDefs\Thoughts_Bondage.xml" />
+    <Content Include="Defs\ConceptDefs\Concepts_WhoreBeds.xml" />
+    <Content Include="Defs\DamageDefs\Damage_Viral.xml" />
+    <Content Include="Defs\DesignationDefs\Designations.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Defs\HediffDefs\Hediffs_FeelingBroken.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Defs\HediffDefs\Hediffs_IUD.xml" />
+    <Content Include="Defs\HediffDefs\Hediffs_MCEvents.xml" />
+    <Content Include="Defs\HediffDefs\Hediffs_Other.xml" />
+    <Content Include="Defs\HediffDefs\Hediffs_PrivateParts.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Defs\HediffDefs\Hediffs_SimpleBaby.xml" />
+    <Content Include="Defs\HediffDefs\Hediffs_STDs.xml" />
+    <Content Include="Defs\HediffDefs\Hediffs_Sterilized.xml" />
+    <Content Include="Defs\HediffDefs\Hediffs_EnemyImplants.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Defs\HediffDefs\Hediffs_Submitting.xml" />
+    <Content Include="Defs\HediffDefs\Hediffs_Transgender.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Defs\HediffDefs\Hediffs_Pregnancy.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Defs\HediffGiverSetDefs\HediffGiverSets.xml" />
+    <Content Include="Defs\IncidentDef\Incidents_Nymph.xml" />
+    <Content Include="Defs\InteractionDef\Interactions_Rape.xml" />
+    <Content Include="Defs\JobDefs\Jobs_Misc.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Defs\MentalStateDefs\MentalStates.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Defs\MiscTranslationDef\MiscTranslationDefs.xml" />
+    <Content Include="Defs\ThingDefs\Motes.xml" />
+    <Content Include="Defs\NeedDefs\Needs_Sex.xml" />
+    <Content Include="Defs\NonInheritedTraits.xml" />
+    <Content Include="Defs\PawnCapacityDefs\PawnCapacity_Fertility.xml" />
+    <Content Include="Defs\PawnKindDefs\PawnKind_Nymph.xml" />
+    <Content Include="Defs\PawnRelationDef\PawnRelations_Beast.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Defs\RecipeDefs\Recipes_Abortion.xml" />
+    <Content Include="Defs\RecipeDefs\Recipes_ClaimChild.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Defs\RecipeDefs\Recipes_Prosthetics.xml" />
+    <Content Include="Defs\RecipeDefs\Recipes_Surgery.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Defs\RecipeDefs\Recipes_RemoveEnemyImplants.xml" />
+    <Content Include="Defs\RecordDefs\Records.xml" />
+    <Content Include="Defs\RulePackDefs\RulePacks_EngravedNames.xml" />
+    <Content Include="Defs\SoundDefs\Sounds_Sex.xml" />
+    <Content Include="Defs\SpecialBackstories.xml" />
+    <Content Include="Defs\StatDefs\Stats.xml" />
+    <Content Include="Defs\STDDefs\STDs.xml" />
+    <Content Include="Defs\ThingDefs\Drugs.xml" />
+    <Content Include="Defs\ThingDefs\Items_BodyParts.xml" />
+    <Content Include="Defs\ThingDefs\Filth_Cum.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Defs\ThingDefs\Items_WhoreBeds.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Defs\ThinkTreeDefs\ThinkTrees_Prisoner.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Defs\ThinkTreeDefs\ThinkTrees_Misc.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Defs\ThoughtDefs\Thoughts_Family.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Defs\ThoughtDefs\Thoughts_Bestiality.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Defs\ThoughtDefs\Thoughts_Necrophile.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Defs\ThoughtDefs\Thoughts_SexChange.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Defs\ThoughtDefs\Thoughts_STD.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Defs\ThoughtDefs\Thoughts_Sex.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Defs\ThoughtDefs\Thoughts_Virgin.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Defs\ThoughtDefs\Thoughts_Whore.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Defs\ThoughtDefs\Thoughts_Rape.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Defs\TraitDefs\Traits.xml" />
+    <Content Include="Defs\WorkGiverDefs\WorkGivers.xml" />
+    <Content Include="Defs\_config.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Languages\ChineseSimplified\DefInjected\BodyPartDef\PrivateParts.xml" />
+    <Content Include="Languages\ChineseSimplified\DefInjected\ConceptDef\Concepts_NotedOpportunistic.xml" />
+    <Content Include="Languages\ChineseSimplified\DefInjected\DamageDef\Damage.xml" />
+    <Content Include="Languages\ChineseSimplified\DefInjected\HediffDef\Hediffs.xml" />
+    <Content Include="Languages\ChineseSimplified\DefInjected\HediffDef\Hediffs_FeelingBroken.xml" />
+    <Content Include="Languages\ChineseSimplified\DefInjected\HediffDef\Hediffs_Other.xml" />
+    <Content Include="Languages\ChineseSimplified\DefInjected\HediffDef\Hediffs_PrivateParts.xml" />
+    <Content Include="Languages\ChineseSimplified\DefInjected\HediffDef\Hediffs_SimpleBaby.xml" />
+    <Content Include="Languages\ChineseSimplified\DefInjected\HediffDef\Hediffs_STDs.xml" />
+    <Content Include="Languages\ChineseSimplified\DefInjected\HediffDef\Hediffs_Sterilized.xml" />
+    <Content Include="Languages\ChineseSimplified\DefInjected\IncidentDef\Incidents.xml" />
+    <Content Include="Languages\ChineseSimplified\DefInjected\InteractionDef\Interactions.xml" />
+    <Content Include="Languages\ChineseSimplified\DefInjected\JobDef\Jobs.xml" />
+    <Content Include="Languages\ChineseSimplified\DefInjected\NeedDef\Needs.xml" />
+    <Content Include="Languages\ChineseSimplified\DefInjected\PawnCapacityDef\PawnCapacity.xml" />
+    <Content Include="Languages\ChineseSimplified\DefInjected\PawnKindDef\PawnKinds.xml" />
+    <Content Include="Languages\ChineseSimplified\DefInjected\RecipeDef\Recipes_Production.xml" />
+    <Content Include="Languages\ChineseSimplified\DefInjected\RecipeDef\Recipes_Prosthetics.xml" />
+    <Content Include="Languages\ChineseSimplified\DefInjected\RecipeDef\Recipes_Surgery.xml" />
+    <Content Include="Languages\ChineseSimplified\DefInjected\RecordDef\Records_GetRaped.xml" />
+    <Content Include="Languages\ChineseSimplified\DefInjected\rjw.bondage_gear_def\Items.xml" />
+    <Content Include="Languages\ChineseSimplified\DefInjected\rjw.force_off_gear_def\Recipes_Surgery.xml" />
+    <Content Include="Languages\ChineseSimplified\DefInjected\rjw.MiscTranslationDef\MiscTranslationDefs.xml" />
+    <Content Include="Languages\ChineseSimplified\DefInjected\rjw.std_def\STDs.xml" />
+    <Content Include="Languages\ChineseSimplified\DefInjected\RulePackDef\RulePacks_AnalRape.xml" />
+    <Content Include="Languages\ChineseSimplified\DefInjected\RulePackDef\RulePacks_AnalSex.xml" />
+    <Content Include="Languages\ChineseSimplified\DefInjected\RulePackDef\RulePacks_EngravedNames.xml" />
+    <Content Include="Languages\ChineseSimplified\DefInjected\StatDef\Stats.xml" />
+    <Content Include="Languages\ChineseSimplified\DefInjected\ThingDef\Items.xml" />
+    <Content Include="Languages\ChineseSimplified\DefInjected\ThingDef\Items_PrivateParts.xml" />
+    <Content Include="Languages\ChineseSimplified\DefInjected\ThingDef\ThingsDef_XXX.xml" />
+    <Content Include="Languages\ChineseSimplified\DefInjected\ThingDef\_Things_Mote.xml" />
+    <Content Include="Languages\ChineseSimplified\DefInjected\ThoughtDef\Thoughts.xml" />
+    <Content Include="Languages\ChineseSimplified\DefInjected\TraitDef\Traits.xml" />
+    <Content Include="Languages\ChineseSimplified\DefInjected\WorkGiverDef\WorkGivers.xml" />
+    <Content Include="Languages\ChineseSimplified\Keyed\RimJobWorld.xml" />
+    <Content Include="Languages\ChineseTraditional\DefInjected\BodyPartDef\PrivateParts.xml" />
+    <Content Include="Languages\ChineseTraditional\DefInjected\ConceptDef\Concepts_NotedOpportunistic.xml" />
+    <Content Include="Languages\ChineseTraditional\DefInjected\DamageDef\Damage.xml" />
+    <Content Include="Languages\ChineseTraditional\DefInjected\HediffDef\BondageGear\Hediffs.xml" />
+    <Content Include="Languages\ChineseTraditional\DefInjected\HediffDef\Hediffs.xml" />
+    <Content Include="Languages\ChineseTraditional\DefInjected\HediffDef\Hediffs_FeelingBroken.xml" />
+    <Content Include="Languages\ChineseTraditional\DefInjected\HediffDef\Hediffs_Other.xml" />
+    <Content Include="Languages\ChineseTraditional\DefInjected\HediffDef\Hediffs_PrivateParts.xml" />
+    <Content Include="Languages\ChineseTraditional\DefInjected\HediffDef\Hediffs_SimpleBaby.xml" />
+    <Content Include="Languages\ChineseTraditional\DefInjected\HediffDef\Hediffs_STDs.xml" />
+    <Content Include="Languages\ChineseTraditional\DefInjected\HediffDef\Hediffs_Sterilized.xml" />
+    <Content Include="Languages\ChineseTraditional\DefInjected\IncidentDef\Incidents.xml" />
+    <Content Include="Languages\ChineseTraditional\DefInjected\InteractionDef\Interactions.xml" />
+    <Content Include="Languages\ChineseTraditional\DefInjected\JobDef\Jobs.xml" />
+    <Content Include="Languages\ChineseTraditional\DefInjected\NeedDef\Needs.xml" />
+    <Content Include="Languages\ChineseTraditional\DefInjected\PawnCapacityDef\PawnCapacity.xml" />
+    <Content Include="Languages\ChineseTraditional\DefInjected\PawnKindDef\PawnKinds.xml" />
+    <Content Include="Languages\ChineseTraditional\DefInjected\RecipeDef\BondageGear\Recipes_Production.xml" />
+    <Content Include="Languages\ChineseTraditional\DefInjected\RecipeDef\BondageGear\Recipes_Surgery.xml" />
+    <Content Include="Languages\ChineseTraditional\DefInjected\RecipeDef\Recipes_Production.xml" />
+    <Content Include="Languages\ChineseTraditional\DefInjected\RecipeDef\Recipes_Prosthetics.xml" />
+    <Content Include="Languages\ChineseTraditional\DefInjected\RecipeDef\Recipes_Surgery.xml" />
+    <Content Include="Languages\ChineseTraditional\DefInjected\RecordDef\Records_GetRaped.xml" />
+    <Content Include="Languages\ChineseTraditional\DefInjected\rjw.bondage_gear_def\Items.xml" />
+    <Content Include="Languages\ChineseTraditional\DefInjected\rjw.force_off_gear_def\Recipes_Surgery.xml" />
+    <Content Include="Languages\ChineseTraditional\DefInjected\rjw.MiscTranslationDef\MiscTranslationDefs.xml" />
+    <Content Include="Languages\ChineseTraditional\DefInjected\rjw.std_def\STDs.xml" />
+    <Content Include="Languages\ChineseTraditional\DefInjected\RulePackDef\RulePacks_AnalRape.xml" />
+    <Content Include="Languages\ChineseTraditional\DefInjected\RulePackDef\RulePacks_AnalSex.xml" />
+    <Content Include="Languages\ChineseTraditional\DefInjected\RulePackDef\RulePacks_EngravedNames.xml" />
+    <Content Include="Languages\ChineseTraditional\DefInjected\StatDef\Stats.xml" />
+    <Content Include="Languages\ChineseTraditional\DefInjected\ThingDef\BondageGear\Hediffs.xml" />
+    <Content Include="Languages\ChineseTraditional\DefInjected\ThingDef\BondageGear\Items.xml" />
+    <Content Include="Languages\ChineseTraditional\DefInjected\ThingDef\BondageGear\Recipes_Production.xml" />
+    <Content Include="Languages\ChineseTraditional\DefInjected\ThingDef\BondageGear\Recipes_Surgery.xml" />
+    <Content Include="Languages\ChineseTraditional\DefInjected\ThingDef\BondageGear\Thoughts.xml" />
+    <Content Include="Languages\ChineseTraditional\DefInjected\ThingDef\Items.xml" />
+    <Content Include="Languages\ChineseTraditional\DefInjected\ThingDef\Items_PrivateParts.xml" />
+    <Content Include="Languages\ChineseTraditional\DefInjected\ThingDef\STDs.xml" />
+    <Content Include="Languages\ChineseTraditional\DefInjected\ThingDef\ThingsDef_XXX.xml" />
+    <Content Include="Languages\ChineseTraditional\DefInjected\ThingDef\_Things_Mote.xml" />
+    <Content Include="Languages\ChineseTraditional\DefInjected\ThoughtDef\BondageGear\Thoughts.xml" />
+    <Content Include="Languages\ChineseTraditional\DefInjected\ThoughtDef\Thoughts.xml" />
+    <Content Include="Languages\ChineseTraditional\DefInjected\TraitDef\Traits.xml" />
+    <Content Include="Languages\ChineseTraditional\DefInjected\WorkGiverDef\WorkGivers.xml" />
+    <Content Include="Languages\ChineseTraditional\Keyed\RimJobWorld.xml" />
+    <Content Include="Languages\English\Keyed\RimJobWorld.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Languages\Japanese\DefInjected\BodyPartDef\PrivateParts.xml" />
+    <Content Include="Languages\Japanese\DefInjected\ConceptDef\Concepts.xml" />
+    <Content Include="Languages\Japanese\DefInjected\ConceptDef\Concepts_NotedOpportunistic.xml" />
+    <Content Include="Languages\Japanese\DefInjected\DamageDef\Damage.xml" />
+    <Content Include="Languages\Japanese\DefInjected\HediffDef\Hediffs.xml" />
+    <Content Include="Languages\Japanese\DefInjected\HediffDef\Hediffs_FeelingBroken.xml" />
+    <Content Include="Languages\Japanese\DefInjected\HediffDef\Hediffs_Other.xml" />
+    <Content Include="Languages\Japanese\DefInjected\HediffDef\Hediffs_PrivateParts.xml" />
+    <Content Include="Languages\Japanese\DefInjected\HediffDef\Hediffs_SimpleBaby.xml" />
+    <Content Include="Languages\Japanese\DefInjected\HediffDef\Hediffs_STDs.xml" />
+    <Content Include="Languages\Japanese\DefInjected\HediffDef\Hediffs_Sterilized.xml" />
+    <Content Include="Languages\Japanese\DefInjected\IncidentDef\Incidents.xml" />
+    <Content Include="Languages\Japanese\DefInjected\InteractionDef\Interactions.xml" />
+    <Content Include="Languages\Japanese\DefInjected\JobDef\Jobs.xml" />
+    <Content Include="Languages\Japanese\DefInjected\NeedDef\Needs.xml" />
+    <Content Include="Languages\Japanese\DefInjected\PawnCapacityDef\PawnCapacity.xml" />
+    <Content Include="Languages\Japanese\DefInjected\PawnKindDef\PawnKinds.xml" />
+    <Content Include="Languages\Japanese\DefInjected\RecipeDef\Recipes_Production.xml" />
+    <Content Include="Languages\Japanese\DefInjected\RecipeDef\Recipes_Prosthetics.xml" />
+    <Content Include="Languages\Japanese\DefInjected\RecipeDef\Recipes_Surgery.xml" />
+    <Content Include="Languages\Japanese\DefInjected\RecordDef\Records_GetRaped.xml" />
+    <Content Include="Languages\Japanese\DefInjected\rjw.bondage_gear_def\Items.xml" />
+    <Content Include="Languages\Japanese\DefInjected\rjw.force_off_gear_def\Recipes_Surgery.xml" />
+    <Content Include="Languages\Japanese\DefInjected\rjw.MiscTranslationDef\MiscTranslationDefs.xml" />
+    <Content Include="Languages\Japanese\DefInjected\rjw.std_def\STDs.xml" />
+    <Content Include="Languages\Japanese\DefInjected\RulePackDef\RulePacks_AnalRape.xml" />
+    <Content Include="Languages\Japanese\DefInjected\RulePackDef\RulePacks_EngravedNames.xml" />
+    <Content Include="Languages\Japanese\DefInjected\StatDef\Stats.xml" />
+    <Content Include="Languages\Japanese\DefInjected\ThingDef\Items.xml" />
+    <Content Include="Languages\Japanese\DefInjected\ThingDef\Items_PrivateParts.xml" />
+    <Content Include="Languages\Japanese\DefInjected\ThingDef\ThingsDef_XXX.xml" />
+    <Content Include="Languages\Japanese\DefInjected\ThingDef\_Things_Mote.xml" />
+    <Content Include="Languages\Japanese\DefInjected\ThoughtDef\Thoughts.xml" />
+    <Content Include="Languages\Japanese\DefInjected\TraitDef\Traits.xml" />
+    <Content Include="Languages\Japanese\DefInjected\WorkGiverDef\WorkGivers.xml" />
+    <Content Include="Languages\Japanese\Keyed\RimJobWorld.xml" />
+    <Content Include="Languages\Korean\DefInjected\ArchitectSense.DesignationSubCategoryDef\RJW_SubCategory.xml" />
+    <Content Include="Languages\Korean\DefInjected\BodyPartDef\PrivateParts.xml" />
+    <None Include="Languages\Korean\DefInjected\ConceptDef\Concepts_NotedOpportunistic" />
+    <Content Include="Languages\Korean\DefInjected\DamageDef\Damage.xml" />
+    <Content Include="Languages\Korean\DefInjected\HediffDef\Hediffs.xml" />
+    <Content Include="Languages\Korean\DefInjected\HediffDef\Hediffs_FeelingBroken.xml" />
+    <Content Include="Languages\Korean\DefInjected\HediffDef\Hediffs_Other.xml" />
+    <Content Include="Languages\Korean\DefInjected\HediffDef\Hediffs_PrivateParts.xml" />
+    <Content Include="Languages\Korean\DefInjected\HediffDef\Hediffs_SimpleBaby.xml" />
+    <Content Include="Languages\Korean\DefInjected\HediffDef\Hediffs_STDs.xml" />
+    <Content Include="Languages\Korean\DefInjected\HediffDef\Hediffs_Sterilized.xml" />
+    <Content Include="Languages\Korean\DefInjected\IncidentDef\Incidents.xml" />
+    <Content Include="Languages\Korean\DefInjected\InteractionDef\Interactions.xml" />
+    <Content Include="Languages\Korean\DefInjected\JobDef\Jobs.xml" />
+    <Content Include="Languages\Korean\DefInjected\NeedDef\Needs.xml" />
+    <Content Include="Languages\Korean\DefInjected\PawnCapacityDef\PawnCapacity.xml" />
+    <Content Include="Languages\Korean\DefInjected\PawnKindDef\PawnKinds.xml" />
+    <Content Include="Languages\Korean\DefInjected\RecipeDef\Recipes_Production.xml" />
+    <Content Include="Languages\Korean\DefInjected\RecipeDef\Recipes_Prosthetics.xml" />
+    <Content Include="Languages\Korean\DefInjected\RecipeDef\Recipes_Surgery.xml" />
+    <Content Include="Languages\Korean\DefInjected\RecordDef\RecordDefs.xml" />
+    <Content Include="Languages\Korean\DefInjected\RecordDef\Records_GetRaped.xml" />
+    <None Include="Languages\Korean\DefInjected\ResearchProjectDef\ResearchProjects_XxXx_" />
+    <None Include="Languages\Korean\DefInjected\ResearchTabDef\ResearchTabs_" />
+    <Content Include="Languages\Korean\DefInjected\rjw.bondage_gear_def\Items.xml" />
+    <Content Include="Languages\Korean\DefInjected\rjw.force_off_gear_def\Recipes_Surgery.xml" />
+    <Content Include="Languages\Korean\DefInjected\rjw.HediffDef_EnemyImplants\Hediffs_EnemyImplants.xml" />
+    <Content Include="Languages\Korean\DefInjected\rjw.HediffDef_InsectEgg\Hediffs_EnemyImplants.xml" />
+    <Content Include="Languages\Korean\DefInjected\rjw.HediffDef_MechImplants\Hediffs_EnemyImplants.xml" />
+    <Content Include="Languages\Korean\DefInjected\rjw.MiscTranslationDef\MiscTranslationDefs.xml" />
+    <Content Include="Languages\Korean\DefInjected\rjw.SexualMentalStateDef\MentalStateDefs.xml" />
+    <Content Include="Languages\Korean\DefInjected\rjw.std_def\STDs.xml" />
+    <Content Include="Languages\Korean\DefInjected\RulePackDef\RulePacks_AnalRape.xml" />
+    <Content Include="Languages\Korean\DefInjected\RulePackDef\RulePacks_AnalSex.xml" />
+    <Content Include="Languages\Korean\DefInjected\RulePackDef\RulePacks_EngravedNames.xml" />
+    <Content Include="Languages\Korean\DefInjected\StatDef\Stats.xml" />
+    <Content Include="Languages\Korean\DefInjected\ThingDef\Items.xml" />
+    <Content Include="Languages\Korean\DefInjected\ThingDef\Items_PrivateParts.xml" />
+    <Content Include="Languages\Korean\DefInjected\ThingDef\ThingsDef_XXX.xml" />
+    <Content Include="Languages\Korean\DefInjected\ThingDef\_Things_Mote.xml" />
+    <Content Include="Languages\Korean\DefInjected\ThoughtDef\Thoughts.xml" />
+    <Content Include="Languages\Korean\DefInjected\TraitDef\Traits.xml" />
+    <Content Include="Languages\Korean\DefInjected\WorkGiverDef\WorkGivers.xml" />
+    <Content Include="Languages\Korean\Keyed\RimJobWorld.xml" />
+    <Content Include="Languages\Russian\DefInjected\BodyPartDef\PrivateParts.xml" />
+    <Content Include="Languages\Russian\DefInjected\ConceptDef\Concepts.xml" />
+    <Content Include="Languages\Russian\DefInjected\ConceptDef\Concepts_NotedOpportunistic.xml" />
+    <Content Include="Languages\Russian\DefInjected\DamageDef\Damage.xml" />
+    <Content Include="Languages\Russian\DefInjected\HediffDef\Hediffs.xml" />
+    <Content Include="Languages\Russian\DefInjected\HediffDef\Hediffs_FeelingBroken.xml" />
+    <Content Include="Languages\Russian\DefInjected\HediffDef\Hediffs_Other.xml" />
+    <Content Include="Languages\Russian\DefInjected\HediffDef\Hediffs_PrivateParts.xml" />
+    <Content Include="Languages\Russian\DefInjected\HediffDef\Hediffs_SimpleBaby.xml" />
+    <Content Include="Languages\Russian\DefInjected\HediffDef\Hediffs_STDs.xml" />
+    <Content Include="Languages\Russian\DefInjected\HediffDef\Hediffs_Sterilized.xml" />
+    <Content Include="Languages\Russian\DefInjected\IncidentDef\Incidents.xml" />
+    <Content Include="Languages\Russian\DefInjected\InteractionDef\Interactions.xml" />
+    <Content Include="Languages\Russian\DefInjected\JobDef\Jobs.xml" />
+    <Content Include="Languages\Russian\DefInjected\NeedDef\Needs.xml" />
+    <Content Include="Languages\Russian\DefInjected\PawnCapacityDef\PawnCapacity.xml" />
+    <Content Include="Languages\Russian\DefInjected\PawnKindDef\PawnKinds.xml" />
+    <Content Include="Languages\Russian\DefInjected\RecipeDef\Recipes_Production.xml" />
+    <Content Include="Languages\Russian\DefInjected\RecipeDef\Recipes_Prosthetics.xml" />
+    <Content Include="Languages\Russian\DefInjected\RecipeDef\Recipes_Surgery.xml" />
+    <Content Include="Languages\Russian\DefInjected\RecordDef\Records_GetRaped.xml" />
+    <Content Include="Languages\Russian\DefInjected\rjw.bondage_gear_def\Items.xml" />
+    <Content Include="Languages\Russian\DefInjected\rjw.force_off_gear_def\Recipes_Surgery.xml" />
+    <Content Include="Languages\Russian\DefInjected\rjw.MiscTranslationDef\MiscTranslationDefs.xml" />
+    <Content Include="Languages\Russian\DefInjected\rjw.std_def\STDs.xml" />
+    <Content Include="Languages\Russian\DefInjected\RulePackDef\RulePacks_AnalRape.xml" />
+    <Content Include="Languages\Russian\DefInjected\RulePackDef\RulePacks_AnalSex.xml" />
+    <Content Include="Languages\Russian\DefInjected\RulePackDef\RulePacks_EngravedNames.xml" />
+    <Content Include="Languages\Russian\DefInjected\StatDef\Stats.xml" />
+    <Content Include="Languages\Russian\DefInjected\ThingDef\Items.xml" />
+    <Content Include="Languages\Russian\DefInjected\ThingDef\Items_PrivateParts.xml" />
+    <Content Include="Languages\Russian\DefInjected\ThingDef\ThingsDef_XXX.xml" />
+    <Content Include="Languages\Russian\DefInjected\ThingDef\_Things_Mote.xml" />
+    <Content Include="Languages\Russian\DefInjected\ThoughtDef\Thoughts.xml" />
+    <Content Include="Languages\Russian\DefInjected\TraitDef\Traits.xml" />
+    <Content Include="Languages\Russian\DefInjected\WorkGiverDef\WorkGivers.xml" />
+    <Content Include="Languages\Russian\Keyed\RimJobWorld.xml" />
+    <Content Include="Patches\AddBodyPartsToInsect.xml" />
+    <Content Include="Patches\BodyPatches.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Patches\Tweak_Duty.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Patches\CnP_compatibility.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Sounds\Sex\blowjob.wav" />
+    <Content Include="Sounds\Sex\cum.wav" />
+    <Content Include="Sounds\Sex\kucyu04.wav" />
+    <Content Include="Textures\anus.png" />
+    <Content Include="Textures\armbinder.png" />
+    <Content Include="Textures\artificial_anus.png" />
+    <Content Include="Textures\artificial_breast.png" />
+    <Content Include="Textures\breast.png" />
+    <Content Include="Textures\chastity_belt.png" />
+    <Content Include="Textures\comfort_prisoner.png" />
+    <Content Include="Textures\female_artificial_genital.png" />
+    <Content Include="Textures\female_genital.png" />
+    <Content Include="Textures\gag.png" />
+    <Content Include="Textures\holokey.png" />
+    <Content Include="Textures\hololock.png" />
+    <Content Include="Textures\male_artificial_genital.png" />
+    <Content Include="Textures\male_genital.png" />
+    <Content Include="Textures\noheart.png" />
+    <Content Include="Textures\placeholder_part.png" />
+    <Content Include="Textures\Things\Building\Furniture\Bed\BedWhore_back.png" />
+    <Content Include="Textures\Things\Building\Furniture\Bed\BedWhore_backm.png" />
+    <Content Include="Textures\Things\Building\Furniture\Bed\BedWhore_front.png" />
+    <Content Include="Textures\Things\Building\Furniture\Bed\BedWhore_frontm.png" />
+    <Content Include="Textures\Things\Building\Furniture\Bed\BedWhore_side.png" />
+    <Content Include="Textures\Things\Building\Furniture\Bed\BedWhore_sidem.png" />
+    <Content Include="Textures\Things\Building\Furniture\Bed\DoubleBedWhore_back.png" />
+    <Content Include="Textures\Things\Building\Furniture\Bed\DoubleBedWhore_backm.png" />
+    <Content Include="Textures\Things\Building\Furniture\Bed\DoubleBedWhore_front.png" />
+    <Content Include="Textures\Things\Building\Furniture\Bed\DoubleBedWhore_frontm.png" />
+    <Content Include="Textures\Things\Building\Furniture\Bed\DoubleBedWhore_side.png" />
+    <Content Include="Textures\Things\Building\Furniture\Bed\DoubleBedWhore_sidem.png" />
+    <Content Include="Textures\Things\Building\Furniture\Bed\RoyalBedWhore_back.png" />
+    <Content Include="Textures\Things\Building\Furniture\Bed\RoyalBedWhore_backm.png" />
+    <Content Include="Textures\Things\Building\Furniture\Bed\RoyalBedWhore_front.png" />
+    <Content Include="Textures\Things\Building\Furniture\Bed\RoyalBedWhore_frontm.png" />
+    <Content Include="Textures\Things\Building\Furniture\Bed\RoyalBedWhore_side.png" />
+    <Content Include="Textures\Things\Building\Furniture\Bed\RoyalBedWhore_sidem.png" />
+    <Content Include="Textures\UI\Commands\AsWhore.png" />
+    <Content Include="Textures\UI\Commands\comfort_prisoner_false.png" />
+    <Content Include="Textures\UI\Commands\comfort_prisoner_invisible.png" />
+    <Content Include="Textures\UI\Commands\comfort_prisoner_true.png" />
+    <Content Include="Textures\UI\Icons\SubcategoryIndicator.png" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="Source\PawnCapacities\BodyPartTagDefOf.cs" />
+    <Compile Include="Source\Common\BreederHelper.cs" />
+    <Compile Include="Source\Common\DataStore.cs" />
+    <Compile Include="Source\Common\PawnData.cs" />
+    <Compile Include="Source\Common\PregnancyHelper.cs" />
+    <Compile Include="Source\Common\StringListDef.cs" />
+    <Compile Include="Source\Designators\Designator_Breed.cs" />
+    <Compile Include="Source\Designators\RJWdesignations.cs" />
+    <Compile Include="Source\Harmony\CnPcompatibility.cs" />
+    <Compile Include="Source\Harmony\Rjw_buttons.cs" />
+    <Compile Include="Source\Harmony\submit_button.cs" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Defs\RandomDialoguesxml" />
+    <None Include="Languages\Japanese\Keyed\RimJobWorld.xml.bak" />
+    <None Include="LICENSE" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Source\Common\bondage_gear.cs" />
+    <Compile Include="Source\Common\config.cs" />
+    <Compile Include="Source\Common\CORE_EXPOSED.cs" />
+    <Compile Include="Source\Designators\Designator_ComfortPrisoner.cs" />
+    <Compile Include="Source\Common\Genital_Helper.cs" />
+    <Compile Include="Source\Common\MapCom_Injector.cs" />
+    <Compile Include="Source\Common\MiscTranslationDef.cs" />
+    <Compile Include="Source\Common\Mod_Settings.cs" />
+    <Compile Include="Source\Common\RandomDialogues.cs" />
+    <Compile Include="Source\Common\SexHelper.cs" />
+    <Compile Include="Source\Common\std.cs" />
+    <Compile Include="Source\Common\Unprivater.cs" />
+    <Compile Include="Source\Common\xxx.cs" />
+    <Compile Include="Source\Harmony\Building_Bed_Patch.cs" />
+    <Compile Include="Source\Harmony\First.cs" />
+    <Compile Include="Source\Harmony\patches_ABF.cs" />
+    <Compile Include="Source\Harmony\patches_backstory_generator.cs" />
+    <Compile Include="Source\Harmony\patches_bondage_gear.cs" />
+    <Compile Include="Source\Harmony\patches_lovin.cs" />
+    <Compile Include="Source\Harmony\patches_need.cs" />
+    <Compile Include="Source\Harmony\patches_pregnancy.cs" />
+    <Compile Include="Source\Hediffs\HediffComp_SeverityPerDayIfRest.cs" />
+    <Compile Include="Source\Hediffs\HeDiff_MicroComputer.cs" />
+    <Compile Include="Source\Hediffs\HediffDef_EnemyImplants.cs" />
+    <Compile Include="Source\Hediffs\Hediff_ID.cs" />
+    <Compile Include="Source\Hediffs\Hediff_InitPrivates.cs" />
+    <Compile Include="Source\Hediffs\Hediff_InsectEgg.cs" />
+    <Compile Include="Source\Hediffs\Hediff_InvisibleImplant.cs" />
+    <Compile Include="Source\Hediffs\Hediff_MCEvents.cs" />
+    <Compile Include="Source\Hediffs\Hediff_MechImplants.cs" />
+    <Compile Include="Source\Hediffs\Hediff_Parasite.cs" />
+    <Compile Include="Source\Hediffs\PregnancyAndChildren\Hediff_SimpleBaby.cs" />
+    <Compile Include="Source\Hediffs\Hediff_Submitting.cs" />
+    <Compile Include="Source\Hediffs\PregnancyAndChildren\Hediff_BestialPregnancy.cs" />
+    <Compile Include="Source\Hediffs\PregnancyAndChildren\Hediff_HumanlikePregnancy.cs" />
+    <Compile Include="Source\Incidents\IncidentWorker_NymphJoins.cs" />
+    <Compile Include="Source\Incidents\IncidentWorker_Sexualize.cs" />
+    <Compile Include="Source\Incidents\IncidentWorker_TestInc.cs" />
+    <Compile Include="Source\Incidents\IncidentWorker_TestInc2.cs" />
+    <Compile Include="Source\JobDrivers\JobDriver_Bestiality.cs" />
+    <Compile Include="Source\JobDrivers\JobDriver_BestialityForFemale.cs" />
+    <Compile Include="Source\JobDrivers\JobDriver_Breeding.cs" />
+    <Compile Include="Source\JobDrivers\JobDriver_PrisonerComfortRapin.cs" />
+    <Compile Include="Source\JobDrivers\JobDriver_Fappin.cs" />
+    <Compile Include="Source\JobDrivers\JobDriver_GettinLoved.cs" />
+    <Compile Include="Source\JobDrivers\JobDriver_GettinRaped.cs" />
+    <Compile Include="Source\JobDrivers\JobDriver_InvitingVisitors.cs" />
+    <Compile Include="Source\JobDrivers\JobDriver_LovinPP.cs" />
+    <Compile Include="Source\JobDrivers\JobDriver_NymphJoinInBed.cs" />
+    <Compile Include="Source\JobDrivers\JobDriver_RandomRape.cs" />
+    <Compile Include="Source\JobDrivers\JobDriver_Rape.cs" />
+    <Compile Include="Source\JobDrivers\JobDriver_RapeEnemy.cs" />
+    <Compile Include="Source\JobDrivers\JobDriver_RapeEnemyByAnimal.cs" />
+    <Compile Include="Source\JobDrivers\JobDriver_RapeEnemyByInsect.cs" />
+    <Compile Include="Source\JobDrivers\JobDriver_RapeEnemyByMech.cs" />
+    <Compile Include="Source\JobDrivers\JobDriver_RapeEnemyToParasite.cs" />
+    <Compile Include="Source\JobDrivers\JobDriver_StruggleInBondageGear.cs" />
+    <Compile Include="Source\JobDrivers\JobDriver_UseItemOn.cs" />
+    <Compile Include="Source\JobDrivers\JobDriver_ViolateCorpse.cs" />
+    <Compile Include="Source\JobDrivers\JobDriver_WhoreIsServingVisitors.cs" />
+    <Compile Include="Source\JobGivers\JobGiver_AIRapePrisoner.cs" />
+    <Compile Include="Source\JobGivers\JobGiver_Bestiality.cs" />
+    <Compile Include="Source\JobGivers\JobGiver_Breed.cs" />
+    <Compile Include="Source\JobGivers\JobGiver_ComfortPrisonerRape.cs" />
+    <Compile Include="Source\JobGivers\JobGiver_DoFappin.cs" />
+    <Compile Include="Source\JobGivers\JobGiver_NymphJoinInBed.cs" />
+    <Compile Include="Source\JobGivers\JobGiver_RandomRape.cs" />
+    <Compile Include="Source\JobGivers\JobGiver_RapeEnemy.cs" />
+    <Compile Include="Source\JobGivers\JobGiver_ViolateCorpse.cs" />
+    <Compile Include="Source\JobGivers\JobGiver_WhoreInvitingVisitors.cs" />
+    <Compile Include="Source\MentalStates\MentalState_RandomRape.cs" />
+    <Compile Include="Source\MentalStates\SexualMentalState.cs" />
+    <Compile Include="Source\Needs\Need_Sex.cs" />
+    <Compile Include="Source\PawnCapacities\PawnCapacityWorker_Fertility.cs" />
+    <Compile Include="Source\Pawns\Nymph_Backstories.cs" />
+    <Compile Include="Source\Pawns\Nymph_Generator.cs" />
+    <Compile Include="Source\Recipes\Recipe_ChastityBelt.cs" />
+    <Compile Include="Source\Recipes\Recipe_ClaimChild.cs" />
+    <Compile Include="Source\Recipes\Recipe_ForceOffGear.cs" />
+    <Compile Include="Source\Recipes\Recipe_InstallAnus.cs" />
+    <Compile Include="Source\Recipes\Recipe_InstallBreasts.cs" />
+    <Compile Include="Source\Recipes\Recipe_InstallBreasts_Female.cs" />
+    <Compile Include="Source\Recipes\Recipe_InstallImplantToExistParts.cs" />
+    <Compile Include="Source\Recipes\Recipe_InstallIUD.cs" />
+    <Compile Include="Source\Recipes\Recipe_MakeFuta.cs" />
+    <Compile Include="Source\Recipes\Recipe_InstallPrivates.cs" />
+    <Compile Include="Source\Recipes\Recipe_InstallPrivates_Female.cs" />
+    <Compile Include="Source\Recipes\Recipe_InstallPrivates_Male.cs" />
+    <Compile Include="Source\Recipes\Recipe_Nullify.cs" />
+    <Compile Include="Source\Recipes\Recipe_RemoveAnus.cs" />
+    <Compile Include="Source\Recipes\Recipe_RemoveBreasts.cs" />
+    <Compile Include="Source\Things\Building_WhoreBed.cs" />
+    <Compile Include="Source\Comps\CompBondageGear.cs" />
+    <Compile Include="Source\Comps\CompGetBondageGear.cs" />
+    <Compile Include="Source\Comps\CompHoloCryptoStamped.cs" />
+    <Compile Include="Source\Comps\CompStampedApparelKey.cs" />
+    <Compile Include="Source\Comps\CompUnlockBondageGear.cs" />
+    <Compile Include="Source\ThinkTreeNodes\ThinkNode_ChancePerHour_Breed.cs" />
+    <Compile Include="Source\ThinkTreeNodes\ThinkNode_ConditionalCanBreed.cs" />
+    <Compile Include="Source\Interactions\InteractionWorker_SexAttempt.cs" />
+    <Compile Include="Source\ThinkTreeNodes\ThinkNode_ChancePerHour_Bestiality.cs" />
+    <Compile Include="Source\ThinkTreeNodes\ThinkNode_ChancePerHour_Fappin.cs" />
+    <Compile Include="Source\ThinkTreeNodes\ThinkNode_ChancePerHour_Necro.cs" />
+    <Compile Include="Source\ThinkTreeNodes\ThinkNode_ChancePerHour_RandomRape.cs" />
+    <Compile Include="Source\ThinkTreeNodes\ThinkNode_ChancePerHour_RapeCP.cs" />
+    <Compile Include="Source\ThinkTreeNodes\ThinkNode_ChancePerHour_Whore.cs" />
+    <Compile Include="Source\ThinkTreeNodes\ThinkNode_ConditionalBestiality.cs" />
+    <Compile Include="Source\ThinkTreeNodes\ThinkNode_ConditionalCanRapeCP.cs" />
+    <Compile Include="Source\ThinkTreeNodes\ThinkNode_ConditionalFrustrated.cs" />
+    <Compile Include="Source\ThinkTreeNodes\ThinkNode_ConditionalHorny.cs" />
+    <Compile Include="Source\ThinkTreeNodes\ThinkNode_ConditionalNecro.cs" />
+    <Compile Include="Source\ThinkTreeNodes\ThinkNode_ConditionalNympho.cs" />
+    <Compile Include="Source\ThinkTreeNodes\ThinkNode_ConditionalRapist.cs" />
+    <Compile Include="Source\ThinkTreeNodes\ThinkNode_ConditionalTrait.cs" />
+    <Compile Include="Source\ThinkTreeNodes\ThinkNode_ConditionalWhore.cs" />
+    <Compile Include="Source\Thoughts\ThoughtWorker_SexChange.cs" />
+    <Compile Include="Source\Thoughts\ThoughtWorker_Bound.cs" />
+    <Compile Include="Source\Thoughts\ThoughtWorker_FeelingBroken.cs" />
+    <Compile Include="Source\Thoughts\ThoughtWorker_ItchyCrotch.cs" />
+    <Compile Include="Source\Thoughts\ThoughtWorker_NeedSex.cs" />
+    <Compile Include="Source\Thoughts\ThoughtWorker_SyphiliticThoughts.cs" />
+    <Compile Include="Source\Thoughts\ThoughtWorker_WastingAway.cs" />
+    <Compile Include="Source\Thoughts\ThoughtWorker_Whore.cs" />
+    <Compile Include="Source\Triggers\Trigger_SexSatisfy.cs" />
+    <Compile Include="Source\WorkGivers\WorkGiver_RapeCP.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\UnlimitedHugs.Rimworld.HugsLib.5.0.2\lib\net35\0Harmony.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="HugsLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\UnlimitedHugs.Rimworld.HugsLib.5.0.2\lib\net35\HugsLib.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="NAudio, Version=1.8.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\NAudio.1.8.4\lib\net35\NAudio.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="NVorbis, Version=0.8.5.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\NVorbis.0.8.5.0\lib\NVorbis.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\RimWorldWin64_Data\Managed\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\..\RimWorldWin64_Data\Managed\UnityEngine.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>

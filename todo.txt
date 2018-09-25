@@ -1,0 +1,110 @@
+
+DONE:
+Sex need
+  - Ticks down over time and gets replenished by lovin'
+  - Moodlets applied depending on need level
+  - The need is updated every 1.2 hour, and will be freezed during sleep now.
+Sex stat
+  - Affects satisfaction from sex; prevents sex/fap at 0%
+Nymphomaniac trait
+  - Nymphos need more sex & enjoy sex more
+  - Nymphos fuck sleeping colonists if they are horny or have nothing else to do
+Nymph joiners
+  - Fixed gender, age, body type, and traits
+Masturbation
+  - Code "fappin" which is like lovin' without a partner
+  - Insert into ThinkTree so pawns can fap on their own
+Private Parts
+  - Human body has a "genitals" part that automatically includes a penis or vagina as appropriate
+  - Dick/vag can be amputated; severed dicks/vags can be reattached
+  - Can craft bionic dick & vag, peg dick, hydraulic vagina. Integrates with EPOE if present.
+STDs
+  - HIV: Affects whole body; progresses slowly but is incurable; decreases blood filtration
+    - With blood fil. < 40%, pawns develop immunodeficiency which causes sickness debuffs and random infections (simulating AIDS)
+  - Warts: Affects only genitals; curable and not fatal; causes genitals to become itchy, painful, and unsightly
+  - Syphilis: Affects whole body; easily cured with treament but usually fatal without; causes bad mood, reduces con & manip, major infections
+    can cause permanent damage to brain, liver, kidneys
+  - Herpes: Like warts except milder and incurable
+Rape
+  - Designate prisoners as "comfort prisoners" and colonists will rape them to satisfy sex need or just for fun
+  - Comfort prisoners get huge mood & relations debuffs, making them harder to control or recruit
+  - Colonists beat prisoners during rape, especially if they have bloodlust or brawler
+  - Colonists with bloodlust love to rape; masochists actually enjoy being raped
+Bondage Gear
+  - Chastity Belt prevents sex, armbinder prevents manipulation & fighting, and gag prevents talking & impedes eating
+  - Gear becomes locked onto a pawn once it's equipped and cannot be removed by normal means (e.g. by ordering the pawn to drop it)
+  - When gear is equipped, it spawns a "holokey," which can be used to unlock and remove the gear. The specific piece of bondage gear and its
+    key are linked by matching "holostamps" so not just any key will work.
+  - Bondage gear and holokeys can be used on prisoners by selecting a warden and right-clicking the items
+  - Gear can be surgically removed without the key but this causes serious burns and destroyed body parts
+Necrophilia
+  - They will go find corpses to rape, and behave basically the same as rapists except the corpses won't get satisfaction, thoughts, pregnancy after sex.
+Prostitution
+	- Those whorebed are now usable, assigned pawns will be the "whores"(not just females, males can also do such type of job...)
+	- "Whores" will try hook up with pawns from guest caravans first, if they have enough silvers to pay the price of the whore and passed many other relation checks,traits checks, need checks,etc, they would accept the whores' invitation.
+	- "Whores" will try hook up with your colonists if there're no guest caravans. Your colonists don't pay the whore, but have to be in good relation with the whores. This case involves no trade but secondary romance.
+	- If you use RomanceDiversified, RJW will check on those sex orientation traits properly.
+Broken Body
+	- There's a new record named "rapedAsCP" which counts all the rapes suffered as a comfort prisoner.
+	- When the records reach certain number, the pawn will get a hediff labeled as "Stages to broken body" and enter into the corresponding stage.
+	- The idea is from those hentai animes where girls suffer tons of rapes and they become less-conscious and want more.
+	- There are 3 stages - in a trance(10~100 rapes), broken body(100~1000 rapes),extreme broken body(>=1000 rapes)
+
+
+TO DO:
+Add new body part groups for the bondage gear (specifically a genitals group for the CB and a jaw or mouth group for the gag, the mouth group that's already in the game won't work I'm pretty sure)
+Once that (^^^) is done make it so that the groups are automatically blocked by the gear, like a more robust version of the blocks_genitals flag
+Add more thoughts after sex about e.g. partner's dick size and sex skill
+Move more constants into the XML config file
+Look into how beds are reserved during fappin and especially nymph join-in-bed. I think right now the bed just isn't reserved.
+Nymph visitors
+  - Don't join, just stay on the map a while to fuck your colonists, eat your food, and do your drugs
+  - Should be able to deconstruct walls or mine through mountains to get at drugs, just to troll players
+Add chance for sex/fap with a peg dick to produce splinters
+
+TO DO EVENTUALLY (AKA NEVER):
+Improve detection of genital harvest vs amputation
+  - (Maybe) Make it so that downgrading a pawn is considered harvesting
+
+OTHER RANDOM/HALF-BAKED IDEAS:
+Add some random dialogues for rapes, lovins, etc. 
+Strap prisoners to their beds
+Consumable aphrodisiacs
+Sex addiction
+  - Reduces satisfaction from sex
+  - Should only affect nymphomaniacs?
+Succubuses (or succubi if you prefer)
+  - What would they do?
+
+
+  Well I have a few idea, I don't know if they are possible or you have the knowledge to do it but
+
+Breeding
+ 
+"Breeding Bitch"
+Description: This pawn is a breeding bitch. Her days are usually spent on all 4's tending to the animals more "special needs" and getting impregnated them constantly. She loves it and would have it no other way
+ 
+"Milk Cow"
+Description: This pawn is a cow. This pawns time is constantly spent pregnant and getting regular milking, her breasts are so swollen they carry more milk.
+ 
+for the stats prostitution would just be increased visitor visits, mood hits (worthless whore) and how much silver the prostitute gets
+ 
+for breeding, breeding bitch would just quicker pregnancy and have higher taming values then normal (as in they can recruit animals better than the normal way which is just feeding them)
+ 
+and milk cow, literally more milk is produced... thats it, simple and easy(ish)
+ 
+some other traits that will come from these is;
+Low Self Esteem (just another pessimist trait)
+ 
+Mindbroken (raped so much that they are at a permanent max happiness, but are worth nothing more than just hauling and cleaning)
+ 
+Animal Lover (Will only have sex with animals)
+ 
+Broodmother (all animals shes births will have maxed out taming
+ 
+Branded, this pawn is branded a cow/animal fucker/prostitute/rapist, whatever his/her extra curricular is comes with a negative opinions so they are pretty much never liked
+ 
+but these are just ideas but if you can add them, it would add another element to the game as far as loverslab mods go lol. Honestly though i think it would cover JUUUSSSSTTTT about every general fetish... before you start going into specific fetishes...
+
+
+Redo gender and orientation checks for rape and bestiality
