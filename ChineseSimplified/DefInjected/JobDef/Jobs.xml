@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Fappin.reportString>自慰中。</Fappin.reportString>
+
+  <!-- No longer need to override this def since the additional code is patched into the original driver
+  <JobDef>
+    <defName>Lovin</defName>
+    <driverClass>rjw.JobDriver_LovinPP</driverClass>
+    <reportString>lovin'.</reportString>
+    <checkOverrideOnDamage>true</checkOverrideOnDamage>
+    <casualInterruptible>false</casualInterruptible>
+  </JobDef> -->
+
+  <NymphJoinInBed.reportString>性癖上床中。</NymphJoinInBed.reportString>
+  <ComfortPrisonerRapin.reportString>强奸中。</ComfortPrisonerRapin.reportString>
+  <GettinLoved.reportString>做爱中。</GettinLoved.reportString>
+  <GettinRaped.reportString>被强奸中。</GettinRaped.reportString>
+  <StruggleInBondageGear.reportString>试图挣脱束缚具中。</StruggleInBondageGear.reportString>
+  <UnlockBondageGear.reportString>解锁束缚具中。</UnlockBondageGear.reportString>
+  <GiveBondageGear.reportString>装备束缚具中。</GiveBondageGear.reportString>
+  <ViolateCorpse.reportString>亵渎尸体中。</ViolateCorpse.reportString>
+  <Bestiality.reportString>与动物交欢中。</Bestiality.reportString>
+  <RandomRape.reportString>随便找人泄欲中。</RandomRape.reportString>
+  <WhoreIsServingVisitors.reportString>服务客人中。</WhoreIsServingVisitors.reportString>
+  <InvitingVisitors.reportString>招徕客人中。</InvitingVisitors.reportString>
+
+  <!-- <JobDef>
+    <defName>ComfortPrisonerGangRapin</defName>
+    <driverClass>rjw.JobDriver_ComfortPrisonerGangRapin</driverClass>
+    <reportString>gang rapin'.</reportString>
+    <casualInterruptible>false</casualInterruptible>
+  </JobDef> -->
+</LanguageData>

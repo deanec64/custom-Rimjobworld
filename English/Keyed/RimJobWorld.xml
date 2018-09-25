@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!-- Settings-->
+	<WildMode_name>Wild mode</WildMode_name>
+	<WildMode_desc>EXPERIMENTAL. No rules for sex. All limiting requirements are turned off. Enjoy the wildest side of Rimworld.</WildMode_desc>
+	<DevMode_name>Development mode</DevMode_name>
+	<DevMode_desc>Enables RimJobWorld logging. You don't usually want this enabled.</DevMode_desc>
+	<sexneed_decay_rate_name>Sex need decay multiplier (%)</sexneed_decay_rate_name>
+	<sexneed_decay_rate_desc>0% for no decay.\n1000000% for Rapeturnus Planet.</sexneed_decay_rate_desc>
+	<NymphsJoin>Nymphomaniacs</NymphsJoin>
+	<NymphsJoin_desc>Spawns pawns with nymphomaniac trait to join the colony.</NymphsJoin_desc>
+	<STD_FromFloors>STDs from environment</STD_FromFloors>
+	<STD_FromFloors_desc>Pawns will catch STDs from dirty environment.</STD_FromFloors_desc>
+	<PrisonersBeating>Rape beatings</PrisonersBeating>
+	<PrisonersBeating_desc>Pawns will beat the hell out of victims while raping them.</PrisonersBeating_desc>
+	<OffspringLookLikeTheirMother>Humanlike mother/father inheritance (%)</OffspringLookLikeTheirMother>
+	<OffspringLookLikeTheirMother_desc>Governs interracial pregnancies. \n100% means born babies will be of mothers race only. At 0% race is defined by father exclusively.\n\nValid range: 0 - 100%</OffspringLookLikeTheirMother_desc>
+	<OffspringIsHuman>Humanlike/Monster DNA inheritance (%)</OffspringIsHuman>
+	<OffspringIsHuman_desc>Governs close encounters of the Seventh kind.\n100% means born babies will be like their humanoid parent. At 0% child is always of same species as non-humanlike parent.\n\nValid range: 0 - 100%</OffspringIsHuman_desc>
+	<PregnantCoeffecientForHuman>Human Pregnancy chances (%)</PregnantCoeffecientForHuman>
+	<PregnantCoeffecientForHuman_desc>Human pregnancy chances in percent.\n\nValid range: 0 - 100%</PregnantCoeffecientForHuman_desc>
+	<PregnantCoeffecientForAnimals>Animal pregnancy chances (%)</PregnantCoeffecientForAnimals>
+	<PregnantCoeffecientForAnimals_desc>Animal pregnancy chances in percent.\n\nValid range: 0 - 100%</PregnantCoeffecientForAnimals_desc>
+	<UseParentMethod>Babies are like mothers</UseParentMethod>
+	<UseParentMethod_desc>Disables the DNA inheritance settings and sets baby to mothers race always.</UseParentMethod_desc>
+	<SexFreeForAllAge>Free sex min. age</SexFreeForAllAge>
+	<SexFreeForAllAge_desc>Pawns younger than this will only have sex with pawns with 2 years age difference.</SexFreeForAllAge_desc>
+	<SexMinimumAge>Sex min. age</SexMinimumAge>
+	<SexMinimumAge_desc>Pawns younger than this will not have sex at all.</SexMinimumAge_desc>
+	<NonFutaWomenRaping_MaxVulnerability>Girls go rapin' (%)</NonFutaWomenRaping_MaxVulnerability>
+	<NonFutaWomenRaping_MaxVulnerability_desc>Only women with vulnerability lower than this will ever rape others.<br /><br />To check 'vulnerability' status, go to 'view information about this object' > stats.\n\nValid range: 0 - 300%</NonFutaWomenRaping_MaxVulnerability_desc>
+	<Rapee_MinVulnerability_human>'To-be raped' vulnerability (%)</Rapee_MinVulnerability_human>
+	<Rapee_MinVulnerability_human_desc>Human pawns with vulnerability higher than this will be raping targets.<br /><br />To check 'vulnerability' status, go to 'view information about this object' > stats.\n\nValid range: 0 - 300%</Rapee_MinVulnerability_human_desc>
+	<Rapee_MinVulnerability_animals>Animals' to-be-raped vulnerability (%)</Rapee_MinVulnerability_animals>
+	<Rapee_MinVulnerability_animals_desc>Animals with vulnerability higher than this will be raping targets for zoophiles.<br /><br />To check 'vulnerability' status, go to 'view information about this object' > stats.\n\nValid range: 0 - 300%</Rapee_MinVulnerability_animals_desc>
+	<submit_button_enabled>Enable "submit" button on drafted pawns.</submit_button_enabled>
+	<submit_button_enabled_desc>Submit button allows you to skip more deadly part and get right to more humilating one. \nDisable ths if honor comes before life for you. \nRemember, if you change your mind, it will always be here, waiting for you.</submit_button_enabled_desc>
+	<animals_enabled>Enable animals.</animals_enabled>
+	<animals_enabled_desc>Enable acts of zoophilia. Desired and not so much.</animals_enabled_desc>
+	<cross_species_breeding>Enable pregnancies between humanlikes and animals.</cross_species_breeding>
+	<cross_species_breeding_desc>Controlls whether consorting with beast results in babies. Needs "Enable animals" for anything to happen.</cross_species_breeding_desc>
+	<CP_pregnancy>Use RimWorldChildren for pregnancies between humanlikes.</CP_pregnancy>
+	<CP_pregnancy_desc>Controlls whether RJW should use own pregnancy or RimWorldChildren for human-human pregnancies.</CP_pregnancy_desc>
+	<genetic_trait_filter>Filter out traits to be inherited</genetic_trait_filter>
+	<genetic_trait_filter_desc>If enabled, it will use the rjw/Defs/NonInheritedTraits.xml to filter out the traits that should not be passed to next generation. If disabled, everything is a fair game.</genetic_trait_filter_desc>
+	<RJW_designation_box>Show RJW designations.</RJW_designation_box>
+	<RJW_designation_box_desc>Toggles showing RJW group of buttons in the pawn control GUI.</RJW_designation_box_desc>
+	
+	<!-- Bed -->
+	<ForWhoreUse>For Whore Use</ForWhoreUse>
+	<WhoreBedFormat>whore {0}</WhoreBedFormat>
+	<CommandBedSetAsWhoreLabel>For whores</CommandBedSetAsWhoreLabel>
+	<CommandBedSetAsWhoreDesc>Whether this bed is for whores.</CommandBedSetAsWhoreDesc>
+	
+	<!-- std.cs -->
+	<RJW_Opportunistic_Infection_Message>{0} has developed an infection due to the weakened immune system.</RJW_Opportunistic_Infection_Message>
+	<!--RJW_Poisoned_by_Rimming_Message>{0} has gotten food poisoning by rimming {1}</RJW_Poisoned_by_Rimming_Message-->
+	<RJW_Syphilis_Damage_Message>{0} has suffered permanent damage to {1} {2} due to an advanced {3} infection.</RJW_Syphilis_Damage_Message>
+	
+	<!--Whore Activities-->
+	<RJW_VisitorAcceptWhore>{0} accepted the deal {1} offered.</RJW_VisitorAcceptWhore>
+	<RJW_VisitorRejectWhore>{0} rejected the deal {1} offered.</RJW_VisitorRejectWhore>
+	<RJW_VisitorSickWhore>{0} rejected the offer because {1} does not look healthy</RJW_VisitorSickWhore>
+	
+	<!-- Notifications on right-clicking CP -->
+	<PawnCantRapeCP>The target isn't healthy enough or is in a forbidden position.</PawnCantRapeCP>
+	<PawnCantRapeCP0>The pawn don't need sex, is not healthy, or cannot rape.</PawnCantRapeCP0>
+	<PawnCantRapeCP1>The pawn is not single or has his partner around.</PawnCantRapeCP1>
+	<PawnCantRapeCP2>The pawn is not zoophile so can't rape animals.</PawnCantRapeCP2>
+	
+	<!-- Sex Notificaitons-->
+	<AnalSexSucceeded> </AnalSexSucceeded>
+	<AnalSexFailed> </AnalSexFailed>
+	<VaginalSexSucceeded> </VaginalSexSucceeded>
+	<VaginalSexFailed> </VaginalSexFailed>
+	<OtherSexSucceeded> </OtherSexSucceeded>
+	<OtherSexFailed> </OtherSexFailed>
+	
+	<!-- Rape Notificaitons-->
+	<AnalRapeSucceeded> </AnalRapeSucceeded>
+	<AnalRapeFailed> </AnalRapeFailed>
+	<VaginalRapeSucceeded> </VaginalRapeSucceeded>
+	<VaginalRapeFailed> </VaginalRapeFailed>
+	<OtherRapeSucceeded> </OtherRapeSucceeded>
+	<OtherRapeFailed> </OtherRapeFailed>
+
+  <!-- Breeding Notifications -->
+	<VaginalBreedingSucceeded> </VaginalBreedingSucceeded>
+	<AnalBreedingSucceeded> </AnalBreedingSucceeded>
+	<BreedingFailed> </BreedingFailed>
+
+  <!-- Oral Notifications -->
+	<CunnilingusSucceeded> </CunnilingusSucceeded>
+	<CunnilingusFailed> </CunnilingusFailed>
+	<RimmingSucceeded> </RimmingSucceeded>
+	<RimmingFailed> </RimmingFailed>
+  <FellatioSucceeded> </FellatioSucceeded>
+  <FellatioFailed> </FellatioFailed>
+	
+	<!--Submit button-->
+	<CommandSubmit>Submit</CommandSubmit>
+	<CommandSubmitDesc>Lay down and accept whatever to cum.</CommandSubmitDesc>
+	
+	<!--Preganancy messages-->
+	<RJW_PregnantTitle>{0} is pregnant.</RJW_PregnantTitle>
+	<RJW_PregnantText>{0} is pregnant and is going to be a mother soon. Be aware, starvation and trauma may result in loss of child.</RJW_PregnantText>
+	<RJW_Contractions>{0} is having contractions! Baby(ies) is(are) on the way!</RJW_Contractions>
+	<RJW_GaveBirthTitle>Birthing done.</RJW_GaveBirthTitle>
+	<RJW_GaveBirthText>{0} has succesfully gave birth to </RJW_GaveBirthText>
+	<RJW_ABaby>her baby.</RJW_ABaby>
+	<RJW_NBabies>her {0} babies.</RJW_NBabies>
+	<RJW_PregnantStrange>Something is unusual about the baby...</RJW_PregnantStrange>
+	
+	<!--Comfort designation-->
+	<ForComfort>Use for comfort</ForComfort>
+	<ForComfortDesc>Take away this one's right of consent</ForComfortDesc>
+	
+	<!--Whore-->
+	<ForService>Assign to entertaniment</ForService>
+	<ForServiceDesc>Must search customers for themselves</ForServiceDesc>
+	
+	<!--Breeding designations-->
+	<ForBreeding>Let animals</ForBreeding>
+	<ForBreedingDesc>Mark for animals</ForBreedingDesc>
+	<BreedMessage> is trying to breed </BreedMessage>
+	<ForBreedingAnimalDesc>Allow this animal to mount designated breeders</ForBreedingAnimalDesc>
+	
+	<!--Milking-->
+	<ForMilking>Designate dairy</ForMilking>
+	<ForMilkingDesc>Harvest biological materials from this being</ForMilkingDesc>
+</LanguageData>

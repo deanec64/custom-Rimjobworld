@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Fappin.reportString>オナニー中</Fappin.reportString>
+
+  <!-- No longer need to override this def since the additional code is patched into the original driver
+  <JobDef>
+    <defName>Lovin</defName>
+    <driverClass>rjw.JobDriver_LovinPP</driverClass>
+    <reportString>lovin'.</reportString>
+    <checkOverrideOnDamage>true</checkOverrideOnDamage>
+    <casualInterruptible>false</casualInterruptible>
+  </JobDef> -->
+
+  <NymphJoinInBed.reportString>セックス中</NymphJoinInBed.reportString>
+  <ComfortPrisonerRapin.reportString>レイプ中</ComfortPrisonerRapin.reportString>
+  <GettinLoved.reportString>セックス中</GettinLoved.reportString>
+  <GettinRaped.reportString>レイプされている</GettinRaped.reportString>
+  <StruggleInBondageGear.reportString>もがいている</StruggleInBondageGear.reportString>
+  <UnlockBondageGear.reportString>開錠中</UnlockBondageGear.reportString>
+  <GiveBondageGear.reportString>装備中</GiveBondageGear.reportString>
+  <ViolateCorpse.reportString>死姦中</ViolateCorpse.reportString>
+  <Bestiality.reportString>獣姦中</Bestiality.reportString>
+  <RandomRape.reportString>手当たり次第にレイプしている</RandomRape.reportString>
+  <WhoreIsServingVisitors.reportString>訪問者をもてなしている</WhoreIsServingVisitors.reportString>
+  <InvitingVisitors.reportString>売春相手を探している</InvitingVisitors.reportString>
+
+  <!-- <JobDef>
+    <defName>ComfortPrisonerGangRapin</defName>
+    <driverClass>rjw.JobDriver_ComfortPrisonerGangRapin</driverClass>
+    <reportString>gang rapin'.</reportString>
+    <casualInterruptible>false</casualInterruptible>
+  </JobDef> -->
+</LanguageData>

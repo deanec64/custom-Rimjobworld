@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Sex.label>sex</Sex.label>
+  <Sex.description>sexual satisfaction</Sex.description>
+
+  <!--<rep>
+		<path>Sex.label</path>
+		<trans>性滿足</trans>
+	</rep>-->
+</LanguageData>

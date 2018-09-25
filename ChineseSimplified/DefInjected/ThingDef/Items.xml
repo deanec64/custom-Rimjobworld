@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Hololock.label>全息锁</Hololock.label>
+  <Hololock.description>一项高科技的上锁机制。特点有:\n- 非常方便、塑钢强化的型号\n- 配对的钥匙和锁：把一个加密的UID全息嵌入在一个翡翠介质中，确保伪造钥匙不可能被制造出来\n- 万一锁被破解后，会触发自毁模式，确保被保护的物品被摧毁而不是落入敌人手中\n\n 虽然一开始是军用设计的，但全息锁随后在BDSM社区中逐渐流行，因为可以把匹配的名字镌刻进钥匙和锁以方便大家辨认各自所属。\nPS：穿戴上全息锁时会自动生成一个对应的全息钥匙。</Hololock.description>
+
+  <Holokey.label>全息钥匙</Holokey.label>
+  <Holokey.description>高科技钥匙，用于解锁有着对应的加密全息图案的物品。</Holokey.description>
+  <Holokey.comps.2.useLabel>解锁服装</Holokey.comps.2.useLabel>
+</LanguageData>

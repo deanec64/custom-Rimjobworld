@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Bound.stages.0.label>bound</Bound.stages.0.label>
+  <Bound.stages.0.description>This thing is seriously annoying. I wish I could take it off.</Bound.stages.0.description>
+  <Bound.stages.1.label>gagged</Bound.stages.1.label>
+  <Bound.stages.1.description>Ish shnn ish shrrrrsh uhnnninnn</Bound.stages.1.description>
+  <Bound.stages.2.label>bound and gagged</Bound.stages.2.label>
+  <Bound.stages.2.description>Ufff ish hhhh shrrrnnn shhhrrr! hhhek shi thfffff!</Bound.stages.2.description>
+
+  <MasochistBound.stages.0.label>masochist bound</MasochistBound.stages.0.label>
+  <MasochistBound.stages.0.description>Heh... heh heh...</MasochistBound.stages.0.description>
+  <MasochistBound.stages.1.label>masochist gagged</MasochistBound.stages.1.label>
+  <MasochistBound.stages.1.description>Nnnn shsh hhhch uhnnn</MasochistBound.stages.1.description>
+  <MasochistBound.stages.2.label>masochist bound and gagged</MasochistBound.stages.2.label>
+  <MasochistBound.stages.2.description>Shnnn ihhh shrrr fff shnnn... shsh chhhnnn uhfsh~!</MasochistBound.stages.2.description>
+
+  <NeedSex.stages.0.label>sexually frustrated</NeedSex.stages.0.label>
+  <NeedSex.stages.0.description>tfw</NeedSex.stages.0.description>
+  <NeedSex.stages.1.label>horny</NeedSex.stages.1.label>
+  <NeedSex.stages.1.description>It's been too long. I can't stop thinking about sex.</NeedSex.stages.1.description>
+  <NeedSex.stages.2.label>sexually satisfied</NeedSex.stages.2.label>
+  <NeedSex.stages.2.description>I had a good roll in the hay.</NeedSex.stages.2.description>
+  <NeedSex.stages.3.label>ahegao</NeedSex.stages.3.label>
+  <NeedSex.stages.3.description>My legs are numb, my tongue's flopped out, and my eyes have rolled back in my head.</NeedSex.stages.3.description>
+
+  <ItchyCrotch.stages.0.label>itchy crotch</ItchyCrotch.stages.0.label>
+  <ItchyCrotch.stages.0.description>I don't think anyone's looking. Lemme just...</ItchyCrotch.stages.0.description>
+  <ItchyCrotch.stages.1.label>itchy, burning crotch</ItchyCrotch.stages.1.label>
+  <ItchyCrotch.stages.1.description>The worst part is: the more I scratch, the more it burns.</ItchyCrotch.stages.1.description>
+
+  <SyphiliticThoughts.stages.0.label>syphilitic thoughts</SyphiliticThoughts.stages.0.label>
+  <SyphiliticThoughts.stages.0.description>Everyone's so stupid and everything's so annoying. Even me, I just can't think clearly.</SyphiliticThoughts.stages.0.description>
+  <SyphiliticThoughts.stages.1.label>extreme syphilitic thoughts</SyphiliticThoughts.stages.1.label>
+  <SyphiliticThoughts.stages.1.description>OK, what I need is... uh... what was I doing again? Oh right this thing. This fucking thing THIS FUCKING PIECE OF SHIT. FUCKING DAMN PIECE OF GARBAGE</SyphiliticThoughts.stages.1.description>
+
+  <WastingAway.stages.0.label>wasting away</WastingAway.stages.0.label>
+  <WastingAway.stages.0.description>Every day I feel weaker than the day before. I can feel my life slowly slipping away.</WastingAway.stages.0.description>
+
+  <FeelingBroken.stages.0.label>dizzy</FeelingBroken.stages.0.label>
+  <FeelingBroken.stages.0.description>I feel exhausted and dizzy after they raped me so many times.</FeelingBroken.stages.0.description>
+  <FeelingBroken.stages.1.label>my body feels broken</FeelingBroken.stages.1.label>
+  <FeelingBroken.stages.1.description>No...I don't want...aah...ahhh...my body feels...broken...</FeelingBroken.stages.1.description>
+  <FeelingBroken.stages.2.label>begging for more</FeelingBroken.stages.2.label>
+  <FeelingBroken.stages.2.description>Masters, please punish me for more, my humble body is all yours. Please fill me with your cums.</FeelingBroken.stages.2.description>
+
+  <SawDiseasedPrivates1.stages.0.label>saw an ugly rash on {0}'s crotch</SawDiseasedPrivates1.stages.0.label>
+  <SawDiseasedPrivates2.stages.0.label>saw disgusting warts on {0}'s crotch</SawDiseasedPrivates2.stages.0.label>
+  <SawDiseasedPrivates3.stages.0.label>nauseated by {0}'s diseased crotch</SawDiseasedPrivates3.stages.0.label>
+
+  <GotRaped.stages.0.label>raped</GotRaped.stages.0.label>
+  <GotRaped.stages.0.labelSocial>raped</GotRaped.stages.0.labelSocial>
+  <GotRaped.stages.0.description>I was raped.</GotRaped.stages.0.description>
+
+  <MasochistGotRaped.stages.0.label>raped (Masochist)</MasochistGotRaped.stages.0.label>
+  <MasochistGotRaped.stages.0.labelSocial>raped (Masochist)</MasochistGotRaped.stages.0.labelSocial>
+  <MasochistGotRaped.stages.0.description>I was used and thrown around like a piece of meat. Something about it, though, just feels... right.</MasochistGotRaped.stages.0.description>
+
+  <GotBredByAnimal.stages.0.label>bred by animal</GotBredByAnimal.stages.0.label>
+  <GotBredByAnimal.stages.0.labelSocial>bred by animal</GotBredByAnimal.stages.0.labelSocial>
+  <GotBredByAnimal.stages.0.description>An animal tried to breed with me...</GotBredByAnimal.stages.0.description>
+
+  <MasochistGotBredByAnimal.stages.0.label>bred by animal (Masochist)</MasochistGotBredByAnimal.stages.0.label>
+  <MasochistGotBredByAnimal.stages.0.labelSocial>bred by animal (Masochist)</MasochistGotBredByAnimal.stages.0.labelSocial>
+  <MasochistGotBredByAnimal.stages.0.description>An animal tried to breed with me. I hope it succeeded!</MasochistGotBredByAnimal.stages.0.description>
+
+  <HateMyRapist.stages.0.label>raped me</HateMyRapist.stages.0.label>
+  <HateMyRapist.stages.0.description>I was raped by {0}.</HateMyRapist.stages.0.description>
+
+  <KindaLikeMyRapist.stages.0.label>raped me (Masochist)</KindaLikeMyRapist.stages.0.label>
+  <KindaLikeMyRapist.stages.0.labelSocial>raped me (Masochist)</KindaLikeMyRapist.stages.0.labelSocial>
+  <KindaLikeMyRapist.stages.0.description>I was raped by {0}.</KindaLikeMyRapist.stages.0.description>
+
+  <AllowedMeToGetRaped.stages.0.label>allowed me to get raped</AllowedMeToGetRaped.stages.0.label>
+  <AllowedMeToGetRaped.stages.0.labelSocial>allowed me to get raped</AllowedMeToGetRaped.stages.0.labelSocial>
+  <AllowedMeToGetRaped.stages.0.description>I was suffering while {0} just looked the other way.</AllowedMeToGetRaped.stages.0.description>
+
+  <StoleSomeLovin.stages.0.label>stole some lovin’</StoleSomeLovin.stages.0.label>
+  <StoleSomeLovin.stages.0.labelSocial>stole some lovin'</StoleSomeLovin.stages.0.labelSocial>
+  <StoleSomeLovin.stages.0.description>I forced myself on some prisoner. The sex was pretty shit, but it's better than nothing.</StoleSomeLovin.stages.0.description>
+
+  <BloodlustStoleSomeLovin.stages.0.label>stole some lovin’ (Bloodlust)</BloodlustStoleSomeLovin.stages.0.label>
+  <BloodlustStoleSomeLovin.stages.0.labelSocial>stole some lovin' (Bloodlust)</BloodlustStoleSomeLovin.stages.0.labelSocial>
+  <BloodlustStoleSomeLovin.stages.0.description>I forced myself on some bitch prisoner. The screaming, the tears, the blood, it was all such a rush! I haven't felt this good since yesterday when I blew away those tribals.</BloodlustStoleSomeLovin.stages.0.description>
+
+  <ViolatedCorpse.stages.0.label>had sex with a corpse</ViolatedCorpse.stages.0.label>
+  <ViolatedCorpse.stages.0.labelSocial>had sex with a corpse</ViolatedCorpse.stages.0.labelSocial>
+  <ViolatedCorpse.stages.0.description>{0} wasn't the only thing that was stiff if you know what I mean...</ViolatedCorpse.stages.0.description>
+
+  <!--<rep>
+		<path>NeedSex.stages.0.label</path>
+		<trans>慾求不満</trans>
+	</rep>-->
+  <!--<rep>
+		<path>NeedSex.stages.1.label</path>
+		<trans>發情中</trans>
+	</rep>-->
+  <!--<rep>
+		<path>NeedSex.stages.2.label</path>
+		<trans>性滿足</trans>
+	</rep>-->
+  <!--<rep>
+		<path>NeedSex.stages.3.label</path>
+		<trans>超爽的</trans>
+	</rep>-->
+  <!--<rep>
+		<path>ItchyCrotch.stages.0.label</path>
+		<trans>胯下癢</trans>
+	</rep>-->
+  <!--<rep>
+		<path>ItchyCrotch.stages.1.label</path>
+		<trans>胯下超癢</trans>
+	</rep>-->
+  <!--<rep>
+		<path>SyphiliticThoughts.stages.0.label</path>
+		<trans>被梅毒影響思考</trans>
+	</rep>-->
+  <!--<rep>
+		<path>SyphiliticThoughts.stages.1.label</path>
+		<trans>被梅毒嚴重影響思考</trans>
+	</rep>-->
+  <!--<rep>
+		<path>WastingAway.stages.0.label</path>
+		<trans>日漸消瘦</trans>
+	</rep>-->
+  <!--<rep>
+		<path>SawDiseasedPrivates1.stages.0.label</path>
+		<trans>看到 {0}醜陋的私處</trans>
+	</rep>-->
+  <!--<rep>
+		<path>SawDiseasedPrivates2.stages.1.label</path>
+		<trans>看到 {0}長疣的私處</trans>
+	</rep>-->
+  <!--<rep>
+		<path>SawDiseasedPrivates3.stages.2.label</path>
+		<trans>對 {0}潰爛的私處感到噁心</trans>
+	</rep>-->
+  <!--<rep>
+		<path>GotRaped.stages.0.label</path>
+		<trans>被硬上</trans>
+	</rep>-->
+  <!--<rep>
+		<path>MasochistGotRaped.stages.0.label</path>
+		<trans>被硬上(被虐狂)</trans>
+	</rep>-->
+  <!--<rep>
+		<path>GotBredByAnimal.stages.0.label</path>
+		<trans>被野獸硬上</trans>
+	</rep>-->
+  <!--<rep>
+		<path>MasochistGotBredByAnimal.stages.0.label</path>
+		<trans>被野獸硬上(被虐狂)</trans>
+	</rep>-->
+  <!--<rep>
+		<path>HateMyRapist.stages.0.label</path>
+		<trans>被 {0}硬上</trans>
+	</rep>-->
+  <!--<rep>
+		<path>KindaLikeMyRapist.stages.0.label</path>
+		<trans>被 {0}硬上(被虐狂)</trans>
+	</rep>-->
+  <!--<rep>
+		<path>AllowedMeToGetRaped.stages.0.label</path>
+		<trans> {0}任由我被硬上</trans>
+	</rep>-->
+  <!--<rep>
+		<path>StoleSomeLovin.stages.0.label</path>
+		<trans>用俘虜洩欲</trans>
+	</rep>-->
+  <!--<rep>
+		<path>BloodlustStoleSomeLovin.stages.0.label</path>
+		<trans>用俘虜洩欲(嗜血)</trans>
+	</rep>-->
+</LanguageData>

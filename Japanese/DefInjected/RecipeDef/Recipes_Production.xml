@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MakeHololock.label>ホロロックを作る</MakeHololock.label>
+  <MakeHololock.description>ホロロックを作る</MakeHololock.description>
+  <MakeHololock.jobString>ホロロックを作る</MakeHololock.jobString>
+
+  <MakeArmbinder.label>アームバインダーを作る</MakeArmbinder.label>
+  <MakeArmbinder.description>アームバインダーを作る</MakeArmbinder.description>
+  <MakeArmbinder.jobString>アームバインダーを作る</MakeArmbinder.jobString>
+
+  <MakeGag.label>猿轡を作る</MakeGag.label>
+  <MakeGag.description>猿轡を作る</MakeGag.description>
+  <MakeGag.jobString>猿轡を作る</MakeGag.jobString>
+
+  <MakeChastityBelt.label>貞操帯を作る</MakeChastityBelt.label>
+  <MakeChastityBelt.description>貞操帯を作る</MakeChastityBelt.description>
+  <MakeChastityBelt.jobString>貞操帯を作る</MakeChastityBelt.jobString>
+</LanguageData>

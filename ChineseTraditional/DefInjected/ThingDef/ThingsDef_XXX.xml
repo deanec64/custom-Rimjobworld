@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FilthCum.label>cum</FilthCum.label>
+
+  <BedWhore.label>whore bed</BedWhore.label>
+  <BedWhore.description>A bed specially designed for whores.</BedWhore.description>
+  <BedWhore_Blueprint.label>whore bed (blueprint)</BedWhore_Blueprint.label>
+  <BedWhore_Blueprint_Install.label>whore bed (blueprint)</BedWhore_Blueprint_Install.label>
+  <BedWhore_Frame.label>whore bed (building)</BedWhore_Frame.label>
+  <BedWhore_Frame.description>A bed specially designed for whores.</BedWhore_Frame.description>
+
+  <DoubleBedWhore.label>double whore bed</DoubleBedWhore.label>
+  <DoubleBedWhore.description>A simple double-wide bed that fits two people, specially designed for whores.</DoubleBedWhore.description>
+  <DoubleBedWhore_Blueprint.label>double whore bed (blueprint)</DoubleBedWhore_Blueprint.label>
+  <DoubleBedWhore_Blueprint_Install.label>double whore bed (blueprint)</DoubleBedWhore_Blueprint_Install.label>
+  <DoubleBedWhore_Frame.label>double whore bed (building)</DoubleBedWhore_Frame.label>
+  <DoubleBedWhore_Frame.description>A simple double-wide bed that fits two people, specially designed for whores.</DoubleBedWhore_Frame.description>
+
+  <RoyalBedWhore.label>royal whore bed</RoyalBedWhore.label>
+  <RoyalBedWhore.description>A luxurious gold-inlaid bed fit for the highborn whores. Very comfy and beautiful. Fits two.</RoyalBedWhore.description>
+  <RoyalBedWhore_Blueprint.label>royal whore bed (blueprint)</RoyalBedWhore_Blueprint.label>
+  <RoyalBedWhore_Blueprint_Install.label>royal whore bed (blueprint)</RoyalBedWhore_Blueprint_Install.label>
+  <RoyalBedWhore_Frame.label>royal whore bed (building)</RoyalBedWhore_Frame.label>
+  <RoyalBedWhore_Frame.description>A luxurious gold-inlaid bed fit for the highborn whores. Very comfy and beautiful. Fits two.</RoyalBedWhore_Frame.description>
+
+  <!--<rep>
+		<path>FilthCum.label</path>
+		<trans>精液</trans>
+	</rep>-->
+</LanguageData>

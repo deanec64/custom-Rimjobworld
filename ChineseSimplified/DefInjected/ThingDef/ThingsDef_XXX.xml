@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FilthCum.label>性液污迹</FilthCum.label>
+
+  <BedWhore.label>妓者床</BedWhore.label>
+  <BedWhore.description>专门为妓者们设计的床</BedWhore.description>
+  <BedWhore_Blueprint.label>妓者床(蓝图)</BedWhore_Blueprint.label>
+  <BedWhore_Blueprint_Install.label>妓者床(蓝图)</BedWhore_Blueprint_Install.label>
+  <BedWhore_Frame.label>妓者床(建造中)</BedWhore_Frame.label>
+  <BedWhore_Frame.description>专门为妓者们设计的床</BedWhore_Frame.description>
+
+  <DoubleBedWhore.label>妓者双人床</DoubleBedWhore.label>
+  <DoubleBedWhore.description>专门为妓者们设计的双人床</DoubleBedWhore.description>
+  <DoubleBedWhore_Blueprint.label>妓者双人床(蓝图)</DoubleBedWhore_Blueprint.label>
+  <DoubleBedWhore_Blueprint_Install.label>妓者双人床(蓝图)</DoubleBedWhore_Blueprint_Install.label>
+  <DoubleBedWhore_Frame.label>妓者双人床(建造中)</DoubleBedWhore_Frame.label>
+  <DoubleBedWhore_Frame.description>专门为妓者们设计的双人床</DoubleBedWhore_Frame.description>
+
+  <RoyalBedWhore.label>妓者豪华床</RoyalBedWhore.label>
+  <RoyalBedWhore.description>专门为妓者们设计的豪华双人床</RoyalBedWhore.description>
+  <RoyalBedWhore_Blueprint.label>妓者豪华床(蓝图)</RoyalBedWhore_Blueprint.label>
+  <RoyalBedWhore_Blueprint_Install.label>妓者豪华床(蓝图)</RoyalBedWhore_Blueprint_Install.label>
+  <RoyalBedWhore_Frame.label>妓者豪华床(建造中)</RoyalBedWhore_Frame.label>
+  <RoyalBedWhore_Frame.description>专门为妓者们设计的豪华双人床</RoyalBedWhore_Frame.description>
+</LanguageData>

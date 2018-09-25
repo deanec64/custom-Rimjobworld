@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Bound.stages.0.label>受束缚</Bound.stages.0.label>
+  <Bound.stages.0.description>这东西真恼人，我希望能脱掉它。</Bound.stages.0.description>
+  <Bound.stages.1.label>被堵嘴</Bound.stages.1.label>
+  <Bound.stages.1.description>呃呃呜呜。。。</Bound.stages.1.description>
+  <Bound.stages.2.label>受束缚且被堵嘴</Bound.stages.2.label>
+  <Bound.stages.2.description>呃呃呜呜！！！</Bound.stages.2.description>
+
+  <MasochistBound.stages.0.label>受束缚(受虐狂)</MasochistBound.stages.0.label>
+  <MasochistBound.stages.0.description>呵。。呵呵。。</MasochistBound.stages.0.description>
+  <MasochistBound.stages.1.label>被堵嘴(受虐狂)</MasochistBound.stages.1.label>
+  <MasochistBound.stages.1.description>呃嗯嗯。。。</MasochistBound.stages.1.description>
+  <MasochistBound.stages.2.label>受束缚且被堵嘴(受虐狂)</MasochistBound.stages.2.label>
+  <MasochistBound.stages.2.description>呃嗯嗯。。。嘻嘻！</MasochistBound.stages.2.description>
+
+  <NeedSex.stages.0.label>欲求不满</NeedSex.stages.0.label>
+  <NeedSex.stages.0.description>超超超超TM渴望做爱。</NeedSex.stages.0.description>
+  <NeedSex.stages.1.label>发情中</NeedSex.stages.1.label>
+  <NeedSex.stages.1.description>太久没做，已经忍不住想要了...</NeedSex.stages.1.description>
+  <NeedSex.stages.2.label>性满足</NeedSex.stages.2.label>
+  <NeedSex.stages.2.description>我的欲望得到了满足。</NeedSex.stages.2.description>
+  <NeedSex.stages.3.label>超爽啊</NeedSex.stages.3.label>
+  <NeedSex.stages.3.description>简直欲仙欲死啊！</NeedSex.stages.3.description>
+
+  <ItchyCrotch.stages.0.label>胯下痒</ItchyCrotch.stages.0.label>
+  <ItchyCrotch.stages.0.description>我想现在没人看到，让我稍微...</ItchyCrotch.stages.0.description>
+  <ItchyCrotch.stages.1.label>胯下超痒</ItchyCrotch.stages.1.label>
+  <ItchyCrotch.stages.1.description>最糟糕的是，我越挠它，它就越痒。</ItchyCrotch.stages.1.description>
+
+  <SyphiliticThoughts.stages.0.label>被梅毒影响思考</SyphiliticThoughts.stages.0.label>
+  <SyphiliticThoughts.stages.0.description>所有人都那么蠢，所有事情都那么烦。甚至我自己也无法清晰思绪了。</SyphiliticThoughts.stages.0.description>
+  <SyphiliticThoughts.stages.1.label>被梅毒严重影响思考</SyphiliticThoughts.stages.1.label>
+  <SyphiliticThoughts.stages.1.description>好吧，我需要的是...呃...我之前又做啥了？哦对是这个。这该死的事情，这操蛋的玩意，操他妈的垃圾！</SyphiliticThoughts.stages.1.description>
+
+  <WastingAway.stages.0.label>日渐消瘦</WastingAway.stages.0.label>
+  <WastingAway.stages.0.description>每天我都感觉更虚弱了，我能感到我的生命正在慢慢地流失。</WastingAway.stages.0.description>
+
+  <FeelingBroken.stages.0.label>头晕目眩</FeelingBroken.stages.0.label>
+  <FeelingBroken.stages.0.description>被他们折磨了那么多次，我感觉精疲力尽、头晕目眩。</FeelingBroken.stages.0.description>
+  <FeelingBroken.stages.1.label>身体坏了</FeelingBroken.stages.1.label>
+  <FeelingBroken.stages.1.description>不...不要..我的身体...要...坏了啊</FeelingBroken.stages.1.description>
+  <FeelingBroken.stages.2.label>渴望更多</FeelingBroken.stages.2.label>
+  <FeelingBroken.stages.2.description>主人，请鞭笞我吧，我卑微的身体全部属于您。请用您的神圣的液体灌满我吧..求求你...</FeelingBroken.stages.2.description>
+
+  <SawDiseasedPrivates1.stages.0.label>看到 {0}丑陋的私处</SawDiseasedPrivates1.stages.0.label>
+  <SawDiseasedPrivates2.stages.0.label>看到 {0}长疣的私处</SawDiseasedPrivates2.stages.0.label>
+  <SawDiseasedPrivates3.stages.0.label>對 {0}溃烂的私处感到恶心</SawDiseasedPrivates3.stages.0.label>
+
+  <GotRaped.stages.0.label>被强奸了</GotRaped.stages.0.label>
+  <GotRaped.stages.0.labelSocial>被强奸了</GotRaped.stages.0.labelSocial>
+  <GotRaped.stages.0.description>我被强奸了。</GotRaped.stages.0.description>
+
+  <MasochistGotRaped.stages.0.label>被强奸了(受虐狂)</MasochistGotRaped.stages.0.label>
+  <MasochistGotRaped.stages.0.labelSocial>被强奸了(受虐狂)</MasochistGotRaped.stages.0.labelSocial>
+  <MasochistGotRaped.stages.0.description>我被人像一坨肉一样用了然后扔在一旁。这很烦，虽然那感觉...还不错。</MasochistGotRaped.stages.0.description>
+
+  <GotBredByAnimal.stages.0.label>被野兽强奸</GotBredByAnimal.stages.0.label>
+  <GotBredByAnimal.stages.0.labelSocial>被野兽强奸</GotBredByAnimal.stages.0.labelSocial>
+  <GotBredByAnimal.stages.0.description>一只动物试图使我怀孕...</GotBredByAnimal.stages.0.description>
+
+  <MasochistGotBredByAnimal.stages.0.label>被野兽强奸(受虐狂)</MasochistGotBredByAnimal.stages.0.label>
+  <MasochistGotBredByAnimal.stages.0.labelSocial>被野兽强奸(受虐狂)</MasochistGotBredByAnimal.stages.0.labelSocial>
+  <MasochistGotBredByAnimal.stages.0.description>一只动物试图使我怀孕。我希望它成功了！</MasochistGotBredByAnimal.stages.0.description>
+
+  <HateMyRapist.stages.0.label>曾强奸我</HateMyRapist.stages.0.label>
+  <HateMyRapist.stages.0.description>我被 {0}强奸过。</HateMyRapist.stages.0.description>
+
+  <KindaLikeMyRapist.stages.0.label>曾强奸我(受虐狂)</KindaLikeMyRapist.stages.0.label>
+  <KindaLikeMyRapist.stages.0.labelSocial>曾强奸我(受虐狂)</KindaLikeMyRapist.stages.0.labelSocial>
+  <KindaLikeMyRapist.stages.0.description>我被 {0}强奸过(受虐狂)。</KindaLikeMyRapist.stages.0.description>
+
+  <AllowedMeToGetRaped.stages.0.label>曾任由我被强奸</AllowedMeToGetRaped.stages.0.label>
+  <AllowedMeToGetRaped.stages.0.labelSocial>曾任由我被强奸</AllowedMeToGetRaped.stages.0.labelSocial>
+  <AllowedMeToGetRaped.stages.0.description> {0}任由我被强奸。</AllowedMeToGetRaped.stages.0.description>
+
+  <StoleSomeLovin.stages.0.label>强迫泄欲</StoleSomeLovin.stages.0.label>
+  <StoleSomeLovin.stages.0.labelSocial>强迫泄欲</StoleSomeLovin.stages.0.labelSocial>
+  <StoleSomeLovin.stages.0.description>我强迫别人跟我做爱，感觉相当烂，但也比什么都没有好。</StoleSomeLovin.stages.0.description>
+
+  <BloodlustStoleSomeLovin.stages.0.label>强迫泄欲(嗜血)</BloodlustStoleSomeLovin.stages.0.label>
+  <BloodlustStoleSomeLovin.stages.0.labelSocial>强迫泄欲(嗜血)</BloodlustStoleSomeLovin.stages.0.labelSocial>
+  <BloodlustStoleSomeLovin.stages.0.description>我强迫那贱货跟我做爱。那叫声，那泪水，那血迹，简直太痛快了！我自从那天轰翻那些部落以来，从未感觉如此畅快。</BloodlustStoleSomeLovin.stages.0.description>
+
+  <ViolatedCorpse.stages.0.label>亵渎尸体</ViolatedCorpse.stages.0.label>
+  <ViolatedCorpse.stages.0.labelSocial>亵渎尸体</ViolatedCorpse.stages.0.labelSocial>
+  <ViolatedCorpse.stages.0.description>{0} 不是唯一僵硬的东西，你懂得...</ViolatedCorpse.stages.0.description>
+
+  <!--BondageGear Part-->
+  <!--Normal Thoughts Part-->
+</LanguageData>

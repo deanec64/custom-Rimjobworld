@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FeelingBroken.label>身体崩坏阶段</FeelingBroken.label>
+  <FeelingBroken.stages.0.label>early-stage</FeelingBroken.stages.0.label>
+  <FeelingBroken.stages.1.label>精神恍惚</FeelingBroken.stages.1.label>
+  <FeelingBroken.stages.2.label>玩坏的身体</FeelingBroken.stages.2.label>
+  <FeelingBroken.stages.3.label>严重玩坏的身体</FeelingBroken.stages.3.label>
+</LanguageData>

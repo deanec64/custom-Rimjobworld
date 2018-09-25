@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--<rep>
+		<path>Bound.stages.0.label</path>
+		<trans>受束縛</trans>
+	</rep>-->
+  <!--<rep>
+		<path>Bound.stages.1.label</path>
+		<trans>被堵嘴</trans>
+	</rep>-->
+  <!--<rep>
+		<path>Bound.stages.2.label</path>
+		<trans>受束縛且被堵嘴</trans>
+	</rep>-->
+  <!--<rep>
+		<path>MasochistBound.stages.0.label</path>
+		<trans>受束縛(被虐狂)</trans>
+	</rep>-->
+  <!--<rep>
+		<path>MasochistBound.stages.1.label</path>
+		<trans>被堵嘴(被虐狂)</trans>
+	</rep>-->
+  <!--<rep>
+		<path>MasochistBound.stages.2.label</path>
+		<trans>受束縛且被堵嘴(被虐狂)</trans>
+	</rep>-->
+</LanguageData>

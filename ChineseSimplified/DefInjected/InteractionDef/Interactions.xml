@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AnalSex.label>肛交</AnalSex.label>
+  <AnalSex.logRulesInitiator.rulesStrings.0>logentry->试图对[other_nameShortIndef]肛交。</AnalSex.logRulesInitiator.rulesStrings.0>
+  <AnalSex.logRulesRecipient.rulesStrings.0>logentry->被[other_nameShortIndef]尝试肛交。</AnalSex.logRulesRecipient.rulesStrings.0>
+</LanguageData>

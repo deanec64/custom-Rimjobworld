@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Natural Penises -->
+
+  <Penis.label>penis</Penis.label>
+  <Penis.description>A severed penis. It's average size, and that's fine. Nothing wrong with that at all. Really, it's OK. There's no shame in being average. It's just... you know... just average.</Penis.description>
+
+  <Micropenis.label>micropenis</Micropenis.label>
+  <Micropenis.description>
+      A severed pinky.
+
+      Uh, no wait...
+    </Micropenis.description>
+
+  <SmallPenis.label>small penis</SmallPenis.label>
+  <SmallPenis.description>A severed penis. It's rather small, so I hope you've got a great severed personality.</SmallPenis.description>
+
+  <BigPenis.label>big penis</BigPenis.label>
+  <BigPenis.description>A large severed penis.</BigPenis.description>
+
+  <HugePenis.label>huge penis</HugePenis.label>
+  <HugePenis.description>A huge severed penis.</HugePenis.description>
+
+  <HorsePenis.label>horse penis</HorsePenis.label>
+  <HorsePenis.description>A severed horse penis from a centaur. Huge for a human.</HorsePenis.description>
+
+  <CatPenis.label>cat penis</CatPenis.label>
+  <CatPenis.description>A severed catgirl penis. Long, thin and barbed.</CatPenis.description>
+
+  <DogPenis.label>cat penis</DogPenis.label>
+  <DogPenis.description>A severed dog penis. Thick and knotted.</DogPenis.description>
+
+  <DragonPenis.label>dragon penis</DragonPenis.label>
+  <DragonPenis.description>A severed dragon penis. Thick and HARD.</DragonPenis.description>
+
+  <!-- Natural Vaginas -->
+
+  <Vagina.label>vagina</Vagina.label>
+  <Vagina.description>A severed vagina, whatever that means.</Vagina.description>
+
+  <TightVagina.label>tight vagina</TightVagina.label>
+  <TightVagina.description>A severed tight vagina, whatever that means.</TightVagina.description>
+
+  <LooseVagina.label>loose vagina</LooseVagina.label>
+  <LooseVagina.description>A severed loose vagina, whatever that means.</LooseVagina.description>
+
+  <!-- Natural Breasts -->
+
+  <Breasts.label>breasts</Breasts.label>
+  <Breasts.description>A pair of severed breasts.</Breasts.description>
+
+  <SmallBreasts.label>small breasts</SmallBreasts.label>
+  <SmallBreasts.description>A pair of severed small breasts.</SmallBreasts.description>
+
+  <LargeBreasts.label>large breasts</LargeBreasts.label>
+  <LargeBreasts.description>A pair of severed large breasts.</LargeBreasts.description>
+
+  <HugeBreasts.label>huge breasts</HugeBreasts.label>
+  <HugeBreasts.description>A pair of severed huge breasts.</HugeBreasts.description>
+
+  <!-- Natural Anuses -->
+
+  <Anus.label>anus</Anus.label>
+  <Anus.description>A severed anus... yeah I don't know what that is either.</Anus.description>
+
+  <TightAnus.label>tight anus</TightAnus.label>
+  <TightAnus.description>A severed tight anus... yeah I don't know what that is either.</TightAnus.description>
+
+  <LooseAnus.label>loose anus</LooseAnus.label>
+  <LooseAnus.description>Hey, look a donut.  Just kidding, it's an anus.</LooseAnus.description>
+
+  <!-- Simple prosthetic penises -->
+
+  <PegDick.label>peg dick</PegDick.label>
+  <PegDick.description>A wooden dildo designed to replace a missing penis. Be careful of splinters.</PegDick.description>
+
+  <!-- Simple prosthetic vaginas -->
+
+  <HydraulicVagina.label>hydraulic vagina</HydraulicVagina.label>
+  <HydraulicVagina.description>A low-tech prosthetic vagina. Its cold metal grip is uncomfortable but it has great suction power.</HydraulicVagina.description>
+
+  <!-- Simple prosthetic breasts -->
+
+  <HydraulicBreasts.label>hydraulic breasts</HydraulicBreasts.label>
+  <HydraulicBreasts.description>Low-tech prosthetic breasts.  Conical metal with increased pumping action, spray your friends.</HydraulicBreasts.description>
+
+  <!-- Simple prosthetic anuses -->
+
+  <HydraulicAnus.label>hydraulic anus</HydraulicAnus.label>
+  <HydraulicAnus.description>A low-tech prosthetic anus. Its cold metal grip is uncomfortable but it has great suction power.</HydraulicAnus.description>
+
+  <!-- Bionic penises -->
+
+  <BionicPenis.label>bionic penis</BionicPenis.label>
+  <BionicPenis.description>
+      A high-tech prosthetic penis. Features include:
+      - ABSOLUTELY MASSIVE, this prosthetic is larger than any known natural penis, and is in fact the largest penile prosthetic permissible under federal law.
+      - Over 50 different vibration modes, including 10 of the most stimulating waveforms known to science
+      - State-of-the-art neural interface activates neural pathways you didn't even know you had to make you feel things you never even imagined
+    </BionicPenis.description>
+
+  <!-- Bionic vaginas -->
+
+  <BionicVagina.label>bionic vagina</BionicVagina.label>
+  <BionicVagina.description>A high-tech prosthetic vagina. Features include:
+    - Interior lined with 150 million micro-g-spots
+    - Resizes to fit any penis
+    - Auto-lubrication with boro-graphitic pseudofluid, smooth but never slimy (includes toggleable sliminess in case you're into that)
+    - SenseID technology identifies the man you're fucking, automatically adds him on Facebook, and contacts his mother introducing you as his new girlfriend.</BionicVagina.description>
+
+  <!-- Bionic breasts -->
+
+  <BionicBreasts.label>bionic breasts</BionicBreasts.label>
+  <BionicBreasts.description>
+      High-tech prosthetic breasts. Features include:
+      - Resizes to any desired size
+    </BionicBreasts.description>
+
+  <!-- Bionic anuses -->
+
+  <BionicAnus.label>bionic anus</BionicAnus.label>
+  <BionicAnus.description>
+      A high-tech prosthetic anus. Features include:
+      - Resizes to fit any penis
+      - Auto-lubrication with boro-graphitic pseudofluid, smooth but never slimy (includes toggleable sliminess in case you're into that)
+    </BionicAnus.description>
+
+  <!--<rep>
+		<path>micropenis.label</path>
+		<trans>微小陰莖</trans>
+	</rep>-->
+  <!--<rep>
+		<path>SmallPenis.label</path>
+		<trans>小陰莖</trans>
+	</rep>-->
+  <!--<rep>
+		<path>Penis.label</path>
+		<trans>陰莖</trans>
+	</rep>-->
+  <!--<rep>
+		<path>BigPenis.label</path>
+		<trans>大陰莖</trans>
+	</rep>-->
+  <!--<rep>
+		<path>HugePenis.label</path>
+		<trans>巨大陰莖</trans>
+	</rep>-->
+  <!--<rep>
+		<path>HorsePenis.label</path>
+		<trans>馬陰莖</trans>
+	</rep>-->
+  <!--<rep>
+		<path>CatPenis.label</path>
+		<trans>貓陰莖</trans>
+	</rep>-->
+  <!--<rep>
+		<path>DogPenis.label</path>
+		<trans>狗陰莖</trans>
+	</rep>-->
+  <!--<rep>
+		<path>DragonPenis.label</path>
+		<trans>龍陰莖</trans>
+	</rep>-->
+  <!--<rep>
+		<path>TightVagina.label</path>
+		<trans>很緊的陰道</trans>
+	</rep>-->
+  <!--<rep>
+		<path>Vagina.label</path>
+		<trans>陰道</trans>
+	</rep>-->
+  <!--<rep>
+		<path>bionic penis.label</path>
+		<trans>仿生陰莖</trans>
+	</rep>-->
+  <!--<rep>
+		<path>bionic vagina.label</path>
+		<trans>仿生陰道</trans>
+	</rep>-->
+  <!--<rep>
+		<path>PegDick.label</path>
+		<trans>木製假陰莖</trans>
+	</rep>-->
+  <!--<rep>
+		<path>HydraulicVagina.label</path>
+		<trans>鋼製假陰道</trans>
+	</rep>-->
+</LanguageData>

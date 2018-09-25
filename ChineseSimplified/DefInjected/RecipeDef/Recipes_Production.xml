@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MakeHololock.label>制作全息锁</MakeHololock.label>
+  <MakeHololock.description>制作全息锁</MakeHololock.description>
+  <MakeHololock.jobString>正在制作全息锁</MakeHololock.jobString>
+
+  <MakeArmbinder.label>制作束手套</MakeArmbinder.label>
+  <MakeArmbinder.description>制作束手套</MakeArmbinder.description>
+  <MakeArmbinder.jobString>正在制作束手套</MakeArmbinder.jobString>
+
+  <MakeGag.label>制作口枷</MakeGag.label>
+  <MakeGag.description>制作口枷</MakeGag.description>
+  <MakeGag.jobString>正在制作口枷</MakeGag.jobString>
+
+  <MakeChastityBelt.label>制作贞操带</MakeChastityBelt.label>
+  <MakeChastityBelt.description>制作贞操带</MakeChastityBelt.description>
+  <MakeChastityBelt.jobString>正在制作贞操带</MakeChastityBelt.jobString>
+</LanguageData>

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Fappin.reportString>fappin'.</Fappin.reportString>
+
+  <!-- No longer need to override this def since the additional code is patched into the original driver
+  <JobDef>
+    <defName>Lovin</defName>
+    <driverClass>rjw.JobDriver_LovinPP</driverClass>
+    <reportString>lovin'.</reportString>
+    <checkOverrideOnDamage>true</checkOverrideOnDamage>
+    <casualInterruptible>false</casualInterruptible>
+  </JobDef> -->
+
+  <NymphJoinInBed.reportString>lovin'.</NymphJoinInBed.reportString>
+  <ComfortPrisonerRapin.reportString>rapin'.</ComfortPrisonerRapin.reportString>
+  <GettinLoved.reportString>lovin'.</GettinLoved.reportString>
+  <GettinRaped.reportString>gettin' raped.</GettinRaped.reportString>
+  <StruggleInBondageGear.reportString>struggling</StruggleInBondageGear.reportString>
+  <UnlockBondageGear.reportString>unlocking</UnlockBondageGear.reportString>
+  <GiveBondageGear.reportString>equipping</GiveBondageGear.reportString>
+  <ViolateCorpse.reportString>violating corpse</ViolateCorpse.reportString>
+  <Bestiality.reportString>lovin' animal</Bestiality.reportString>
+  <RandomRape.reportString>randomly raping</RandomRape.reportString>
+  <WhoreIsServingVisitors.reportString>serving visitors</WhoreIsServingVisitors.reportString>
+  <InvitingVisitors.reportString>attempting hookup</InvitingVisitors.reportString>
+
+  <!-- <JobDef>
+    <defName>ComfortPrisonerGangRapin</defName>
+    <driverClass>rjw.JobDriver_ComfortPrisonerGangRapin</driverClass>
+    <reportString>gang rapin'.</reportString>
+    <casualInterruptible>false</casualInterruptible>
+  </JobDef> -->
+  <!--<rep>
+		<path>Fappin.reportString</path>
+		<trans>自慰</trans>
+	</rep>-->
+  <!--<rep>
+		<path>NymphJoinInBed.reportString</path>
+		<trans>作愛作的事</trans>
+	</rep>-->
+  <!--<rep>
+		<path>ComfortPrisonerRapin.reportString</path>
+		<trans>霸王硬上弓</trans>
+	</rep>-->
+  <!--<rep>
+		<path>GettinLoved.reportString</path>
+		<trans>作愛作的事</trans>
+	</rep>-->
+  <!--<rep>
+		<path>GettinRaped.reportString</path>
+		<trans>作愛作的事</trans>
+	</rep>-->
+  <!--<rep>
+		<path>StruggleInBondageGear.reportString</path>
+		<trans>試圖掙脫束縛具</trans>
+	</rep>-->
+  <!--<rep>
+		<path>UnlockBondageGear.reportString</path>
+		<trans>解鎖束縛具</trans>
+	</rep>-->
+  <!--<rep>
+		<path>GiveBondageGear.reportString</path>
+		<trans>穿戴束縛具</trans>
+	</rep>-->
+</LanguageData>

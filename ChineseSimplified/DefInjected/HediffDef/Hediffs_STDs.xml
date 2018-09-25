@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AcuteHIV.label>急性HIV感染</AcuteHIV.label>
+  <AcuteHIV.stages.0.label>潜伏期</AcuteHIV.stages.0.label>
+  <AcuteHIV.stages.1.label>轻度1</AcuteHIV.stages.1.label>
+  <AcuteHIV.stages.2.label>轻度2</AcuteHIV.stages.2.label>
+  <AcuteHIV.stages.3.label>轻度3</AcuteHIV.stages.3.label>
+  <AcuteHIV.stages.4.label>中度</AcuteHIV.stages.4.label>
+  <AcuteHIV.stages.5.label>重度1</AcuteHIV.stages.5.label>
+  <AcuteHIV.stages.6.label>重度2</AcuteHIV.stages.6.label>
+  <AcuteHIV.stages.7.label>重度3</AcuteHIV.stages.7.label>
+  <AcuteHIV.stages.8.label>极重度1</AcuteHIV.stages.8.label>
+  <AcuteHIV.stages.9.label>极重度2</AcuteHIV.stages.9.label>
+
+  <ChronicHIV.label>慢性HIV感染</ChronicHIV.label>
+  <ChronicHIV.stages.0.label>潛伏期</ChronicHIV.stages.0.label>
+  <ChronicHIV.stages.1.label>轻度1</ChronicHIV.stages.1.label>
+  <ChronicHIV.stages.2.label>轻度2</ChronicHIV.stages.2.label>
+  <ChronicHIV.stages.3.label>轻度3</ChronicHIV.stages.3.label>
+  <ChronicHIV.stages.4.label>中度</ChronicHIV.stages.4.label>
+  <ChronicHIV.stages.5.label>重度1</ChronicHIV.stages.5.label>
+  <ChronicHIV.stages.6.label>重度2</ChronicHIV.stages.6.label>
+  <ChronicHIV.stages.7.label>重度3</ChronicHIV.stages.7.label>
+  <ChronicHIV.stages.8.label>极重度1</ChronicHIV.stages.8.label>
+  <ChronicHIV.stages.9.label>极重度2</ChronicHIV.stages.9.label>
+
+  <Herpes.label>疱疹</Herpes.label>
+  <Herpes.stages.0.label>轻度</Herpes.stages.0.label>
+  <Herpes.stages.1.label>中度</Herpes.stages.1.label>
+  <Herpes.stages.2.label>重度</Herpes.stages.2.label>
+
+  <Warts.label>菜花病</Warts.label>
+  <Warts.stages.0.label>轻度</Warts.stages.0.label>
+  <Warts.stages.1.label>重度</Warts.stages.1.label>
+
+  <Syphilis.label>梅毒</Syphilis.label>
+  <Syphilis.stages.0.label>轻度</Syphilis.stages.0.label>
+  <Syphilis.stages.1.label>中度</Syphilis.stages.1.label>
+  <Syphilis.stages.2.label>重度</Syphilis.stages.2.label>
+  <Syphilis.stages.3.label>极重度1</Syphilis.stages.3.label>
+  <Syphilis.stages.4.label>极重度2</Syphilis.stages.4.label>
+  <Syphilis.stages.5.label>极重度3</Syphilis.stages.5.label>
+</LanguageData>

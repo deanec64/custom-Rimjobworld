@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Natural Penises -->
+
+  <Penis.label>阴茎</Penis.label>
+  <Penis.description>一个切除的阴茎。是普通的尺寸，这也没什么，嗯，就这样，普通而已。。</Penis.description>
+
+  <Micropenis.label>微小阴茎</Micropenis.label>
+  <Micropenis.description>一个切除的微小阴茎。呃，说啥好呢...</Micropenis.description>
+
+  <SmallPenis.label>小阴茎</SmallPenis.label>
+  <SmallPenis.description>一个切除小阴茎。它真的很小，所以其实没了也没啥的吧。</SmallPenis.description>
+
+  <BigPenis.label>大阴茎</BigPenis.label>
+  <BigPenis.description>一个切除的大阴茎。</BigPenis.description>
+
+  <HugePenis.label>巨大阴茎</HugePenis.label>
+  <HugePenis.description>一个切除的巨大阴茎。</HugePenis.description>
+
+  <HorsePenis.label>马阴茎</HorsePenis.label>
+  <HorsePenis.description>一个切除的马阴茎。对人类来说巨大。</HorsePenis.description>
+
+  <CatPenis.label>猫阴茎</CatPenis.label>
+  <CatPenis.description>一个切除的猫阴茎。长、细、带刺。</CatPenis.description>
+
+  <DogPenis.label>狗阴茎</DogPenis.label>
+  <DogPenis.description>一个切除的狗阴茎。粗而有节。</DogPenis.description>
+
+  <DragonPenis.label>龙阴茎</DragonPenis.label>
+  <DragonPenis.description>一个切除的龙阴茎。粗而硬。</DragonPenis.description>
+
+  <!-- Natural Vaginas -->
+
+  <Vagina.label>阴道</Vagina.label>
+  <Vagina.description>一个切除的阴道。</Vagina.description>
+
+  <TightVagina.label>紧致的阴道</TightVagina.label>
+  <TightVagina.description>一个切除的紧致的阴道。</TightVagina.description>
+
+  <LooseVagina.label>松弛的阴道</LooseVagina.label>
+  <LooseVagina.description>一个切除的松弛的阴道。</LooseVagina.description>
+
+  <!-- Natural Breasts -->
+
+  <Breasts.label>乳房</Breasts.label>
+  <Breasts.description>一对切除的乳房。</Breasts.description>
+
+  <SmallBreasts.label>小乳房</SmallBreasts.label>
+  <SmallBreasts.description>一对切除的小乳房。</SmallBreasts.description>
+
+  <LargeBreasts.label>大乳房</LargeBreasts.label>
+  <LargeBreasts.description>一对切除的大乳房。</LargeBreasts.description>
+
+  <HugeBreasts.label>巨乳房</HugeBreasts.label>
+  <HugeBreasts.description>一对切除的巨乳房。</HugeBreasts.description>
+
+  <!-- Natural Anuses -->
+
+  <Anus.label>肛门</Anus.label>
+  <Anus.description>一个切除的肛门...好吧，我也不知道这是啥。</Anus.description>
+
+  <TightAnus.label>紧致的肛门</TightAnus.label>
+  <TightAnus.description>一个切除的紧致的肛门...好吧，我也不知道这是啥。</TightAnus.description>
+
+  <LooseAnus.label>松弛的肛门</LooseAnus.label>
+  <LooseAnus.description>嘿，这看上去像个甜甜圈。开玩笑的，这是个肛门。</LooseAnus.description>
+
+  <!-- Simple prosthetic penises -->
+
+  <PegDick.label>木制阴茎</PegDick.label>
+  <PegDick.description>一个木制阴茎假体，用于代替缺失的阴茎。小心碎片。</PegDick.description>
+
+  <!-- Simple prosthetic vaginas -->
+
+  <HydraulicVagina.label>液压阴道</HydraulicVagina.label>
+  <HydraulicVagina.description>一个低端阴道假体。它的冷金属壁令人不舒服，但有着很好的吸力。</HydraulicVagina.description>
+
+  <!-- Simple prosthetic breasts -->
+
+  <HydraulicBreasts.label>液压乳房</HydraulicBreasts.label>
+  <HydraulicBreasts.description>一对低端乳房假体。有着增强的喷泵力的圆锥状金属，喷你的朋友们一脸吧。</HydraulicBreasts.description>
+
+  <!-- Simple prosthetic anuses -->
+
+  <HydraulicAnus.label>液压肛门</HydraulicAnus.label>
+  <HydraulicAnus.description>一个低端肛门假体。它的冷金属壁令人不舒服，但有着很好的吸力。</HydraulicAnus.description>
+
+  <!-- Bionic penises -->
+
+  <BionicPenis.label>仿生阴茎</BionicPenis.label>
+  <BionicPenis.description>一个高端阴茎假体。特点有：\n- 绝对够大，这玩意比已知的任何自然阴茎都大, 而且事实上，这是法律上所允许的最大的阴茎假体。\n- 有超过50种不同的振动模式，包括10种科学验证的最刺激的波形。\n- 有最先进的神经交互系统，激活你自己都不知道的神经通路，让你体验你从未想象过的感觉。</BionicPenis.description>
+
+  <!-- Bionic vaginas -->
+
+  <BionicVagina.label>仿生阴道</BionicVagina.label>
+  <BionicVagina.description>一个高端阴道假体。特点有：\n- 内部连接1.5亿的微g点。\n- 自由调整大小吻合任何阴茎。\n- 用硼硅石墨等物质加工的假液体进行自动润滑，效果好而且不会黏着（你也可以自行调控其黏着度）。\n- ID感应科技可以识别出是哪个人在办事，可以自动加他为好友，甚至可以联系他妈并介绍自己为TA的新女友。</BionicVagina.description>
+
+  <!-- Bionic breasts -->
+
+  <BionicBreasts.label>仿生乳房</BionicBreasts.label>
+  <BionicBreasts.description>一个高端乳房假体。特点有：\n- 自由调整大小。</BionicBreasts.description>
+
+  <!-- Bionic anuses -->
+
+  <BionicAnus.label>仿生肛门</BionicAnus.label>
+  <BionicAnus.description>一个高端肛门假体。特点有：\n- 自由调整大小吻合任何阴茎。\n- 用硼硅石墨等物质加工的假液体进行自动润滑，效果好而且不会黏着（你也可以自行调控其黏着度）。</BionicAnus.description>
+
+  <!-- Bionic BionicBreasts -->
+</LanguageData>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DesignatorComfortPrisoner.label>comfort prisoner</DesignatorComfortPrisoner.label>
+  <DesignatorComfortPrisoner.description>Designate the prisoner as a tool to satisfy everyone's sexual need.</DesignatorComfortPrisoner.description>
+
+  <rjw_vatgrown_sex_slave.label>Vat-Grown Sex Slave</rjw_vatgrown_sex_slave.label>
+  <rjw_vatgrown_sex_slave.description>NAME is made as a sex machine, rather than a human.During HIS growing period in the factory, HE was taught plenty of social skills and sex skills, just to satisfy various sex demands.</rjw_vatgrown_sex_slave.description>
+
+  <rjw_feisty.label>Feisty Nymph</rjw_feisty.label>
+  <rjw_feisty.description>NAME struts around the colony like a conqueror examining a newly annexed territory. You try to focus on your work but HE won't let you.
+    	"I heard what you said about me!" HE accuses. You didn't say anything about HIM. HECAP knows that.
+    	"Wanna fight?" HE challenges. You already know what HE means: a few minutes of play wrestling and then you take HIM, or, if you hesitate, HE takes you. \n\n
+    	Though NAME can be hard to get along with you've come to appreciate how HE's more practical than the others.
+    	You explain to HIM, "See these things here? They need to be over there" and "Those people are trying to kill us, so let's kill them first." HECAP listens, and does what is necessary. </rjw_feisty.description>
+
+  <rjw_curious.label>Curious Nymph</rjw_curious.label>
+  <rjw_curious.description>Hold the covering plate back and place the actuator in slot C. Line the rod up. No, that won't do, it needs to be perfect. Now pop the JC-444 chip in place. \n
+    	Solder the orange wire to pin #16 and the striped wire to pin #5. \n
+					Suddenly, there HE is. You aren't surprised to see NAME, you just didn't hear HIM approach. By now you're used to it. \n
+					You continue your work in silence as HE hovers over you, her large eyes fixated on the rapid, rythmic, deliberate motions of your hands.</rjw_curious.description>
+
+  <rjw_tender.label>Tender Nymph</rjw_tender.label>
+  <rjw_tender.description>NAME has a pair of charming eyes, and HIS voice is soft and sweet. Due to HIS previous nurse job, HE tends people quite well.</rjw_tender.description>
+
+  <rjw_chatty.label>Chatty Nymph</rjw_chatty.label>
+  <rjw_chatty.description>No one can be more loquacious than NAME. HECAP has a flexible tongue, a sharp mind, and hot lips.</rjw_chatty.description>
+
+  <rjw_broken.label>Broken Nymph</rjw_broken.label>
+  <rjw_broken.description>Maybe NAME suffered some terrible things, HE looks rather emaciated, and no one wants to speak with HIM.\n
+  	HECAP only behaves a bit vivaciously while staring at some rod-like stuffs.</rjw_broken.description>
+
+  <rjw_vatgrown_sex_slave.stringA>SexSlave</rjw_vatgrown_sex_slave.stringA>
+  <rjw_feisty.stringA>Nymph</rjw_feisty.stringA>
+  <rjw_curious.stringA>Nymph</rjw_curious.stringA>
+  <rjw_tender.stringA>Nymph</rjw_tender.stringA>
+  <rjw_chatty.stringA>Nymph</rjw_chatty.stringA>
+  <rjw_broken.stringA>Nymph</rjw_broken.stringA>
+</LanguageData>

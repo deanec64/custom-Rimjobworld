@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MakePegDick.label>雕刻木制阴茎</MakePegDick.label>
+  <MakePegDick.description>用木头雕刻木制阴茎</MakePegDick.description>
+  <MakePegDick.jobString>正在雕刻木制阴茎</MakePegDick.jobString>
+
+  <MakeBionicPenis.label>制作仿生阴茎</MakeBionicPenis.label>
+  <MakeBionicPenis.description>用超织物、玻璃钢、零部件制作仿生阴茎</MakeBionicPenis.description>
+  <MakeBionicPenis.jobString>正在制作仿生阴茎</MakeBionicPenis.jobString>
+
+  <!--[Duplicated] <MakeHydraulicVagina.label>craft hydraulic vagina</MakeHydraulicVagina.label>-->
+  <!--[Duplicated] <MakeHydraulicVagina.description>Crafts a hydraulic vagina from steel and components.</MakeHydraulicVagina.description>-->
+  <!--[Duplicated] <MakeHydraulicVagina.jobString>Crafting hydraulic vagina.</MakeHydraulicVagina.jobString>-->
+
+  <!--[Duplicated] <MakeBionicVagina.label>craft bionic vagina</MakeBionicVagina.label>-->
+  <!--[Duplicated] <MakeBionicVagina.description>Crafts a bionic vagina from hyperweave, plasteel, and components.</MakeBionicVagina.description>-->
+  <!--[Duplicated] <MakeBionicVagina.jobString>Crafting bionic vagina.</MakeBionicVagina.jobString>-->
+
+  <MakeHydraulicVagina.label>制作液压阴道</MakeHydraulicVagina.label>
+  <MakeHydraulicVagina.description>用钢铁、零部件制作液压阴道</MakeHydraulicVagina.description>
+  <MakeHydraulicVagina.jobString>正在制作液压阴道</MakeHydraulicVagina.jobString>
+
+  <MakeBionicVagina.label>制作仿生阴道</MakeBionicVagina.label>
+  <MakeBionicVagina.description>用超织物、玻璃钢、零部件制作仿生阴道</MakeBionicVagina.description>
+  <MakeBionicVagina.jobString>正在制作仿生阴道</MakeBionicVagina.jobString>
+
+  <MakeHydraulicBreasts.label>制作液压乳房</MakeHydraulicBreasts.label>
+  <MakeHydraulicBreasts.description>用钢铁、零部件制作液压乳房</MakeHydraulicBreasts.description>
+  <MakeHydraulicBreasts.jobString>正在制作液压乳房</MakeHydraulicBreasts.jobString>
+
+  <MakeBionicBreasts.label>制作仿生乳房</MakeBionicBreasts.label>
+  <MakeBionicBreasts.description>用超织物、玻璃钢、零部件制作仿生乳房</MakeBionicBreasts.description>
+  <MakeBionicBreasts.jobString>正在制作仿生乳房</MakeBionicBreasts.jobString>
+
+  <MakeHydraulicAnus.label>制作液压肛门</MakeHydraulicAnus.label>
+  <MakeHydraulicAnus.description>用钢铁、零部件制作液压肛门</MakeHydraulicAnus.description>
+  <MakeHydraulicAnus.jobString>正在制作液压肛门</MakeHydraulicAnus.jobString>
+
+  <MakeBionicAnus.label>制作仿生肛门</MakeBionicAnus.label>
+  <MakeBionicAnus.description>用超织物、玻璃钢、零部件制作仿生肛门</MakeBionicAnus.description>
+  <MakeBionicAnus.jobString>正在制作仿生肛门</MakeBionicAnus.jobString>
+</LanguageData>

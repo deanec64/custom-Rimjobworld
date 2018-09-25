@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RJW_BabyState.label>子供の成長具合</RJW_BabyState.label>
+  <RJW_BabyState.stages.0.label>乳児</RJW_BabyState.stages.0.label>
+  <RJW_BabyState.stages.1.label>幼児</RJW_BabyState.stages.1.label>
+  <RJW_BabyState.stages.2.label>子供</RJW_BabyState.stages.2.label>
+
+  <!-- This only exists separately from BabyState to get around a bug making children drop their weapons on savegame load. -->
+
+  <RJW_NoManipulationFlag.label>disable manipulation</RJW_NoManipulationFlag.label>
+</LanguageData>

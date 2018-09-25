@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Dummy hediff: Triggers creation of real privates for newly created pawns -->
+
+  <DummyPrivates.label>dummy privates</DummyPrivates.label>
+
+  <!-- Regular privates -->
+
+  <Penis.label>penis</Penis.label>
+
+  <!-- Additional dick sizes -->
+
+  <Micropenis.label>micropenis</Micropenis.label>
+  <SmallPenis.label>small penis</SmallPenis.label>
+  <BigPenis.label>Big Penis</BigPenis.label>
+  <HugePenis.label>Huge penis</HugePenis.label>
+  <HorsePenis.label>Horse penis</HorsePenis.label>
+  <CatPenis.label>Cat penis</CatPenis.label>
+  <DogPenis.label>Dog penis</DogPenis.label>
+  <DragonPenis.label>Dragon penis</DragonPenis.label>
+  <Vagina.label>vagina</Vagina.label>
+  <TightVagina.label>tight vagina</TightVagina.label>
+  <LooseVagina.label>loose vagina</LooseVagina.label>
+
+  <!-- Natural Breasts -->
+
+  <Breasts.label>breasts</Breasts.label>
+  <SmallBreasts.label>small breasts</SmallBreasts.label>
+  <LargeBreasts.label>large breasts</LargeBreasts.label>
+  <HugeBreasts.label>huge breasts</HugeBreasts.label>
+
+  <!-- Natural anuses -->
+
+  <Anus.label>anus</Anus.label>
+  <TightAnus.label>tight anus</TightAnus.label>
+  <LooseAnus.label>loose anus</LooseAnus.label>
+
+  <!-- Simple prosthetic privates -->
+
+  <PegDick.label>peg dick</PegDick.label>
+  <HydraulicVagina.label>hydraulic vagina</HydraulicVagina.label>
+  <HydraulicBreasts.label>hydraulic breasts</HydraulicBreasts.label>
+  <HydraulicAnus.label>hydraulic anus</HydraulicAnus.label>
+
+  <!-- Bionic privates -->
+
+  <BionicPenis.label>bionic penis</BionicPenis.label>
+  <BionicVagina.label>bionic vagina</BionicVagina.label>
+  <BionicBreasts.label>bionic breasts</BionicBreasts.label>
+  <BionicAnus.label>bionic anus</BionicAnus.label>
+
+  <!--<rep>
+		<path>Micropenis.label</path>
+		<trans>微小陰莖</trans>
+	</rep>-->
+  <!--<rep>
+		<path>SmallPenis.label</path>
+		<trans>小陰莖</trans>
+	</rep>-->
+  <!--<rep>
+		<path>Penis.label</path>
+		<trans>陰莖</trans>
+	</rep>-->
+  <!--<rep>
+		<path>BigPenis.label</path>
+		<trans>大陰莖</trans>
+	</rep>-->
+  <!--<rep>
+		<path>HugePenis.label</path>
+		<trans>巨大陰莖</trans>
+	</rep>-->
+  <!--<rep>
+		<path>Vagina.label</path>
+		<trans>陰道</trans>
+	</rep>-->
+  <!--<rep>
+		<path>TightVagina.label</path>
+		<trans>很緊的陰道</trans>
+	</rep>-->
+  <!--<rep>
+		<path>BionicPenis.label</path>
+		<trans>仿生陰莖</trans>
+	</rep>-->
+  <!--<rep>
+		<path>BionicVagina.label</path>
+		<trans>仿生陰道</trans>
+	</rep>-->
+  <!--<rep>
+		<path>HorsePenis.label</path>
+		<trans>馬陰莖</trans>
+	</rep>-->
+  <!--<rep>
+		<path>CatPenis.label</path>
+		<trans>貓陰莖</trans>
+	</rep>-->
+  <!--<rep>
+		<path>DogPenis.label</path>
+		<trans>狗陰莖</trans>
+	</rep>-->
+  <!--<rep>
+		<path>DragonPenis.label</path>
+		<trans>龍陰莖</trans>
+	</rep>-->
+  <!--<rep>
+		<path>PegDick.label</path>
+		<trans>木製假陰莖</trans>
+	</rep>-->
+  <!--<rep>
+		<path>HydraulicVagina.label</path>
+		<trans>鋼製假陰道</trans>
+	</rep>-->
+</LanguageData>

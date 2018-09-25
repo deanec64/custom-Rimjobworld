@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SexAbility.label>性能力</SexAbility.label>
+  <SexAbility.description>衡量一个小人是否能做爱以及有多么厉害。</SexAbility.description>
+
+  <Vulnerability.label>脆弱度</Vulnerability.label>
+  <Vulnerability.description>衡量一个小人有多么容易被人欺负，数值越高越容易被人欺负。</Vulnerability.description>
+</LanguageData>

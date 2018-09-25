@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <HIV.label>HIV</HIV.label>
+  <HIV.description>HIV consists of two parts: an acute and a chronic infection. Both parts follow the same course, reducing the infected pawn's blood filtration as their severity increases. The acute phase progresses rapidly but can be fought by the pawn's immune system, whereas the chronic phase progresses very slowly but can never be cured. Treatment can modestly slow the progress of the disease.</HIV.description>
+
+  <Herpes.label>herpes</Herpes.label>
+  <Herpes.description>Herpes is an incurable but nonfatal disease. Affected pawns experience pain and itchiness in the affected body parts. Treatment is effective at reducing the intensity of the symptoms.</Herpes.description>
+
+  <Warts.label>warts</Warts.label>
+  <Warts.description>Genital warts are unsightly and cause an itching/burning sensation. They are easily treated and never fatal.</Warts.description>
+
+  <Syphilis.label>syphilis</Syphilis.label>
+  <Syphilis.description>Syphilis is a serious disease that affects the mind. If left untreated, it leads to corrupted thoughts, mood problems, potential permanent damage to the brain, liver, and kidneys, and, ultimately, death. The good news is that it is easily defeated by proper treatment.</Syphilis.description>
+</LanguageData>

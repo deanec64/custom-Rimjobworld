@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AcuteHIV.label>HIV(激痛)</AcuteHIV.label>
+  <AcuteHIV.stages.0.label>わずかに</AcuteHIV.stages.0.label>
+  <AcuteHIV.stages.1.label>軽度</AcuteHIV.stages.1.label>
+  <AcuteHIV.stages.2.label>軽度</AcuteHIV.stages.2.label>
+  <AcuteHIV.stages.3.label>軽度</AcuteHIV.stages.3.label>
+  <AcuteHIV.stages.4.label>中度</AcuteHIV.stages.4.label>
+  <AcuteHIV.stages.5.label>重度</AcuteHIV.stages.5.label>
+  <AcuteHIV.stages.6.label>重度</AcuteHIV.stages.6.label>
+  <AcuteHIV.stages.7.label>重度</AcuteHIV.stages.7.label>
+  <AcuteHIV.stages.8.label>深刻</AcuteHIV.stages.8.label>
+  <AcuteHIV.stages.9.label>深刻</AcuteHIV.stages.9.label>
+
+  <ChronicHIV.label>HIV(慢性的)</ChronicHIV.label>
+  <ChronicHIV.stages.0.label>わずかに</ChronicHIV.stages.0.label>
+  <ChronicHIV.stages.1.label>軽度</ChronicHIV.stages.1.label>
+  <ChronicHIV.stages.2.label>軽度</ChronicHIV.stages.2.label>
+  <ChronicHIV.stages.3.label>軽度</ChronicHIV.stages.3.label>
+  <ChronicHIV.stages.4.label>中度</ChronicHIV.stages.4.label>
+  <ChronicHIV.stages.5.label>重度</ChronicHIV.stages.5.label>
+  <ChronicHIV.stages.6.label>重度</ChronicHIV.stages.6.label>
+  <ChronicHIV.stages.7.label>重度</ChronicHIV.stages.7.label>
+  <ChronicHIV.stages.8.label>深刻</ChronicHIV.stages.8.label>
+  <ChronicHIV.stages.9.label>深刻</ChronicHIV.stages.9.label>
+
+  <Herpes.label>ヘルペス</Herpes.label>
+  <Herpes.stages.0.label>軽度</Herpes.stages.0.label>
+  <Herpes.stages.1.label>中度</Herpes.stages.1.label>
+  <Herpes.stages.2.label>重度</Herpes.stages.2.label>
+
+  <Warts.label>疣</Warts.label>
+  <Warts.stages.0.label>軽度</Warts.stages.0.label>
+  <Warts.stages.1.label>重度</Warts.stages.1.label>
+
+  <Syphilis.label>梅毒</Syphilis.label>
+  <Syphilis.stages.0.label>軽度</Syphilis.stages.0.label>
+  <Syphilis.stages.1.label>中度</Syphilis.stages.1.label>
+  <Syphilis.stages.2.label>重度</Syphilis.stages.2.label>
+  <Syphilis.stages.3.label>深刻</Syphilis.stages.3.label>
+  <Syphilis.stages.4.label>深刻</Syphilis.stages.4.label>
+  <Syphilis.stages.5.label>深刻</Syphilis.stages.5.label>
+</LanguageData>

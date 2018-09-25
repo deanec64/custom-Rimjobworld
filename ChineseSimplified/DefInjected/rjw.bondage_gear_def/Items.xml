@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Armbinder.label>束手套</Armbinder.label>
+  <Armbinder.description>一个高科技束手套，用于阻止穿戴者使用双臂和双手。</Armbinder.description>
+  <Armbinder.comps.2.useLabel>装备</Armbinder.comps.2.useLabel>
+
+  <Gag.label>口枷</Gag.label>
+  <Gag.description>一个高科技口枷，用于堵住穿戴者的嘴。</Gag.description>
+  <Gag.comps.2.useLabel>装备</Gag.comps.2.useLabel>
+
+  <ChastityBelt.label>贞操带</ChastityBelt.label>
+  <ChastityBelt.description>一条高科技贞操带，用于防止穿戴者性爱与自慰</ChastityBelt.description>
+  <ChastityBelt.comps.2.useLabel>装备</ChastityBelt.comps.2.useLabel>
+</LanguageData>

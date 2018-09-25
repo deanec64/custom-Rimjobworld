@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Severity will be set to equal (1.0 - blood_filtration) in xxx.update_std_effects -->
+
+  <Immunodeficiency.label>免疫力低下</Immunodeficiency.label>
+  <Immunodeficiency.stages.0.label>軽度</Immunodeficiency.stages.0.label>
+  <Immunodeficiency.stages.1.label>中度</Immunodeficiency.stages.1.label>
+  <Immunodeficiency.stages.2.label>重度</Immunodeficiency.stages.2.label>
+
+  <VirusPerma.label>ウィルス感染</VirusPerma.label>
+  <VirusPerma.comps.0.oldLabel>永続的な感染</VirusPerma.comps.0.oldLabel>
+  <VirusPerma.comps.0.instantlyOldLabel>永続的な感染</VirusPerma.comps.0.instantlyOldLabel>
+  <VirusPerma.injuryProps.destroyedLabel>病気によって破壊された</VirusPerma.injuryProps.destroyedLabel>
+  <VirusPerma.injuryProps.destroyedOutLabel>病気によって破壊された</VirusPerma.injuryProps.destroyedOutLabel>
+</LanguageData>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <HIV.label>HIV感染</HIV.label>
+  <HIV.description>HIV有2种：急性和慢性的感染。两种都会遵循同种发展路线，随着严重度升高而减少患者的血液过滤能力。急性类会发展得很快，但是会被免疫系统抵抗；慢性类发展得很慢，但无法治愈。治疗只能稍微地延缓疾病的进度。</HIV.description>
+
+  <Herpes.label>疱疹</Herpes.label>
+  <Herpes.description>疱疹是一种无法治愈但非致命的疾病。患者的感染部位会痛和痒。治疗会有效降低症状的强度。</Herpes.description>
+
+  <Warts.label>菜花病</Warts.label>
+  <Warts.description>生殖器感染上菜花病会很难看，还会导致痒或灼热感。治疗会很容易且不是致命疾病。</Warts.description>
+
+  <Syphilis.label>梅毒</Syphilis.label>
+  <Syphilis.description>梅毒是一种可以影响心脑的严重疾病。如果不治疗的话，会逐步引发混乱的想法、心情问题、潜在的永久性脑肝肾损伤，最后会致命。好消息是妥善治疗可以轻易击败此病。</Syphilis.description>
+</LanguageData>

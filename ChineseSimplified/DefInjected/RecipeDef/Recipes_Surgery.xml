@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Attach natural privates -->
+
+  <AttachPenis.label>安装阴茎</AttachPenis.label>
+  <AttachPenis.description>安装阴茎</AttachPenis.description>
+  <AttachPenis.jobString>正在安装阴茎</AttachPenis.jobString>
+
+  <InstallVagina.label>安装阴道</InstallVagina.label>
+  <InstallVagina.description>安装阴道</InstallVagina.description>
+  <InstallVagina.jobString>正在安装阴道</InstallVagina.jobString>
+
+  <InstallTightVagina.label>安装紧致的阴道</InstallTightVagina.label>
+  <InstallTightVagina.description>安装紧致的阴道</InstallTightVagina.description>
+  <InstallTightVagina.jobString>正在安装紧致的阴道</InstallTightVagina.jobString>
+
+  <InstallLooseVagina.label>安装松弛的阴道</InstallLooseVagina.label>
+  <InstallLooseVagina.description>安装松弛的阴道</InstallLooseVagina.description>
+  <InstallLooseVagina.jobString>正在安装松弛的阴道</InstallLooseVagina.jobString>
+
+  <AttachMicropenis.label>安装微小阴茎</AttachMicropenis.label>
+  <AttachMicropenis.description>安装微小阴茎</AttachMicropenis.description>
+  <AttachMicropenis.jobString>正在安装微小阴茎</AttachMicropenis.jobString>
+
+  <AttachSmallPenis.label>安装小阴茎</AttachSmallPenis.label>
+  <AttachSmallPenis.description>安装小阴茎</AttachSmallPenis.description>
+  <AttachSmallPenis.jobString>正在安装小阴茎</AttachSmallPenis.jobString>
+
+  <AttachBigPenis.label>安装大阴茎</AttachBigPenis.label>
+  <AttachBigPenis.description>安装大阴茎</AttachBigPenis.description>
+  <AttachBigPenis.jobString>正在安装大阴茎</AttachBigPenis.jobString>
+
+  <AttachHugePenis.label>安装巨大阴茎</AttachHugePenis.label>
+  <AttachHugePenis.description>安装巨大阴茎</AttachHugePenis.description>
+  <AttachHugePenis.jobString>正在安装巨大阴茎</AttachHugePenis.jobString>
+
+  <AttachHorsePenis.label>安装马阴茎</AttachHorsePenis.label>
+  <AttachHorsePenis.description>安装马阴茎</AttachHorsePenis.description>
+  <AttachHorsePenis.jobString>正在安装马阴茎</AttachHorsePenis.jobString>
+
+  <AttachCatPenis.label>安装猫阴茎</AttachCatPenis.label>
+  <AttachCatPenis.description>安装猫阴茎</AttachCatPenis.description>
+  <AttachCatPenis.jobString>正在安装猫阴茎</AttachCatPenis.jobString>
+
+  <AttachDogPenis.label>安装狗阴茎</AttachDogPenis.label>
+  <AttachDogPenis.description>安装狗阴茎</AttachDogPenis.description>
+  <AttachDogPenis.jobString>正在安装狗阴茎</AttachDogPenis.jobString>
+
+  <AttachDragonPenis.label>安装龙阴茎</AttachDragonPenis.label>
+  <AttachDragonPenis.description>安装龙阴茎</AttachDragonPenis.description>
+  <AttachDragonPenis.jobString>正在安装龙阴茎</AttachDragonPenis.jobString>
+
+  <!-- Breasts -->
+
+  <AttachSmallBreasts.label>安装小乳房</AttachSmallBreasts.label>
+  <AttachSmallBreasts.description>安装小乳房</AttachSmallBreasts.description>
+  <AttachSmallBreasts.jobString>正在安装小乳房</AttachSmallBreasts.jobString>
+
+  <AttachBreasts.label>安装乳房</AttachBreasts.label>
+  <AttachBreasts.description>安装乳房</AttachBreasts.description>
+  <AttachBreasts.jobString>正在安装乳房</AttachBreasts.jobString>
+
+  <AttachLargeBreasts.label>安装大乳房</AttachLargeBreasts.label>
+  <AttachLargeBreasts.description>安装大乳房</AttachLargeBreasts.description>
+  <AttachLargeBreasts.jobString>正在安装大乳房</AttachLargeBreasts.jobString>
+
+  <AttachHugeBreasts.label>安装巨乳房</AttachHugeBreasts.label>
+  <AttachHugeBreasts.description>安装巨乳房</AttachHugeBreasts.description>
+  <AttachHugeBreasts.jobString>正在安装巨乳房</AttachHugeBreasts.jobString>
+
+  <AttachAnus.label>安装肛门</AttachAnus.label>
+  <AttachAnus.description>安装肛门</AttachAnus.description>
+  <AttachAnus.jobString>正在安装肛门</AttachAnus.jobString>
+
+  <AttachLooseAnus.label>安装松弛的肛门</AttachLooseAnus.label>
+  <AttachLooseAnus.description>安装松弛的肛门</AttachLooseAnus.description>
+  <AttachLooseAnus.jobString>正在安装松弛的肛门</AttachLooseAnus.jobString>
+
+  <AttachTightAnus.label>安装紧致的肛门</AttachTightAnus.label>
+  <AttachTightAnus.description>安装紧致的肛门</AttachTightAnus.description>
+  <AttachTightAnus.jobString>正在安装紧致的肛门</AttachTightAnus.jobString>
+
+  <!-- Attach simple prosthetic privates -->
+
+  <InstallHydraulicVagina.label>安装液压阴道</InstallHydraulicVagina.label>
+  <InstallHydraulicVagina.description>安装液压阴道</InstallHydraulicVagina.description>
+  <InstallHydraulicVagina.jobString>正在安装液压阴道</InstallHydraulicVagina.jobString>
+
+  <InstallHydraulicBreasts.label>安装液压乳房</InstallHydraulicBreasts.label>
+  <InstallHydraulicBreasts.description>安装液压乳房</InstallHydraulicBreasts.description>
+  <InstallHydraulicBreasts.jobString>正在安装液压乳房</InstallHydraulicBreasts.jobString>
+
+  <InstallHydraulicAnus.label>安装液压肛门</InstallHydraulicAnus.label>
+  <InstallHydraulicAnus.description>安装液压肛门</InstallHydraulicAnus.description>
+  <InstallHydraulicAnus.jobString>正在安装液压肛门</InstallHydraulicAnus.jobString>
+
+  <AttachPegDick.label>安装木制阴茎</AttachPegDick.label>
+  <AttachPegDick.description>安装木制阴茎</AttachPegDick.description>
+  <AttachPegDick.jobString>正在安装木制阴茎</AttachPegDick.jobString>
+
+  <!-- Attach bionic privates -->
+
+  <InstallBionicVagina.label>安装仿生阴道</InstallBionicVagina.label>
+  <InstallBionicVagina.description>安装仿生阴道</InstallBionicVagina.description>
+  <InstallBionicVagina.jobString>正在安装仿生阴道</InstallBionicVagina.jobString>
+
+  <AttachBionicPenis.label>安装仿生阴茎</AttachBionicPenis.label>
+  <AttachBionicPenis.description>安装仿生阴茎</AttachBionicPenis.description>
+  <AttachBionicPenis.jobString>正在安装仿生阴茎</AttachBionicPenis.jobString>
+
+  <InstallBionicBreasts.label>安装仿生乳房</InstallBionicBreasts.label>
+  <InstallBionicBreasts.description>安装仿生乳房</InstallBionicBreasts.description>
+  <InstallBionicBreasts.jobString>正在安装仿生乳房</InstallBionicBreasts.jobString>
+
+  <InstallBionicAnus.label>安装仿生肛门</InstallBionicAnus.label>
+  <InstallBionicAnus.description>安装仿生肛门</InstallBionicAnus.description>
+  <InstallBionicAnus.jobString>正在安装仿生肛门</InstallBionicAnus.jobString>
+
+  <!-- Remove privates -->
+
+  <Nullify.label>移除性器官</Nullify.label>
+  <Nullify.description>移除性器官</Nullify.description>
+  <Nullify.jobString>正在移除性器官</Nullify.jobString>
+
+  <RemoveBreasts.label>移除乳房</RemoveBreasts.label>
+  <RemoveBreasts.description>移除乳房</RemoveBreasts.description>
+  <RemoveBreasts.jobString>正在移除乳房</RemoveBreasts.jobString>
+
+  <RemoveAnus.label>移除肛门</RemoveAnus.label>
+  <RemoveAnus.description>移除肛门</RemoveAnus.description>
+  <RemoveAnus.jobString>正在移除肛门</RemoveAnus.jobString>
+
+  <!-- targetsBodyPart>true</targetsBodyPart -->
+
+  <Sterilization.label>做结扎手术</Sterilization.label>
+  <Sterilization.description>通过手术可以在不切除器官的情况下永久性地阻止怀孕</Sterilization.description>
+  <Sterilization.jobString>正在做结扎手术</Sterilization.jobString>
+
+  <!-- sterilization -->
+</LanguageData>

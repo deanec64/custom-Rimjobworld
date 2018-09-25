@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Severity will be set to equal (1.0 - blood_filtration) in xxx.update_std_effects -->
+
+  <Immunodeficiency.label>Immunodeficiency</Immunodeficiency.label>
+  <Immunodeficiency.stages.0.label>minor</Immunodeficiency.stages.0.label>
+  <Immunodeficiency.stages.1.label>major</Immunodeficiency.stages.1.label>
+  <Immunodeficiency.stages.2.label>extreme</Immunodeficiency.stages.2.label>
+
+  <VirusPerma.label>viral damage</VirusPerma.label>
+  <VirusPerma.comps.0.oldLabel>permanent viral damage</VirusPerma.comps.0.oldLabel>
+  <VirusPerma.comps.0.instantlyOldLabel>permanent viral damage</VirusPerma.comps.0.instantlyOldLabel>
+  <VirusPerma.injuryProps.destroyedLabel>Destroyed by disease</VirusPerma.injuryProps.destroyedLabel>
+  <VirusPerma.injuryProps.destroyedOutLabel>Destroyed by disease</VirusPerma.injuryProps.destroyedOutLabel>
+
+  <!--<rep>
+		<path>Immunodeficiency.label</path>
+		<trans>免疫缺陷</trans>
+	</rep>-->
+  <!--<rep>
+		<path>Immunodeficiency.stages.0.label</path>
+		<trans>輕微</trans>
+	</rep>-->
+  <!--<rep>
+		<path>Immunodeficiency.stages.1.label</path>
+		<trans>重度</trans>
+	</rep>-->
+  <!--<rep>
+		<path>Immunodeficiency.stages.2.label</path>
+		<trans>極重度</trans>
+	</rep>-->
+  <!--<rep>
+		<path>VirusPerma.label</path>
+		<trans>病毒侵襲</trans>
+	</rep>-->
+</LanguageData>

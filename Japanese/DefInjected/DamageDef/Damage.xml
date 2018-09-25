@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ViralDamage.label>性病</ViralDamage.label>
+  <ViralDamage.deathMessage>{0} は性病で死亡しました。</ViralDamage.deathMessage>
+</LanguageData>

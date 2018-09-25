@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SexAbility.label>sex ability</SexAbility.label>
+  <SexAbility.description>Measures whether or not a pawn is capable of sex, and how good they are at it</SexAbility.description>
+
+  <Vulnerability.label>vulnerability</Vulnerability.label>
+  <Vulnerability.description>Measures how likely a pawn is to be taken advantage of sexually</Vulnerability.description>
+
+  <!--<rep>
+		<path>SexAbility.label</path>
+		<trans>性能力</trans>
+	</rep>-->
+</LanguageData>

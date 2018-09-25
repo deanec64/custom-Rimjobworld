@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Dummy hediff: Triggers creation of real privates for newly created pawns -->
+
+  <DummyPrivates.label>伪私处（用于生成真私处，debug用的）</DummyPrivates.label>
+
+  <!-- Regular privates -->
+
+  <Penis.label>阴茎</Penis.label>
+
+  <!-- Additional dick sizes -->
+
+  <Micropenis.label>微小阴茎</Micropenis.label>
+  <SmallPenis.label>小阴茎</SmallPenis.label>
+  <BigPenis.label>大阴茎</BigPenis.label>
+  <HugePenis.label>巨大阴茎</HugePenis.label>
+  <HorsePenis.label>马阴茎</HorsePenis.label>
+  <CatPenis.label>猫阴茎</CatPenis.label>
+  <DogPenis.label>狗阴茎</DogPenis.label>
+  <DragonPenis.label>龙阴茎</DragonPenis.label>
+  <Vagina.label>阴道</Vagina.label>
+  <TightVagina.label>紧致的阴道</TightVagina.label>
+  <LooseVagina.label>松弛的阴道</LooseVagina.label>
+
+  <!-- Natural Breasts -->
+
+  <Breasts.label>乳房</Breasts.label>
+  <SmallBreasts.label>小乳房</SmallBreasts.label>
+  <LargeBreasts.label>大乳房</LargeBreasts.label>
+  <HugeBreasts.label>巨乳房</HugeBreasts.label>
+
+  <!-- Natural anuses -->
+
+  <Anus.label>肛门</Anus.label>
+  <TightAnus.label>紧致的肛门</TightAnus.label>
+  <LooseAnus.label>松弛的肛门</LooseAnus.label>
+
+  <!-- Simple prosthetic privates -->
+
+  <PegDick.label>木制阴茎</PegDick.label>
+  <HydraulicVagina.label>液压阴道</HydraulicVagina.label>
+  <HydraulicBreasts.label>液压乳房</HydraulicBreasts.label>
+  <HydraulicAnus.label>液压肛门</HydraulicAnus.label>
+
+  <!-- Bionic privates -->
+
+  <BionicPenis.label>仿生阴茎</BionicPenis.label>
+  <BionicVagina.label>仿生阴道</BionicVagina.label>
+  <BionicBreasts.label>仿生乳房</BionicBreasts.label>
+  <BionicAnus.label>仿生肛门</BionicAnus.label>
+</LanguageData>

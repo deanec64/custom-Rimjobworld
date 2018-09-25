@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ViralDamage.label>viral damage</ViralDamage.label>
+  <ViralDamage.deathMessage>{0} has died of disease.</ViralDamage.deathMessage>
+
+  <!--<rep>
+		<path>ViralDamage.label</path>
+		<trans>病毒侵襲</trans>
+	</rep>-->
+</LanguageData>

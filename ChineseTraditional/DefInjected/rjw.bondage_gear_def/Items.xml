@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Armbinder.label>armbinder</Armbinder.label>
+  <Armbinder.description>A high-tech armbinder. It prevents any pawn it's attached to from using their arms.</Armbinder.description>
+  <Armbinder.comps.2.useLabel>Equip</Armbinder.comps.2.useLabel>
+
+  <Gag.label>gag</Gag.label>
+  <Gag.description>A high-tech gag. It prevents any pawn it's attached to from talking.</Gag.description>
+  <Gag.comps.2.useLabel>Equip</Gag.comps.2.useLabel>
+
+  <ChastityBelt.label>chastity belt</ChastityBelt.label>
+  <ChastityBelt.description>A high-tech chastity belt. It prevents sex and masturbation.</ChastityBelt.description>
+  <ChastityBelt.comps.2.useLabel>Equip</ChastityBelt.comps.2.useLabel>
+</LanguageData>

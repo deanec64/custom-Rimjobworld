@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TestInc.label>测试事件</TestInc.label>
+  <TestInc.letterText>有事情发生了</TestInc.letterText>
+  <TestInc.letterLabel>有事情发生了</TestInc.letterLabel>
+
+  <!-- I dont think this is needed anymore -->
+
+  <SexualizeThePawns.label>使小人有性特征</SexualizeThePawns.label>
+  <NymphJoins.label>度娘加入了</NymphJoins.label>
+</LanguageData>

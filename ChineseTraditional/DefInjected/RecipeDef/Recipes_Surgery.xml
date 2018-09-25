@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Attach natural privates -->
+
+  <AttachPenis.label>attach penis</AttachPenis.label>
+  <AttachPenis.description>Attaches a penis.</AttachPenis.description>
+  <AttachPenis.jobString>Attaching penis.</AttachPenis.jobString>
+
+  <InstallVagina.label>install vagina</InstallVagina.label>
+  <InstallVagina.description>Installs a vagina.</InstallVagina.description>
+  <InstallVagina.jobString>Installing vagina.</InstallVagina.jobString>
+
+  <InstallTightVagina.label>install tight vagina</InstallTightVagina.label>
+  <InstallTightVagina.description>Installs a tight vagina.</InstallTightVagina.description>
+  <InstallTightVagina.jobString>Installing tight vagina.</InstallTightVagina.jobString>
+
+  <InstallLooseVagina.label>install loose vagina</InstallLooseVagina.label>
+  <InstallLooseVagina.description>Installs a loose vagina.</InstallLooseVagina.description>
+  <InstallLooseVagina.jobString>Installing loose vagina.</InstallLooseVagina.jobString>
+
+  <AttachMicropenis.label>attach micropenis</AttachMicropenis.label>
+  <AttachMicropenis.description>Attaches a micropenis.</AttachMicropenis.description>
+  <AttachMicropenis.jobString>Attaching micropenis.</AttachMicropenis.jobString>
+
+  <AttachSmallPenis.label>attach small penis</AttachSmallPenis.label>
+  <AttachSmallPenis.description>Attaches a small penis.</AttachSmallPenis.description>
+  <AttachSmallPenis.jobString>Attaching small penis.</AttachSmallPenis.jobString>
+
+  <AttachBigPenis.label>attach big penis</AttachBigPenis.label>
+  <AttachBigPenis.description>Attaches a big penis.</AttachBigPenis.description>
+  <AttachBigPenis.jobString>Attaching big penis.</AttachBigPenis.jobString>
+
+  <AttachHugePenis.label>attach huge penis</AttachHugePenis.label>
+  <AttachHugePenis.description>Attaches a huge penis.</AttachHugePenis.description>
+  <AttachHugePenis.jobString>Attaching huge penis.</AttachHugePenis.jobString>
+
+  <AttachHorsePenis.label>attach horse penis</AttachHorsePenis.label>
+  <AttachHorsePenis.description>Attaches a horse penis.</AttachHorsePenis.description>
+  <AttachHorsePenis.jobString>Attaching horse penis.</AttachHorsePenis.jobString>
+
+  <AttachCatPenis.label>attach Cat penis</AttachCatPenis.label>
+  <AttachCatPenis.description>Attaches a Cat penis.</AttachCatPenis.description>
+  <AttachCatPenis.jobString>Attaching Cat penis.</AttachCatPenis.jobString>
+
+  <AttachDogPenis.label>attach Dog penis</AttachDogPenis.label>
+  <AttachDogPenis.description>Attaches a Dog penis.</AttachDogPenis.description>
+  <AttachDogPenis.jobString>Attaching Dog penis.</AttachDogPenis.jobString>
+
+  <AttachDragonPenis.label>attach dragon penis</AttachDragonPenis.label>
+  <AttachDragonPenis.description>Attaches a Dragon penis.</AttachDragonPenis.description>
+  <AttachDragonPenis.jobString>Attaching Dragon penis.</AttachDragonPenis.jobString>
+
+  <!-- Breasts -->
+
+  <AttachSmallBreasts.label>attach small breasts</AttachSmallBreasts.label>
+  <AttachSmallBreasts.description>Attaches a pair of small breasts.</AttachSmallBreasts.description>
+  <AttachSmallBreasts.jobString>Attaching a pair of small breasts.</AttachSmallBreasts.jobString>
+
+  <AttachBreasts.label>attach normal breasts</AttachBreasts.label>
+  <AttachBreasts.description>Attaches a pair of breasts.</AttachBreasts.description>
+  <AttachBreasts.jobString>Attaching a pair of breasts.</AttachBreasts.jobString>
+
+  <AttachLargeBreasts.label>attach large breasts</AttachLargeBreasts.label>
+  <AttachLargeBreasts.description>Attaches a pair of large breasts.</AttachLargeBreasts.description>
+  <AttachLargeBreasts.jobString>Attaching a pair of large breasts.</AttachLargeBreasts.jobString>
+
+  <AttachHugeBreasts.label>attach huge breasts</AttachHugeBreasts.label>
+  <AttachHugeBreasts.description>Attaches a pair of huge breasts.</AttachHugeBreasts.description>
+  <AttachHugeBreasts.jobString>Attaching a pair of huge breasts.</AttachHugeBreasts.jobString>
+
+  <AttachAnus.label>attach normal anus</AttachAnus.label>
+  <AttachAnus.description>Attaches an anus.</AttachAnus.description>
+  <AttachAnus.jobString>Attaching an anus.</AttachAnus.jobString>
+
+  <AttachLooseAnus.label>attach loose anus</AttachLooseAnus.label>
+  <AttachLooseAnus.description>Attaches a loose anus.</AttachLooseAnus.description>
+  <AttachLooseAnus.jobString>Attaching a loose anus.</AttachLooseAnus.jobString>
+
+  <AttachTightAnus.label>attach tight anus</AttachTightAnus.label>
+  <AttachTightAnus.description>Attaches a tight anus.</AttachTightAnus.description>
+  <AttachTightAnus.jobString>Attaching a tight anus.</AttachTightAnus.jobString>
+
+  <!-- Attach simple prosthetic privates -->
+
+  <InstallHydraulicVagina.label>install hydraulic vagina</InstallHydraulicVagina.label>
+  <InstallHydraulicVagina.description>Installs a hydraulic vagina.</InstallHydraulicVagina.description>
+  <InstallHydraulicVagina.jobString>Installing hydraulic vagina.</InstallHydraulicVagina.jobString>
+
+  <InstallHydraulicBreasts.label>install hydraulic breasts</InstallHydraulicBreasts.label>
+  <InstallHydraulicBreasts.description>Installs a pair of hydraulic breasts.</InstallHydraulicBreasts.description>
+  <InstallHydraulicBreasts.jobString>Installing hydraulic breasts.</InstallHydraulicBreasts.jobString>
+
+  <InstallHydraulicAnus.label>install hydraulic anus</InstallHydraulicAnus.label>
+  <InstallHydraulicAnus.description>Installs a hydraulic anus.</InstallHydraulicAnus.description>
+  <InstallHydraulicAnus.jobString>Installing hydraulic anus.</InstallHydraulicAnus.jobString>
+
+  <AttachPegDick.label>attach peg dick</AttachPegDick.label>
+  <AttachPegDick.description>Attaches a peg dick.</AttachPegDick.description>
+  <AttachPegDick.jobString>Attaching peg dick.</AttachPegDick.jobString>
+
+  <!-- Attach bionic privates -->
+
+  <InstallBionicVagina.label>install bionic vagina</InstallBionicVagina.label>
+  <InstallBionicVagina.description>Installs a bionic vagina.</InstallBionicVagina.description>
+  <InstallBionicVagina.jobString>Installing bionic vagina.</InstallBionicVagina.jobString>
+
+  <AttachBionicPenis.label>attach bionic penis</AttachBionicPenis.label>
+  <AttachBionicPenis.description>Attaches a bionic penis.</AttachBionicPenis.description>
+  <AttachBionicPenis.jobString>Attaching bionic penis.</AttachBionicPenis.jobString>
+
+  <InstallBionicBreasts.label>install bionic breasts</InstallBionicBreasts.label>
+  <InstallBionicBreasts.description>Installs a pair of bionic breasts.</InstallBionicBreasts.description>
+  <InstallBionicBreasts.jobString>Installing bionic breasts.</InstallBionicBreasts.jobString>
+
+  <InstallBionicAnus.label>install bionic anus</InstallBionicAnus.label>
+  <InstallBionicAnus.description>Installs a bionic anus.</InstallBionicAnus.description>
+  <InstallBionicAnus.jobString>Installing bionic anus.</InstallBionicAnus.jobString>
+
+  <!-- Remove privates -->
+
+  <Nullify.label>nullify</Nullify.label>
+  <Nullify.description>Removes sex organs.</Nullify.description>
+  <Nullify.jobString>Nullifying.</Nullify.jobString>
+
+  <RemoveBreasts.label>remove breasts</RemoveBreasts.label>
+  <RemoveBreasts.description>Removes breasts.</RemoveBreasts.description>
+  <RemoveBreasts.jobString>Removing breasts.</RemoveBreasts.jobString>
+
+  <RemoveAnus.label>remove anus</RemoveAnus.label>
+  <RemoveAnus.description>Removes anus.</RemoveAnus.description>
+  <RemoveAnus.jobString>Removing anus.</RemoveAnus.jobString>
+
+  <!-- targetsBodyPart>true</targetsBodyPart -->
+
+  <Sterilization.label>sterilization</Sterilization.label>
+  <Sterilization.description>Prevents reproduction without removing genitals.</Sterilization.description>
+  <Sterilization.jobString>sterilizing.</Sterilization.jobString>
+
+  <!-- sterilization -->
+  <!--<rep>
+		<path>AttachMicropenis.label</path>
+		<trans>裝上微小陰莖</trans>
+	</rep>-->
+  <!--<rep>
+		<path>AttachSmallPenis.label</path>
+		<trans>裝上小陰莖</trans>
+	</rep>-->
+  <!--<rep>
+		<path>AttachPenis.label</path>
+		<trans>裝上陰莖</trans>
+	</rep>-->
+  <!--<rep>
+		<path>AttachBigPenis.label</path>
+		<trans>裝上大陰莖</trans>
+	</rep>-->
+  <!--<rep>
+		<path>AttachHugePenis.label</path>
+		<trans>裝上巨大陰莖</trans>
+	</rep>-->
+  <!--<rep>
+		<path>InstallVagina.label</path>
+		<trans>裝上陰道</trans>
+	</rep>-->
+  <!--<rep>
+		<path>InstallTightVagina.label</path>
+		<trans>裝上很緊的陰道</trans>
+	</rep>-->
+  <!--<rep>
+		<path>AttachHorsePenis.label</path>
+		<trans>裝上馬陰莖</trans>
+	</rep>-->
+  <!--<rep>
+		<path>AttachCatPenis.label</path>
+		<trans>裝上貓陰莖</trans>
+	</rep>-->
+  <!--<rep>
+		<path>AttachDogPenis.label</path>
+		<trans>裝上狗陰莖</trans>
+	</rep>-->
+  <!--<rep>
+		<path>AttachDragonPenis.label</path>
+		<trans>裝上龍陰莖</trans>
+	</rep>-->
+  <!--<rep>
+		<path>AttachBionicPenis.label</path>
+		<trans>裝上仿生陰莖</trans>
+	</rep>-->
+  <!--<rep>
+		<path>InstallBionicVagina.label</path>
+		<trans>裝上仿生陰道</trans>
+	</rep>-->
+  <!--<rep>
+		<path>AttachPegDick.label</path>
+		<trans>裝上木製假陰莖</trans>
+	</rep>-->
+  <!--<rep>
+		<path>InstallHydraulicVagina.label</path>
+		<trans>裝上鋼製假陰道</trans>
+	</rep>-->
+  <!--<rep>
+		<path>Nullify.label</path>
+		<trans>移除</trans>
+	</rep>-->
+</LanguageData>

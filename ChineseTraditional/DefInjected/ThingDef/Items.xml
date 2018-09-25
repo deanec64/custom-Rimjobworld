@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Hololock.label>Hololock</Hololock.label>
+  <Hololock.description>A high-tech locking mechanism. Features include:
+    - Extremely hardy, plasteel-reinforced build
+    - Key and lock paired using a cryptographic UID holographically embedded in a jade substrate, ensuring counterfeit keys are impossible to produce
+    - Self-destruct failsafe triggers when the lock is tampered with, ensuring that the protected item is destroyed rather than captured by the enemy
+
+    Originally designed for military use, the hololock has since become popular in the BDSM community, where it is customary to engrave a key and lock pair with matching names so they are easier to identify.</Hololock.description>
+
+  <Holokey.label>Holokey</Holokey.label>
+  <Holokey.description>A high-tech key. Releases the lock on an item with a matching cryptographic stamp.</Holokey.description>
+  <Holokey.comps.2.useLabel>Unlock apparel</Holokey.comps.2.useLabel>
+</LanguageData>

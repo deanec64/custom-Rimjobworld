@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Settings-->
+  <NymphsJoin>度娘加入</NymphsJoin>
+  <NymphsJoin_desc>女性癖者会加入殖民者？</NymphsJoin_desc>
+  <STD_FromFloors>从环境感染性传播疾病</STD_FromFloors>
+  <STD_FromFloors_desc>打勾的话会可能从环境中感染性传播疾病，否则只会性传播。</STD_FromFloors_desc>
+  <PrisonersBeating>强奸会附带殴打</PrisonersBeating>
+  <PrisonersBeating_desc>被强奸者会被殴打吗？</PrisonersBeating_desc>
+  <OffspringLookLikeTheirMother>后代随母亲百分比</OffspringLookLikeTheirMother>
+  <OffspringLookLikeTheirMother_desc>后代随母亲百分比</OffspringLookLikeTheirMother_desc>
+  <OffspringIsHuman>后代是人类百分比</OffspringIsHuman>
+  <OffspringIsHuman_desc>后代是人类百分比</OffspringIsHuman_desc>
+  <PregnantCoeffecientForHuman>女人怀孕系数</PregnantCoeffecientForHuman>
+  <PregnantCoeffecientForHuman_desc>用来计算女人怀孕率的一个系数百分比</PregnantCoeffecientForHuman_desc>
+  <PregnantCoeffecientForAnimals>雌性动物怀孕系数</PregnantCoeffecientForAnimals>
+  <PregnantCoeffecientForAnimals_desc>用来计算雌性动物怀孕率的一个系数百分比</PregnantCoeffecientForAnimals_desc>
+  <UseParentMethod>后代由双亲种族确定</UseParentMethod>
+  <UseParentMethod_desc>生成后代时是否以双亲种族计算生成比重？打叉则是直接以母亲种族来生成</UseParentMethod_desc>
+  <SexFreeForAllAge>自由全龄性爱年龄</SexFreeForAllAge>
+  <SexFreeForAllAge_desc>达到此年龄的小人才能自由与动物或其他达到此年龄的人性爱，小于自由全龄性爱年龄又大于最低性爱年龄的小人只能与自己年龄差2岁以内的人性爱</SexFreeForAllAge_desc>
+  <SexMinimumAge>最低性爱年龄</SexMinimumAge>
+  <SexMinimumAge_desc>最低的可性爱的年龄（这里的年龄都为生理年龄）,低于此值则无法性爱（注意这里的两个年龄的影响只针对RJW的行为）</SexMinimumAge_desc>
+  <NonFutaWomenRaping_MaxVulnerability>允许非扶她女人进行强奸的最大脆弱度</NonFutaWomenRaping_MaxVulnerability>
+  <NonFutaWomenRaping_MaxVulnerability_desc>（正常脆弱度范围为0到3）如果设为负数将禁止非扶她女人进行强奸。\n如果数值不小于0则允许脆弱度不大于该值的非扶她女人进行强奸</NonFutaWomenRaping_MaxVulnerability_desc>
+  <Rapee_MinVulnerability_human>允许人类被强奸的最小脆弱度</Rapee_MinVulnerability_human>
+  <Rapee_MinVulnerability_human_desc>（正常脆弱度范围为0到3）如果设为负数将禁止人类被强奸。\n如果数值不小于0则允许脆弱度不小于该值的人类被强奸</Rapee_MinVulnerability_human_desc>
+  <Rapee_MinVulnerability_animals>允许动物被强奸的最小脆弱度</Rapee_MinVulnerability_animals>
+  <Rapee_MinVulnerability_animals_desc>（正常脆弱度范围为0到3，动物数值你可能看不到但存在）如果设为负数将禁止动物被强奸。\n如果数值不小于0则允许脆弱度不小于该值的动物被强奸</Rapee_MinVulnerability_animals_desc>
+
+  <!-- Bed -->
+  <ForWhoreUse>妓者用</ForWhoreUse>
+  <WhoreBedFormat>妓者床 {0}</WhoreBedFormat>
+  <CommandBedSetAsWhoreLabel>妓者专属</CommandBedSetAsWhoreLabel>
+  <CommandBedSetAsWhoreDesc>是否作为妓者专用</CommandBedSetAsWhoreDesc>
+
+  <!-- std.cs -->
+  <RJW_Opportunistic_Infection_Message>{0} 因虚弱的免疫系统而被感染了</RJW_Opportunistic_Infection_Message>
+  <!--RJW_Poisoned_by_Rimming_Message>{0} has gotten food poisoning by rimming {1}</RJW_Poisoned_by_Rimming_Message-->
+  <RJW_Syphilis_Damage_Message>{0} 受到了永久性损伤在{1}{2}，这是由于{3}感染所致。</RJW_Syphilis_Damage_Message>
+
+	<!--Whore Activities-->
+  <RJW_VisitorAcceptWhore>{0} 接受了 {1} 提供的性交易。</RJW_VisitorAcceptWhore>
+  <RJW_VisitorRejectWhore>{0} 拒绝了 {1} 提供的性交易。</RJW_VisitorRejectWhore>
+
+  <!-- Notifications on right-clicking CP -->
+  <PawnCantRapeCP>目标不够健康，或位置被禁止。</PawnCantRapeCP>
+  <PawnCantRapeCP0>小人不需要性，或不够健康，或不能强奸。</PawnCantRapeCP0>
+  <PawnCantRapeCP1>小人不是单身，或有伴侣在地图内。</PawnCantRapeCP1>
+  <PawnCantRapeCP2>小人不是恋兽癖，所以不能强奸动物。</PawnCantRapeCP2>
+
+  <!-- Anal Sex Notificaitons-->
+  <AnalSexSucceeded>{0} 成功肛交了 {1}.</AnalSexSucceeded>
+  <AnalSexFailed>{0} 没能成功肛交 {1}.</AnalSexFailed>
+</LanguageData>
