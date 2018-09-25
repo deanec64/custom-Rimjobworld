@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- This is used to sexualize some modded pawns without reloading the save; need to add the xpath patch in BodyPatches.xml.-->
+<Defs>
+	<HediffGiverSetDef>
+		<defName>DummyPrivatesForModdedPawnsOnBirthday</defName>
+		<hediffGivers>
+			<li Class="HediffGiver_Birthday">
+				<hediff>DummyPrivates</hediff>
+				<partsToAffect>
+					<li>Genitals</li>
+				</partsToAffect>
+				<canAffectAnyLivePart>false</canAffectAnyLivePart>
+				<ageFractionChanceCurve>
+					<points>
+						<li>(0.00, 1.00)</li>
+					</points>
+				</ageFractionChanceCurve>
+				<averageSeverityPerDayBeforeGeneration>0.00</averageSeverityPerDayBeforeGeneration>
+			</li>
+		</hediffGivers>
+	</HediffGiverSetDef>
+</Defs>

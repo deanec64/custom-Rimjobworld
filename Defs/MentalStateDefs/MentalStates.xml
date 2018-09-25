@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<rjw.SexualMentalStateDef Abstract="True" Name="BaseMentalState">
+		<minTicksBeforeRecovery>10000</minTicksBeforeRecovery>
+		<stateClass>rjw.SexualMentalState</stateClass>
+		<workerClass>rjw.SexualMentalStateWorker</workerClass>
+		<recoveryMtbDays>0.3</recoveryMtbDays>
+		<requireCanFuck>true</requireCanFuck>
+		<requireCanBeFuck>true</requireCanBeFuck>
+		<requireCanRape>true</requireCanRape>
+		<requireCanGetRaped>true</requireCanGetRaped>
+	</rjw.SexualMentalStateDef>
+
+	<rjw.SexualMentalBreakDef Abstract="True" Name="BaseSexualMentalBreak">
+		<commonalityMultiplierBySexNeed>
+			<points>
+				<li>(0, 2)</li>
+				<li>(50, 0)</li>
+			</points>
+		</commonalityMultiplierBySexNeed>
+	</rjw.SexualMentalBreakDef>
+
+	<rjw.SexualMentalBreakDef ParentName="BaseSexualMentalBreak">
+		<defName>RandomRape</defName>
+		<mentalState>RandomRape</mentalState>
+		<baseCommonality>1.5</baseCommonality>
+		<intensity>Extreme</intensity>
+		<commonalityMultiplierBySexNeed>
+			<points>
+				<li>(0, 2)</li>
+				<li>(50, 0)</li>
+			</points>
+		</commonalityMultiplierBySexNeed>
+	</rjw.SexualMentalBreakDef>
+
+	<rjw.SexualMentalStateDef ParentName="BaseMentalState">
+		<defName>RandomRape</defName>
+		<stateClass>rjw.MentalState_RandomRape</stateClass>
+		<label>random rape</label>
+		<category>Malicious</category>
+		<prisonersCanDo>false</prisonersCanDo>
+		<colonistsOnly>true</colonistsOnly>
+		<minTicksBeforeRecovery>30000</minTicksBeforeRecovery>
+		<recoveryMtbDays>0.8</recoveryMtbDays>
+		<maxTicksBeforeRecovery>80000</maxTicksBeforeRecovery>
+		<nameColor>(0.5, 0.9, 0.5)</nameColor>
+		<beginLetterLabel>random rape</beginLetterLabel>
+		<beginLetter>{0} is sexually frustrated and is looking for a rape target.</beginLetter>
+		<beginLetterDef>ThreatSmall</beginLetterDef>
+		<recoveryMessage>{0} is sexually satisfied and no longer raping randomly.</recoveryMessage>
+		<baseInspectLine>Mental state: Random Rape</baseInspectLine>
+		<recoverFromSleep>true</recoverFromSleep>
+		<!--<recoverFromDowned>true</recoverFromDowned>-->
+		<unspawnedCanDo>true</unspawnedCanDo>
+	</rjw.SexualMentalStateDef>
+</Defs>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+		<ThoughtDef>
+		<defName>ItchyCrotch</defName>
+		<workerClass>rjw.ThoughtWorker_ItchyCrotch</workerClass>
+		<stages>
+			<li>
+				<label>itchy crotch</label>
+				<description>I don't think anyone's looking. Lemme just...</description>
+				<baseMoodEffect>-3</baseMoodEffect>
+			</li>
+			<li>
+				<label>itchy, burning crotch</label>
+				<description>The worst part is: the more I scratch, the more it burns.</description>
+				<baseMoodEffect>-6</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>SyphiliticThoughts</defName>
+		<workerClass>rjw.ThoughtWorker_SyphiliticThoughts</workerClass>
+		<stages>
+			<li>
+				<label>syphilitic thoughts</label>
+				<description>Everyone's so stupid and everything's so annoying. Even me, I just can't think clearly.</description>
+				<baseMoodEffect>-8</baseMoodEffect>
+			</li>
+			<li>
+				<label>extreme syphilitic thoughts</label>
+				<description>OK, what I need is... uh... what was I doing again? Oh right this thing. This fucking thing THIS FUCKING PIECE OF SHIT. FUCKING DAMN PIECE OF GARBAGE</description>
+				<baseMoodEffect>-16</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>WastingAway</defName>
+		<workerClass>rjw.ThoughtWorker_WastingAway</workerClass>
+		<stages>
+			<li>
+				<label>wasting away</label>
+				<description>Every day I feel weaker than the day before. I can feel my life slowly slipping away.</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>SawDiseasedPrivates1</defName>
+		<thoughtClass>Thought_MemorySocial</thoughtClass>
+		<durationDays>4.0</durationDays>
+		<stackLimit>3</stackLimit>
+		<stackedEffectMultiplier>0.4</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<label>saw an ugly rash on {0}'s crotch</label>
+				<baseOpinionOffset>-9</baseOpinionOffset>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>SawDiseasedPrivates2</defName>
+		<thoughtClass>Thought_MemorySocial</thoughtClass>
+		<durationDays>6.0</durationDays>
+		<stackLimit>3</stackLimit>
+		<stackedEffectMultiplier>0.4</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<label>saw disgusting warts on {0}'s crotch</label>
+				<baseOpinionOffset>-20</baseOpinionOffset>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>SawDiseasedPrivates3</defName>
+		<thoughtClass>Thought_MemorySocial</thoughtClass>
+		<durationDays>8.0</durationDays>
+		<stackLimit>3</stackLimit>
+		<stackedEffectMultiplier>0.4</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<label>nauseated by {0}'s diseased crotch</label>
+				<baseOpinionOffset>-30</baseOpinionOffset>
+			</li>
+		</stages>
+	</ThoughtDef>
+</Defs>

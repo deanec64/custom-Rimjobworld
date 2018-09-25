@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<PawnCapacityDef>
+		<defName>Reproduction</defName>
+		<workerClass>rjw.PawnCapacityWorker_Fertility</workerClass>
+		<label>fertility</label>
+		<listOrder>200</listOrder>
+		<lethalFlesh>false</lethalFlesh>
+		<showOnMechanoids>false</showOnMechanoids>
+	</PawnCapacityDef>
+</Defs>

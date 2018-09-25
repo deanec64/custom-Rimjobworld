@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<!-- Whores will find visitors before looking for work to do -->
+	<ThinkTreeDef>
+		<defName>WhoreSexualEmergencyTree</defName>
+		<insertTag>Humanlike_PreMain</insertTag>
+		<insertPriority>15</insertPriority>
+		<thinkRoot Class="ThinkNode_Priority">
+			<subNodes>
+				<li Class="rjw.ThinkNode_ConditionalWhore">
+					<subNodes>
+						<li Class="rjw.JobGiver_WhoreInvitingVisitors" />
+					</subNodes>
+				</li>
+			</subNodes>
+		</thinkRoot>
+	</ThinkTreeDef>
+
+	<!-- Whores will always look for sex if they have nothing else to do -->
+	<ThinkTreeDef>
+		<defName>WhoreJobTree</defName>
+		<insertTag>Humanlike_PostMain</insertTag>
+		<insertPriority>15</insertPriority>
+		<thinkRoot Class="ThinkNode_Priority">
+			<subNodes>
+				<li Class="rjw.ThinkNode_ConditionalWhore">
+					<subNodes>
+						<li Class="rjw.JobGiver_WhoreInvitingVisitors" />
+					</subNodes>
+				</li>
+			</subNodes>
+		</thinkRoot>
+	</ThinkTreeDef>
+</Defs>

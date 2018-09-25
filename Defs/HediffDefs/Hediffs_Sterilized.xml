@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<HediffDef>
+		<defName>Sterilized</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<defaultLabelColor>(0.8, 0.8, 0.35)</defaultLabelColor>
+		<label>sterilized</label>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Reproduction</capacity>
+						<setMax>0</setMax>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+</Defs>

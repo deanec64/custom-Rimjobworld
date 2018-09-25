@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<BodyPartDef>
+		<defName>MechGenitals</defName>
+		<label>mechGenitals</label>
+		<hitPoints>20</hitPoints>
+		<frostbiteVulnerability>0.1</frostbiteVulnerability>
+		<skinCovered>true</skinCovered>
+		<solid>true</solid>
+		<canSuggestAmputation>true</canSuggestAmputation>
+		<bleedRate>0</bleedRate>
+		<tags>
+			<li>RJW_FertilitySource</li>
+		</tags>
+	</BodyPartDef>
+</Defs>

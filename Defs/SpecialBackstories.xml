@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<rjw.StringListDef>
+		<defName>WhoreBackstories</defName>
+		<strings>
+			<!--Short names-->
+			<!--Due to some genius encrypting backstories in the game executable, there is no reliable way to determine them-->
+			<!--Will have to do string match along the names-->
+			<li>Model</li>
+			<li>Sex slave</li>
+			<li>Courtesean</li>
+			<li>Housemate</li>
+			<li>Street</li><!--Only adult stories are checked-->
+			<li>Soldier</li>
+			<li>Dancer</li>
+			<li>Holo-star</li>
+			<li>Prostitute</li>
+			<li>Breeder</li>
+			<!--rjw own-->
+			<li>rjw_feisty</li>
+			<li>Nymph</li>
+			<!--raw defnames-->
+			<!--<li>Orassan_Stripper</li>
+			<li>Orassan_Pornstar</li>
+			<li>Nihal_Prostitute</li>
+			<li>Nihal_Breeder</li>-->
+		</strings>
+	</rjw.StringListDef>
+</Defs>

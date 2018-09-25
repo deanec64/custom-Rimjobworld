@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<!-- If they're horny, nymphs will find someone to fuck before doing any work -->
+	<ThinkTreeDef>
+		<defName>NymphSexualEmergencyTree</defName>
+		<insertTag>Humanlike_PreMain</insertTag>
+		<insertPriority>12</insertPriority>
+		<thinkRoot Class="ThinkNode_Priority">
+			<subNodes>
+				<li Class="rjw.ThinkNode_ConditionalNympho">
+					<subNodes>
+						<li Class="rjw.ThinkNode_ConditionalHorny">
+							<subNodes>
+								<li Class="rjw.JobGiver_NymphJoinInBed" />
+							</subNodes>
+						</li>
+					</subNodes>
+				</li>
+			</subNodes>
+		</thinkRoot>
+	</ThinkTreeDef>
+
+	<!-- Nymphs will always look for sex if they have nothing else to do -->
+	<ThinkTreeDef>
+		<defName>NymphRapeTree</defName>
+		<insertTag>Humanlike_PostMain</insertTag>
+		<insertPriority>12</insertPriority>
+		<thinkRoot Class="ThinkNode_Priority">
+			<subNodes>
+				<li Class="rjw.ThinkNode_ConditionalNympho">
+					<subNodes>
+						<li Class="rjw.JobGiver_NymphJoinInBed" />
+					</subNodes>
+				</li>
+			</subNodes>
+		</thinkRoot>
+	</ThinkTreeDef>
+</Defs>

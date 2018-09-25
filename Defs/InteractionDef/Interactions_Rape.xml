@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<InteractionDef>
+		<defName>AnalRape</defName>
+		<label>anal rape</label>
+		<workerClass>rjw.InteractionWorker_AnalSexAttempt</workerClass>
+		<symbol>noheart</symbol>
+		<socialFightBaseChance>0.0</socialFightBaseChance>
+		<recipientThought>StoleSomeLovin</recipientThought>
+		<initiatorXpGainSkill>Melee</initiatorXpGainSkill>
+		<initiatorXpGainAmount>30</initiatorXpGainAmount>
+		<logRulesInitiator>
+			<rulesStrings>
+				<li>r_logentry->Raped [OTHER_nameDef].</li>
+			</rulesStrings>
+		</logRulesInitiator>
+		<logRulesRecipient>
+			<rulesStrings>
+				<li>r_logentry->Was raped by [OTHER_nameDef].</li>
+			</rulesStrings>
+		</logRulesRecipient>
+	</InteractionDef>
+	
+	<InteractionDef>
+		<defName>VaginalRape</defName>
+		<label>vaginal rape</label>
+		<workerClass>rjw.InteractionWorker_VaginalSexAttempt</workerClass>
+		<symbol>noheart</symbol>
+		<socialFightBaseChance>0.0</socialFightBaseChance>
+		<recipientThought>StoleSomeLovin</recipientThought>
+		<initiatorXpGainSkill>Melee</initiatorXpGainSkill>
+		<initiatorXpGainAmount>30</initiatorXpGainAmount>
+		<logRulesInitiator>
+			<rulesStrings>
+				<li>r_logentry->Raped [OTHER_nameDef].</li>
+			</rulesStrings>
+		</logRulesInitiator>
+		<logRulesRecipient>
+			<rulesStrings>
+				<li>r_logentry->Was raped by [OTHER_nameDef].</li>
+			</rulesStrings>
+		</logRulesRecipient>
+	</InteractionDef>
+</Defs>

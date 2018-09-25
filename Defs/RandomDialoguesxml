@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<rjw.RandomDialoguesDef>
+		<DefName>rape0</DefName>
+		<label>RD before rape</label>
+		<description>RD before rape</description>
+		<JobType>Rape</JobType>
+		<RD0>Let me taste your body, babe.</RD0>
+		<RD1>C'mon babe, don't be shy.</RD1>
+		<RD2>Rape</RD2>
+		<RD3>Rape</RD3>
+		<RD4>Rape</RD4>
+		<RD5>Rape</RD5>
+		<RD6>Rape</RD6>
+		<RD7>Rape</RD7>
+		<RD8>Rape</RD8>
+		<RD9>Rape</RD9>
+		<RD10>Rape</RD10>
+		<RD11>Rape</RD11>
+		<RD12>Rape</RD12>
+		<RD13>Rape</RD13>
+		<RD14>Rape</RD14>
+		<RD15>Rape</RD15>
+		<RD16>Rape</RD16>
+		<RD17>Rape</RD17>
+		<RD18>Rape</RD18>
+		<RD19>Rape</RD19>
+	</rjw.RandomDialoguesDef>
+</Defs>

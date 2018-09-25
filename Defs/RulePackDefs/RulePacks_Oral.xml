@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<RulePackDef>
+		<defName>RimmingSucceeded</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name-> [RECIPIENT_nameDef] was rimmed.</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>RimmingFailed</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name-> [RECIPIENT_nameDef] has no anus.</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+	
+	<RulePackDef>
+		<defName>CunnilingusSucceeded</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name-> [RECIPIENT_nameDef] was licked.</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>CunnilingusFailed</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name-> [RECIPIENT_nameDef] has no vagina.</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+  <RulePackDef>
+    <defName>FellatioSucceeded</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name-> [RECIPIENT_nameDef] was fellated.</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>FellatioFailed</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name-> [RECIPIENT_nameDef] has no penis.</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+</Defs>

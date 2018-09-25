@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<HediffDef Name="NaturalPrivatePartBase" Abstract="True">
+		<hediffClass>Hediff_Implant</hediffClass>
+		<defaultLabelColor>(0.5, 0.8, 0.5)</defaultLabelColor>
+		<isBad>false</isBad>
+	</HediffDef>
+
+	<HediffDef Name="NaturalRegularPrivatePartBase" Abstract="True">
+		<hediffClass>rjw.Hediff_RegularPrivatesImplant</hediffClass>
+		<defaultLabelColor>(0.5, 0.8, 0.5)</defaultLabelColor>
+		<isBad>false</isBad>
+	</HediffDef>
+
+	<HediffDef Name="ArtificialPrivatePartBase" Abstract="True">
+		<hediffClass>Hediff_AddedPart</hediffClass>
+		<defaultLabelColor>(0.5, 0.5, 0.9)</defaultLabelColor>
+		<isBad>false</isBad>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.0</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<!-- Dummy hediff: Triggers creation of real privates for newly created pawns -->
+	<HediffDef>
+		<hediffClass>rjw.Hediff_InitPrivates</hediffClass>
+		<defaultLabelColor>(1.0, 1.0, 1.0)</defaultLabelColor>
+		<isBad>false</isBad>
+		<defName>DummyPrivates</defName>
+		<label>dummy privates</label>
+		<addedPartProps>
+			<solid>false</solid>
+			<partEfficiency>1.0</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<!-- Insect privates -->
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>OvipositorF</defName>
+		<label>ovipositor (Female)</label>
+		<stages>
+			<li>
+				<!-- <everVisible>true</everVisible> -->
+				<statOffsets>
+					<SexAbility>1.0</SexAbility>
+					<Vulnerability>0.1</Vulnerability>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>OvipositorF</spawnThingOnRemoved>
+	</HediffDef>
+	
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>OvipositorM</defName>
+		<label>ovipositor (Male)</label>
+		<stages>
+			<li>
+				<!-- <everVisible>true</everVisible> -->
+				<statOffsets>
+					<SexAbility>1.0</SexAbility>
+					<Vulnerability>0.1</Vulnerability>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>OvipositorM</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>InsectAnus</defName>
+		<label>insect anus</label>
+		<stages>
+			<li>
+				<!-- <everVisible>true</everVisible> -->
+				<statOffsets>
+					<SexAbility>1.0</SexAbility>
+					<Vulnerability>0.1</Vulnerability>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>InsectAnus</spawnThingOnRemoved>
+	</HediffDef>
+
+	<!-- Regular privates -->
+	<HediffDef ParentName="NaturalRegularPrivatePartBase">
+		<defName>Penis</defName>
+		<label>penis</label>
+		<stages>
+			<li>
+				<!-- <everVisible>true</everVisible> -->
+				<statOffsets>
+					<SexAbility>1.0</SexAbility>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>Penis</spawnThingOnRemoved>
+	</HediffDef>
+
+	<!-- Additional dick sizes -->
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>Micropenis</defName>
+		<label>micropenis</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>0.6</SexAbility>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>Micropenis</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>SmallPenis</defName>
+		<label>small penis</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>0.8</SexAbility>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>SmallPenis</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>BigPenis</defName>
+		<label>Big Penis</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>1.2</SexAbility>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.03</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>BigPenis</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>HugePenis</defName>
+		<label>Huge penis</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>1.4</SexAbility>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.06</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>HugePenis</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>HorsePenis</defName>
+		<label>Horse penis</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>1.6</SexAbility>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.1</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>HorsePenis</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>CatPenis</defName>
+		<label>Cat penis</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>1.2</SexAbility>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>CatPenis</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>DogPenis</defName>
+		<label>Dog penis</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>1.2</SexAbility>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>DogPenis</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>DragonPenis</defName>
+		<label>Dragon penis</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>1.8</SexAbility>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.1</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>DragonPenis</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="NaturalRegularPrivatePartBase">
+		<defName>Vagina</defName>
+		<label>vagina</label>
+		<stages>
+			<li>
+				<!-- <everVisible>true</everVisible> -->
+				<statOffsets>
+					<SexAbility>1.0</SexAbility>
+					<Vulnerability>0.1</Vulnerability>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>Vagina</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>TightVagina</defName>
+		<label>tight vagina</label>
+		<stages>
+			<li>
+				<!-- <everVisible>true</everVisible> -->
+				<statOffsets>
+					<SexAbility>1.5</SexAbility>
+					<Vulnerability>0.14</Vulnerability>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>TightVagina</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>LooseVagina</defName>
+		<label>loose vagina</label>
+		<stages>
+			<li>
+				<!-- <everVisible>true</everVisible> -->
+				<statOffsets>
+					<SexAbility>0.5</SexAbility>
+					<Vulnerability>0.06</Vulnerability>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>LooseVagina</spawnThingOnRemoved>
+	</HediffDef>
+
+	<!-- Natural Breasts -->
+	<HediffDef ParentName="NaturalRegularPrivatePartBase">
+		<defName>Breasts</defName>
+		<label>breasts</label>
+		<stages>
+			<li>
+				<!-- <everVisible>true</everVisible> -->
+				<statOffsets>
+					<SexAbility>0.5</SexAbility>
+					<Vulnerability>0.08</Vulnerability>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.025</offset>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>-0.025</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>Breasts</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>SmallBreasts</defName>
+		<label>small breasts</label>
+		<stages>
+			<li>
+				<!-- <everVisible>true</everVisible> -->
+				<statOffsets>
+					<SexAbility>0.3</SexAbility>
+					<Vulnerability>0.04</Vulnerability>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>SmallBreasts</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>LargeBreasts</defName>
+		<label>large breasts</label>
+		<stages>
+			<li>
+				<!-- <everVisible>true</everVisible> -->
+				<statOffsets>
+					<SexAbility>0.7</SexAbility>
+					<Vulnerability>0.12</Vulnerability>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.05</offset>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>-0.05</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>LargeBreasts</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>HugeBreasts</defName>
+		<label>huge breasts</label>
+		<stages>
+			<li>
+				<!-- <everVisible>true</everVisible> -->
+				<statOffsets>
+					<SexAbility>0.9</SexAbility>
+					<Vulnerability>0.16</Vulnerability>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.1</offset>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>-0.1</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>HugeBreasts</spawnThingOnRemoved>
+	</HediffDef>
+
+	<!-- Natural anuses -->
+	<HediffDef ParentName="NaturalRegularPrivatePartBase">
+		<defName>Anus</defName>
+		<label>anus</label>
+		<stages>
+			<li>
+				<!-- <everVisible>true</everVisible> -->
+				<statOffsets>
+					<SexAbility>1.0</SexAbility>
+					<Vulnerability>0.12</Vulnerability>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>Anus</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>TightAnus</defName>
+		<label>tight anus</label>
+		<stages>
+			<li>
+				<!-- <everVisible>true</everVisible> -->
+				<statOffsets>
+					<SexAbility>1.5</SexAbility>
+					<Vulnerability>0.16</Vulnerability>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>TightAnus</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>LooseAnus</defName>
+		<label>loose anus</label>
+		<stages>
+			<li>
+				<!-- <everVisible>true</everVisible> -->
+				<statOffsets>
+					<SexAbility>0.5</SexAbility>
+					<Vulnerability>0.08</Vulnerability>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>LooseAnus</spawnThingOnRemoved>
+	</HediffDef>
+
+	<!-- Simple prosthetic privates -->
+	<HediffDef ParentName="ArtificialPrivatePartBase">
+		<defName>PegDick</defName>
+		<label>peg dick</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>0.25</SexAbility>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.1</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>PegDick</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="ArtificialPrivatePartBase">
+		<defName>HydraulicPenis</defName>
+		<label>hydraulic penis</label>
+		<stages>
+			<li>
+				<!-- <everVisible>true</everVisible> -->
+				<statOffsets>
+					<SexAbility>0.50</SexAbility>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.1</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>HydraulicPenis</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="ArtificialPrivatePartBase">
+		<defName>HydraulicVagina</defName>
+		<label>hydraulic vagina</label>
+		<stages>
+			<li>
+				<!-- <everVisible>true</everVisible> -->
+				<statOffsets>
+					<SexAbility>0.50</SexAbility>
+					<Vulnerability>0.04</Vulnerability>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>HydraulicVagina</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="ArtificialPrivatePartBase">
+		<defName>HydraulicBreasts</defName>
+		<label>hydraulic breasts</label>
+		<stages>
+			<li>
+				<!-- <everVisible>true</everVisible> -->
+				<statOffsets>
+					<SexAbility>0.50</SexAbility>
+					<Vulnerability>0.03</Vulnerability>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.1</offset>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>-0.1</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>HydraulicBreasts</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="ArtificialPrivatePartBase">
+		<defName>HydraulicAnus</defName>
+		<label>hydraulic anus</label>
+		<stages>
+			<li>
+				<!-- <everVisible>true</everVisible> -->
+				<statOffsets>
+					<SexAbility>0.50</SexAbility>
+					<Vulnerability>0.04</Vulnerability>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>HydraulicAnus</spawnThingOnRemoved>
+	</HediffDef>
+
+	<!-- Bionic privates -->
+	<HediffDef ParentName="ArtificialPrivatePartBase">
+		<defName>BionicPenis</defName>
+		<label>bionic penis</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>1.60</SexAbility>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>BionicPenis</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="ArtificialPrivatePartBase">
+		<defName>BionicVagina</defName>
+		<label>bionic vagina</label>
+		<stages>
+			<li>
+				<!-- <everVisible>true</everVisible> -->
+				<statOffsets>
+					<SexAbility>1.60</SexAbility>
+					<Vulnerability>0.2</Vulnerability>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>BionicVagina</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="ArtificialPrivatePartBase">
+		<defName>BionicBreasts</defName>
+		<label>bionic breasts</label>
+		<stages>
+			<li>
+				<!-- <everVisible>true</everVisible> -->
+				<statOffsets>
+					<SexAbility>1.20</SexAbility>
+					<Vulnerability>0.18</Vulnerability>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>BionicBreasts</spawnThingOnRemoved>
+	</HediffDef>
+
+	<HediffDef ParentName="ArtificialPrivatePartBase">
+		<defName>BionicAnus</defName>
+		<label>bionic anus</label>
+		<stages>
+			<li>
+				<!-- <everVisible>true</everVisible> -->
+				<statOffsets>
+					<SexAbility>1.60</SexAbility>
+					<Vulnerability>0.2</Vulnerability>
+				</statOffsets>
+			</li>
+		</stages>
+		<spawnThingOnRemoved>BionicAnus</spawnThingOnRemoved>
+	</HediffDef>
+	
+	<!-- Slime privates -->
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>SlimeTentacles</defName>
+		<label>slime tentacles</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>2.0</SexAbility>
+				</statOffsets>
+			</li>
+		</stages>
+		<!-- <spawnThingOnRemoved>SlimeTentacles</spawnThingOnRemoved> -->
+	</HediffDef>
+
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>SlimeVagina</defName>
+		<label>slime vagina</label>
+		<stages>
+			<li>
+				<!-- <everVisible>true</everVisible> -->
+				<statOffsets>
+					<SexAbility>2.0</SexAbility>
+					<Vulnerability>0.2</Vulnerability>
+				</statOffsets>
+			</li>
+		</stages>
+		<!-- <spawnThingOnRemoved>SlimeVagina</spawnThingOnRemoved> -->
+	</HediffDef>
+
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>SlimeBreasts</defName>
+		<label>slime breasts</label>
+		<stages>
+			<li>
+				<!-- <everVisible>true</everVisible> -->
+				<statOffsets>
+					<SexAbility>2.0</SexAbility>
+					<Vulnerability>0.18</Vulnerability>
+				</statOffsets>
+			</li>
+		</stages>
+		<!-- <spawnThingOnRemoved>SlimeBreasts</spawnThingOnRemoved> -->
+	</HediffDef>
+
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>SlimeAnus</defName>
+		<label>slime anus</label>
+		<stages>
+			<li>
+				<!-- <everVisible>true</everVisible> -->
+				<statOffsets>
+					<SexAbility>2.0</SexAbility>
+					<Vulnerability>0.2</Vulnerability>
+				</statOffsets>
+			</li>
+		</stages>
+		<!-- <spawnThingOnRemoved>SlimeAnus</spawnThingOnRemoved> -->
+	</HediffDef>
+	
+	<!-- Demon privates -->
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>DemonTentaclePenis</defName>
+		<label>demon tentacles</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>1.5</SexAbility>
+				</statOffsets>
+			</li>
+		</stages>
+		<!-- <spawnThingOnRemoved>DemonTentaclePenis</spawnThingOnRemoved> -->
+	</HediffDef>
+	
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>DemonPenis</defName>
+		<label>demon penis</label>
+		<stages>
+			<li>
+				<statOffsets>
+					<SexAbility>1.5</SexAbility>
+				</statOffsets>
+			</li>
+		</stages>
+		<!-- <spawnThingOnRemoved>DemonPenis</spawnThingOnRemoved> -->
+	</HediffDef>
+
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>DemonVagina</defName>
+		<label>demon vagina</label>
+		<stages>
+			<li>
+				<!-- <everVisible>true</everVisible> -->
+				<statOffsets>
+					<SexAbility>1.5</SexAbility>
+					<Vulnerability>0.2</Vulnerability>
+				</statOffsets>
+			</li>
+		</stages>
+		<!-- <spawnThingOnRemoved>DemonVagina</spawnThingOnRemoved> -->
+	</HediffDef>
+
+	<HediffDef ParentName="NaturalPrivatePartBase">
+		<defName>DemonAnus</defName>
+		<label>demon anus</label>
+		<stages>
+			<li>
+				<!-- <everVisible>true</everVisible> -->
+				<statOffsets>
+					<SexAbility>1.5</SexAbility>
+					<Vulnerability>0.2</Vulnerability>
+				</statOffsets>
+			</li>
+		</stages>
+		<!-- <spawnThingOnRemoved>DemonAnus</spawnThingOnRemoved> -->
+	</HediffDef>
+</Defs>

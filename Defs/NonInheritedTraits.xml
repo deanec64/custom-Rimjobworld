@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<rjw.StringListDef>
+		<defName>NonInheritedTraits</defName>
+		<!--This list holds defNames of traits that should not be passed from parents to children-->
+		<!--Actually, it contains most traits I've seen around, but those that should be inherited are commented out--> 
+		<!--If you wish to add other traits, find their<defName> in xml files inside "Defs" folder of the mod that adds them-->
+		<strings>
+			<!--Rimworld of Magic-->
+			<!--<li>Gifted</li>-->
+			<!--<li>PhysicalProdigy</li>-->
+			<!--<li>Gladiator</li>-->
+			<!--<li>InnerFire</li>-->
+			<!--<li>HeartOfFrost</li>-->
+			<!--<li>StormBorn</li>-->
+			<!--<li>Arcanist</li>-->
+			<!--<li>Druid</li>-->
+			<!--<li>Paladin</li>-->
+			<!--<li>Summoner</li>-->
+			<!--<li>TM_Sniper</li>-->
+			<!--<li>Bladedancer</li>-->
+			<!--<li>Necromancer</li>-->
+			<!--<li>Undead</li>-->
+			 
+			<!--Star Wars-->
+			<!--<li>PJ_ForceSensitive</li>-->
+			<!--<li>PJ_JediTrait</li>-->
+			<!--<li>PJ_SithTrait</li>-->
+			<!--<li>PJ_GrayTrait</li>-->
+			 
+			<!--Combat Extended?-->
+			<li>Bravery</li>
+			 
+			<!--Rimworld of apes-->
+			<!--<li>Orangutan</li>-->
+			 
+			<!--Humanoid alien races-->
+			<li>Xenophobia</li>
+			 
+			<!--Cthulhu-->
+			<li>Cults_OathtakerHastur</li>
+			<li>Cults_OathtakerHastur2</li>
+			 
+			<!--MoreRobots-->
+			<!--<li>AIRobot_BaseTrait</li>-->
+			 
+			<!--Core-->
+			<!--<li>SpeedOffset</li>-->
+			<!--<li>DrugDesire</li>-->
+			<li>NaturalMood</li>
+			<!--<li>Nerves</li>-->
+			<!--<li>Neurotic</li>-->
+			<li>Industriousness</li>
+			<!--<li>PsychicSensitivity</li>-->
+			<li>ShootingAccuracy</li>
+			<!--<li>Beauty</li>-->
+			<li>Nudist</li>
+			<li>Bloodlust</li>
+			<li>Kind</li>
+			<li>Psychopath</li>
+			<li>Cannibal</li>
+			<li>Abrasive</li>
+			<!--<li>TooSmart</li>-->
+			<!--<li>Brawler</li>-->
+			<li>Masochist</li>
+			<!--<li>Prosthophile</li>-->
+			<!--<li>Prosthophobe</li>-->
+			<li>GreenThumb</li>
+			<li>NightOwl</li>
+			<li>Greedy</li>
+			<li>Jealous</li>
+			<li>Ascetic</li>
+			<!--<li>Gay</li>--><!--CnP does this too!-->
+			<li>DislikesMen</li>
+			<li>DislikesWomen</li>
+			<li>AnnoyingVoice</li>
+			<li>CreepyBreathing</li>
+			<li>Pyromaniac</li>
+			<!--<li>Wimp</li>-->
+			<!--<li>Nimble</li>-->
+			<!--<li>FastLearner</li>-->
+			<!--<li>SuperImmune</li>-->
+
+			<!--RJW-->
+			<li>Nymphomaniac</li>
+			<li>Rapist</li>
+			<li>Necrophiliac</li>
+			<li>Zoophile</li>
+
+			<!--Romance diversified-->
+			<li>Straight</li>
+			<li>Bisexual</li>
+			<li>Asexual</li>
+			<li>Faithful</li>
+			<li>Philanderer</li>
+			<li>Polyamorous</li>
+		</strings>
+	</rjw.StringListDef>
+</Defs>
+	<!--Now should we do that filtering I wonder. 
+	After all, even many behavioral quirks are to certain extent determined by internal makeup of organism.
+	Which in turn is determined by genes. And they are also determined by communication with parents, which we do not simulate 
+	but could make up for that by copying traits.-->
+

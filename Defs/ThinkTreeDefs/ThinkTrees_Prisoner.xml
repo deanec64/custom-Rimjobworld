@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<ThinkTreeDef>
+		<defName>PrisonerPostWorkActivity</defName>
+		<insertTag>Humanlike_PostDuty</insertTag>
+		<insertPriority>100</insertPriority>
+		<thinkRoot Class="ThinkNode_Priority">
+			<subNodes>
+				<li Class="rjw.ThinkNode_ConditionalCanRapeCP">
+					<subNodes>
+						<li Class="rjw.ThinkNode_ChancePerHour_RapeCP">
+							<subNodes>
+								<li Class="rjw.JobGiver_ComfortPrisonerRape" />
+							</subNodes>
+						</li>
+					</subNodes>
+				</li>
+			</subNodes>
+		</thinkRoot>
+	</ThinkTreeDef>
+
+	<ThinkTreeDef>
+		<defName>PrisonerWhoreSexualEmergencyTree</defName>
+		<insertTag>Humanlike_PostDuty</insertTag>
+		<insertPriority>101</insertPriority>
+		<thinkRoot Class="ThinkNode_Priority">
+			<subNodes>
+				<li Class="rjw.ThinkNode_ConditionalWhore">
+					<subNodes>
+						<li Class="rjw.JobGiver_WhoreInvitingVisitors" />
+					</subNodes>
+				</li>
+			</subNodes>
+		</thinkRoot>
+	</ThinkTreeDef>
+</Defs>

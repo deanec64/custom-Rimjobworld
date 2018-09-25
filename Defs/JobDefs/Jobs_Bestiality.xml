@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<JobDef>
+		<defName>Breed</defName>
+		<driverClass>rjw.JobDriver_Breeding</driverClass>
+		<reportString>breeding</reportString>
+		<casualInterruptible>false</casualInterruptible>
+	</JobDef>
+
+	<JobDef>
+		<defName>Bestiality</defName>
+		<driverClass>rjw.JobDriver_Bestiality</driverClass>
+		<reportString>lovin' animal</reportString>
+		<casualInterruptible>false</casualInterruptible>
+	</JobDef>
+
+	<JobDef>
+		<defName>BestialityForFemale</defName>
+		<driverClass>rjw.JobDriver_BestialityForFemale</driverClass>
+		<reportString>lovin' animal</reportString>
+		<casualInterruptible>false</casualInterruptible>
+	</JobDef>
+</Defs>

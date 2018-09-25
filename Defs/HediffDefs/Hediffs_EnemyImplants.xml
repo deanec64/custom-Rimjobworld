@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<!--Used for JobDriver_RapeEnemyByInsect. Insects plant egg when success rape.-->
+	<rjw.HediffDef_InsectEgg Name="RJW_ImplantEgg" Abstract="True">
+		<defName>RJW_InsectEgg</defName>
+		<hediffClass>rjw.Hediff_InsectEgg</hediffClass>
+		<defaultLabelColor>(0.8, 0.8, 0.35)</defaultLabelColor>
+		<initialSeverity>0.1</initialSeverity>
+		<isBad>true</isBad>
+		<tendable>false</tendable>
+	</rjw.HediffDef_InsectEgg>
+
+	<rjw.HediffDef_InsectEgg ParentName="RJW_ImplantEgg">
+		<defName>RJW_MegascarabEgg</defName>
+		<label>Megascarab's Egg</label>
+		<parentDef>Megascarab</parentDef>
+		<bornTick>500000</bornTick>
+	</rjw.HediffDef_InsectEgg>
+	
+	<rjw.HediffDef_InsectEgg ParentName="RJW_ImplantEgg">
+		<defName>RJW_MegaspiderEgg</defName>
+		<label>Megaspider's Egg</label>
+		<parentDef>Megaspider</parentDef>
+		<bornTick>700000</bornTick>
+	</rjw.HediffDef_InsectEgg>
+	
+	<rjw.HediffDef_InsectEgg ParentName="RJW_ImplantEgg">
+		<defName>RJW_SpelopedeEgg</defName>
+		<label>Spelopede's Egg</label>
+		<parentDef>Spelopede</parentDef>
+		<bornTick>600000</bornTick>
+	</rjw.HediffDef_InsectEgg>
+
+	<!--Used for JobDriver_RapeEnemyByMech. Mechs implant things when success rape.-->
+	<rjw.HediffDef_MechImplants Name="RJW_ImplantMech" Abstract="True">
+		<hediffClass>rjw.Hediff_MechImplants</hediffClass>
+		<defaultLabelColor>(0.8, 0.8, 0.35)</defaultLabelColor>
+		<initialSeverity>0.1</initialSeverity>
+		<parentDefs>
+			<li>Mechanoid_Scyther</li>
+			<li>Mechanoid_Centipede</li>
+		</parentDefs>
+		<tendable>false</tendable>
+	</rjw.HediffDef_MechImplants>
+
+	<rjw.HediffDef_MechImplants ParentName="RJW_ImplantMech">
+		<hediffClass>rjw.Hediff_MicroComputer</hediffClass>
+		<defName>RJW_MicroComputer</defName>
+		<tendable>false</tendable>
+		<isBad>true</isBad>
+		<label>MicroComputer</label>
+		<minEventInterval>30000</minEventInterval>
+		<maxEventInterval>90000</maxEventInterval>
+		<randomHediffDefs>
+			<li>RJW_Orgasm</li>
+			<li>TransportCums</li>
+		</randomHediffDefs>
+	</rjw.HediffDef_MechImplants>
+
+	<rjw.HediffDef_EnemyImplants>
+		<defName>Parasite</defName>
+		<hediffClass>rjw.Hediff_Parasite</hediffClass>
+		<defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
+		<initialSeverity>0.1</initialSeverity>
+		<label>pregnant</label>
+		<comps>
+			<li Class="HediffCompProperties_Discoverable">
+				<sendLetterWhenDiscovered>true</sendLetterWhenDiscovered>
+				<discoverLetterLabel>{0} Parasited</discoverLetterLabel>
+				<discoverLetterText>{0} is parasited!</discoverLetterText>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>early-stage-hidden</label>
+				<becomeVisible>false</becomeVisible>
+				<vomitMtbDays>2.5</vomitMtbDays>
+			</li>
+			<li>
+				<label>middle-stage</label>
+				<minSeverity>0.333</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.15</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>late-stage</label>
+				<minSeverity>0.666</minSeverity>
+				<vomitMtbDays>2</vomitMtbDays>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.30</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</rjw.HediffDef_EnemyImplants>
+</Defs>

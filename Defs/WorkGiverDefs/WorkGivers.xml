@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<WorkGiverDef>
+		<defName>RapeCP</defName>
+		<label>Rapin' comfort prisoner</label>
+		<giverClass>rjw.WorkGiver_RapeCP</giverClass>
+		<!--TODO change it to a worktype everyone can do-->
+		<workType>Warden</workType>
+		<verb>rape</verb>
+		<gerund>raping</gerund>
+		<priorityInType>10</priorityInType>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+</Defs>

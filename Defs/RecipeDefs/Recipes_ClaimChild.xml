@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<!-- From core -->
+	<RecipeDef>
+		<defName>claimChild</defName>
+		<label>Claim child</label>
+		<description>Makes the child belong to the colony.</description>
+		<workerClass>rjw.Recipe_ClaimChild</workerClass>
+		<jobString>Adopting.</jobString>
+		<workAmount>10</workAmount>
+		<hideBodyPartNames>true</hideBodyPartNames>
+		<!--<addsHediff>ShutDown</addsHediff>-->
+		<effectWorking>Surgery</effectWorking>
+		<isViolation>false</isViolation>
+		<surgerySuccessChanceFactor>99999</surgerySuccessChanceFactor>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+			<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+		</fixedIngredientFilter>
+	</RecipeDef>
+</Defs>

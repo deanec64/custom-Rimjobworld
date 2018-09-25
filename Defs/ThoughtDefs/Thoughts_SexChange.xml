@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<ThoughtDef>
+		<defName>male2female</defName>
+		<workerClass>rjw.ThoughtWorker_MtF</workerClass>
+		<!--<workerClass>rjw.ThoughtWorker_SexChange</workerClass>-->
+		<stages>
+			<li>
+				<label>Happy with new self</label>
+				<description>I dreamt to be a happiest boy before, now I'm a happiest girl.</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+			<li>
+				<label>Acceptance of sex changes</label>
+				<description>Well, I guess I will have to live with that now.</description>
+				<baseMoodEffect>-1</baseMoodEffect>
+			</li>
+			<li>
+				<label>Mild discontent with new gender</label>
+				<description>But I'm a boy!</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+			<li>
+				<label>Furious about transgender surgery</label>
+				<description>Aah, I'm not your toy! Sew it back!</description>
+				<baseMoodEffect>-20</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>male2trap</defName>
+		<workerClass>rjw.ThoughtWorker_MtT</workerClass>
+		<!--<workerClass>rjw.ThoughtWorker_SexChange</workerClass>-->
+		<stages>
+			<li>
+				<label>Happy with new self</label>
+				<description>Tee hee hee... Traps are still gay, you know.</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+			<li>
+				<label>Acceptance of sex changes</label>
+				<description>Well, at least I'm pretty now.</description>
+				<baseMoodEffect>-1</baseMoodEffect>
+			</li>
+			<li>
+				<label>Mild discontent with new gender</label>
+				<description>But I'm not a girl!</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+			<li>
+				<label>Furious about transgender surgery</label>
+				<description>What are you doing to me!</description>
+				<baseMoodEffect>-15</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>female2male</defName>
+		<workerClass>rjw.ThoughtWorker_FtM</workerClass>
+		<!--<workerClass>rjw.ThoughtWorker_SexChange</workerClass>-->
+		<stages>
+			<li>
+				<label>Happy with new self</label>
+				<description>I'm so happy now with all my masculinity unleashed.</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+			<li>
+				<label>Acceptance of sex changes</label>
+				<description>Well, I've got to live with this.</description>
+				<baseMoodEffect>-1</baseMoodEffect>
+			</li>
+			<li>
+				<label>Mild discontent with new gender</label>
+				<description>But I'm a girl!</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+			<li>
+				<label>Furious about transgender surgery</label>
+				<description>What are you doing to me!</description>
+				<baseMoodEffect>-15</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>female2trap</defName>
+		<workerClass>rjw.ThoughtWorker_FtT</workerClass>
+		<!--<workerClass>rjw.ThoughtWorker_SexChange</workerClass>-->
+		<stages>
+			<li>
+				<label>Happy with new self 0</label>
+				<description>Tee hee hee... Traps are still gay, you know.</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+			<li>
+				<label>Acceptance of sex changes 1</label>
+				<description>Well, at least I'm still pretty.</description>
+				<baseMoodEffect>-1</baseMoodEffect>
+			</li>
+			<li>
+				<label>Mild discontent with new gender 2</label>
+				<description>But I'm a girl!</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+			<li>
+				<label>Furious about transgender surgery 3</label>
+				<description>What are you doing to me!</description>
+				<baseMoodEffect>-15</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>female2futa</defName>
+		<workerClass>rjw.ThoughtWorker_FtH</workerClass>
+		<!--<workerClass>rjw.ThoughtWorker_SexChange</workerClass>-->
+		<stages>
+			<li>
+				<label>Happy with a dick</label>
+				<description>Woah... This thing is awesome! How could I live without it before!</description>
+				<baseMoodEffect>10</baseMoodEffect>
+			</li>
+			<li>
+				<label>Acceptance of penis</label>
+				<description>Well, at least I can pee standing now.</description>
+				<baseMoodEffect>-1</baseMoodEffect>
+			</li>
+			<li>
+				<label>Mild discontent with penis</label>
+				<description>This thing is horrible! Take it away from meee!</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+			<li>
+				<label>Furious about penis attached</label>
+				<description>I'm a monster now! Aaah!</description>
+				<baseMoodEffect>-10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>futa2female</defName>
+		<workerClass>rjw.ThoughtWorker_HtF</workerClass>
+		<!--<workerClass>rjw.ThoughtWorker_SexChange</workerClass>-->
+		<stages>
+			<li>
+				<label>Happy without a dick</label>
+				<description>It was an interesting experience. Let's not do that again.</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+			<li>
+				<label>Sad without a dick</label>
+				<description>Oh well, it was fun while it lasted.</description>
+				<baseMoodEffect>-1</baseMoodEffect>
+			</li>
+			<li>
+				<label>Unhappy without a dick</label>
+				<description>Seriously, it is mine now. I want it back.</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+			<li>
+				<label>Furious about dick removal</label>
+				<description>Aww come on! Give it back!</description>
+				<baseMoodEffect>-10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+</Defs>

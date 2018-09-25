@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<HediffDef>
+		<defName>Armbinder</defName>
+		<hediffClass>Hediff</hediffClass>
+		<defaultLabelColor>(0.5, 0.5, 0.9)</defaultLabelColor>
+		<label>armbinder</label>
+		<makesSickThought>false</makesSickThought>
+		<tendable>false</tendable>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<setMax>0.00</setMax>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef>
+		<defName>Gag</defName>
+		<hediffClass>Hediff</hediffClass>
+		<defaultLabelColor>(0.5, 0.5, 0.9)</defaultLabelColor>
+		<label>gag</label>
+		<makesSickThought>false</makesSickThought>
+		<tendable>false</tendable>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Talking</capacity>
+						<setMax>0.00</setMax>
+					</li>
+					<li>
+						<capacity>Eating</capacity>
+						<offset>-0.75</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+</Defs>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<RulePackDef>
+		<defName>AnalRapeSucceeded</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name-> [RECIPIENT_nameDef] was anally raped.</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>AnalRapeFailed</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name-> [RECIPIENT_nameDef] has no anus.</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+	
+	<RulePackDef>
+		<defName>VaginalRapeSucceeded</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name-> [RECIPIENT_nameDef] was vaginally raped.</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>VaginalRapeFailed</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name-> [RECIPIENT_nameDef] has no vagina.</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+	
+	<RulePackDef>
+		<defName>OtherRapeSucceeded</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name-> [RECIPIENT_nameDef] was raped.</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+</Defs>

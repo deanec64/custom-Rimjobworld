@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<JobDef>
+		<defName>NymphJoinInBed</defName>
+		<driverClass>rjw.JobDriver_NymphJoinInBed</driverClass>
+		<reportString>joining random bed.</reportString>
+		<casualInterruptible>false</casualInterruptible>
+	</JobDef>
+</Defs>

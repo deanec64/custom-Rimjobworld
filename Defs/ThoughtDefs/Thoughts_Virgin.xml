@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<!-- Added by Hoge.-->
+	<ThoughtDef>
+		<defName>FortunateGaveVirginity</defName>
+		<thoughtClass>Thought_Memory</thoughtClass>
+		<durationDays>10.0</durationDays>
+		<stages>
+			<li>
+				<label>Gave virginity</label>
+				<description>I gave my virginity.</description>
+				<baseMoodEffect>10</baseMoodEffect>
+			</li>
+			</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>UnfortunateLostVirginity</defName>
+		<thoughtClass>Thought_Memory</thoughtClass>
+		<durationDays>30.0</durationDays>
+		<stages>
+			<li>
+				<label>Lost virginity</label>
+				<description>I lost my virginity and I'll never get it back.</description>
+				<baseMoodEffect>-20</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+</Defs>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<IncidentDef>
+		<defName>NymphJoins</defName>
+		<label>nymph joins</label>
+		<category>FactionArrival</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>rjw.IncidentWorker_NymphJoins</workerClass>
+		<baseChance>0.67</baseChance>
+		<minRefireDays>6</minRefireDays>
+	</IncidentDef>
+</Defs>

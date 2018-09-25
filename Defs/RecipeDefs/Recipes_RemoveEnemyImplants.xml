@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<RecipeDef Abstract="True" Name="RJW_RemoveEnemyImplants" ParentName="SurgeryFlesh">
+		<effectWorking>Surgery</effectWorking>
+		<soundWorking>Recipe_Surgery</soundWorking>
+		<workSpeedStat>MedicalOperationSpeed</workSpeedStat>
+		<workSkill>Medicine</workSkill>
+		<workSkillLearnFactor>16</workSkillLearnFactor>
+		<appliedOnFixedBodyParts>
+			<li>Genitals</li>
+			<li>Anus</li>
+		</appliedOnFixedBodyParts>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef Abstract="True" ParentName="RJW_RemoveEnemyImplants" Name="RJW_RemoveInsectEgg">
+		<label>remove insect egg</label>
+		<description>Removes insect egg.</description>
+		<workerClass>Recipe_RemoveHediff</workerClass>
+		<jobString>Removing insect egg.</jobString>
+		<workAmount>500</workAmount>
+		<workSkillLearnFactor>1</workSkillLearnFactor>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>InsectJelly</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>InsectJelly</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="RJW_RemoveInsectEgg">
+		<defName>RemoveMegascarabEgg</defName>
+		<label>remove insect egg</label>
+		<description>Removes insect egg.</description>
+		<jobString>Removing insect egg.</jobString>
+		<removesHediff>RJW_MegascarabEgg</removesHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="RJW_RemoveInsectEgg">
+		<defName>RemoveMegaspiderEgg</defName>
+		<label>remove insect egg</label>
+		<description>Removes insect egg.</description>
+		<jobString>Removing insect egg.</jobString>
+		<removesHediff>RJW_MegaspiderEgg</removesHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="RJW_RemoveInsectEgg">
+		<defName>RemoveSpelopedeEgg</defName>
+		<label>remove insect egg</label>
+		<description>Removes insect egg.</description>
+		<jobString>Removing insect egg.</jobString>
+		<removesHediff>RJW_SpelopedeEgg</removesHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="RJW_RemoveEnemyImplants">
+		<defName>RemoveMicroComputer</defName>
+		<label>remove MicroComputer</label>
+		<description>Removes MicroComputer.</description>
+		<workerClass>Recipe_RemoveHediff</workerClass>
+		<jobString>Removing MicroComputer.</jobString>
+		<workAmount>2000</workAmount>
+		<removesHediff>RJW_MicroComputer</removesHediff>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Hololock</li>
+				</thingDefs>
+			</filter>
+			<count>1</count>
+		</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>Hololock</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+</Defs>

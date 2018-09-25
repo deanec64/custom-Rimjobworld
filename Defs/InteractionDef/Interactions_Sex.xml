@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<InteractionDef>
+		<defName>AnalSex</defName>
+		<label>anal sex</label>
+		<workerClass>rjw.InteractionWorker_AnalSexAttempt</workerClass>
+		<symbol>Things/Mote/SpeechSymbols/Romance</symbol>
+		<socialFightBaseChance>0.0</socialFightBaseChance>
+		<recipientThought>MadeSomeLovin</recipientThought>
+		<logRulesInitiator>
+			<rulesStrings>
+				<li>r_logentry->Had sex with [OTHER_nameDef].</li>
+			</rulesStrings>
+		</logRulesInitiator>
+		<logRulesRecipient>
+			<rulesStrings>
+				<li>r_logentry->Had sex with [OTHER_nameDef].</li>
+			</rulesStrings>
+		</logRulesRecipient>
+	</InteractionDef>
+	
+	<InteractionDef>
+		<defName>VaginalSex</defName>
+		<label>vaginal sex</label>
+		<workerClass>rjw.InteractionWorker_VaginalSexAttempt</workerClass>
+		<symbol>Things/Mote/SpeechSymbols/Romance</symbol>
+		<socialFightBaseChance>0.0</socialFightBaseChance>
+		<recipientThought>MadeSomeLovin</recipientThought>
+		<logRulesInitiator>
+			<rulesStrings>
+				<li>r_logentry->Had sex with [OTHER_nameDef].</li>
+			</rulesStrings>
+		</logRulesInitiator>
+		<logRulesRecipient>
+			<rulesStrings>
+				<li>r_logentry->Had sex with [OTHER_nameDef].</li>
+			</rulesStrings>
+		</logRulesRecipient>
+	</InteractionDef>
+</Defs>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<RecipeDef Abstract="True"  ParentName="SurgeryFlesh"  Name="RJW_Abortion">
+		<label>Abort pregnancy</label>
+		<description>This is legalised murder.</description>
+		<workerClass>Recipe_RemoveHediff</workerClass>
+		<jobString>Carrying out abortion.</jobString>
+		<workAmount>500</workAmount>
+		<workSkillLearnFactor>1</workSkillLearnFactor>
+		<effectWorking>Surgery</effectWorking>
+		<soundWorking>Recipe_Surgery</soundWorking>
+		<workSpeedStat>MedicalOperationSpeed</workSpeedStat>
+		<workSkill>Medicine</workSkill>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+			<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="RJW_Abortion">
+		<defName>RJW_AbortionHuman</defName>
+		<removesHediff>RJW_pregnancy</removesHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="RJW_Abortion">
+		<defName>RJW_AbortionBeast</defName>
+		<removesHediff>RJW_pregnancy_beast</removesHediff>
+	</RecipeDef>
+</Defs>

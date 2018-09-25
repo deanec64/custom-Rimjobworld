@@ -1,0 +1,1772 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<!-- From core -->
+	<RecipeDef Abstract="True" Name="SurgeryFlesh">
+		<effectWorking>Surgery</effectWorking>
+		<soundWorking>Recipe_Surgery</soundWorking>
+		<workSpeedStat>MedicalOperationSpeed</workSpeedStat>
+		<workSkill>Medicine</workSkill>
+		<workSkillLearnFactor>16</workSkillLearnFactor>
+	</RecipeDef>
+
+	<RecipeDef Abstract="True" Name="SexReassignment" ParentName="SurgeryFlesh">
+		<appliedOnFixedBodyParts>
+			<li>Genitals</li>
+		</appliedOnFixedBodyParts>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef Abstract="True" Name="BreastSurgery" ParentName="SurgeryFlesh">
+		<appliedOnFixedBodyParts>
+			<li>Chest</li>
+		</appliedOnFixedBodyParts>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef Abstract="True" Name="AnalSurgery" ParentName="SurgeryFlesh">
+		<appliedOnFixedBodyParts>
+			<li>Anus</li>
+		</appliedOnFixedBodyParts>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<!-- Attach natural privates -->
+
+	<RecipeDef ParentName="SexReassignment">
+		<defName>AttachPenis</defName>
+		<label>attach penis</label>
+		<description>Attaches a penis replacing other bodyparts if present.</description>
+		<workerClass>rjw.Recipe_InstallPrivates</workerClass>
+		<jobString>Attaching penis.</jobString>
+		<workAmount>1200</workAmount>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Penis</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>Penis</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>Penis</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SexReassignment">
+		<defName>InstallVagina</defName>
+		<label>install vagina</label>
+		<description>Installs a vagina.</description>
+		<workerClass>rjw.Recipe_InstallPrivates</workerClass>
+		<jobString>Installing vagina.</jobString>
+		<workAmount>2000</workAmount>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Vagina</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>Vagina</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>Vagina</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SexReassignment">
+		<defName>InstallTightVagina</defName>
+		<label>install tight vagina</label>
+		<description>Installs a tight vagina.</description>
+		<workerClass>rjw.Recipe_InstallPrivates</workerClass>
+		<jobString>Installing tight vagina.</jobString>
+		<workAmount>2000</workAmount>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>TightVagina</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>TightVagina</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>TightVagina</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SexReassignment">
+		<defName>InstallLooseVagina</defName>
+		<label>install loose vagina</label>
+		<description>Installs a loose vagina.</description>
+		<workerClass>rjw.Recipe_InstallPrivates</workerClass>
+		<jobString>Installing loose vagina.</jobString>
+		<workAmount>2000</workAmount>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>LooseVagina</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>LooseVagina</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>LooseVagina</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SexReassignment">
+		<defName>AttachMicropenis</defName>
+		<label>attach micropenis</label>
+		<description>Attaches a micropenis.</description>
+		<workerClass>rjw.Recipe_InstallPrivates</workerClass>
+		<jobString>Attaching micropenis.</jobString>
+		<workAmount>1200</workAmount>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Micropenis</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>Micropenis</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>Micropenis</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SexReassignment">
+		<defName>AttachSmallPenis</defName>
+		<label>attach small penis</label>
+		<description>Attaches a small penis.</description>
+		<workerClass>rjw.Recipe_InstallPrivates</workerClass>
+		<jobString>Attaching small penis.</jobString>
+		<workAmount>1200</workAmount>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SmallPenis</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>SmallPenis</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>SmallPenis</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SexReassignment">
+		<defName>AttachBigPenis</defName>
+		<label>attach big penis</label>
+		<description>Attaches a big penis.</description>
+		<workerClass>rjw.Recipe_InstallPrivates</workerClass>
+		<jobString>Attaching big penis.</jobString>
+		<workAmount>1200</workAmount>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BigPenis</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>BigPenis</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>BigPenis</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SexReassignment">
+		<defName>AttachHugePenis</defName>
+		<label>attach huge penis</label>
+		<description>Attaches a huge penis.</description>
+		<workerClass>rjw.Recipe_InstallPrivates</workerClass>
+		<jobString>Attaching huge penis.</jobString>
+		<workAmount>1200</workAmount>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HugePenis</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>HugePenis</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>HugePenis</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SexReassignment">
+		<defName>AttachHorsePenis</defName>
+		<label>attach horse penis</label>
+		<description>Attaches a horse penis.</description>
+		<workerClass>rjw.Recipe_InstallPrivates</workerClass>
+		<jobString>Attaching horse penis.</jobString>
+		<workAmount>1200</workAmount>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HorsePenis</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>HorsePenis</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>HorsePenis</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SexReassignment">
+		<defName>AttachCatPenis</defName>
+		<label>attach Cat penis</label>
+		<description>Attaches a Cat penis.</description>
+		<workerClass>rjw.Recipe_InstallPrivates</workerClass>
+		<jobString>Attaching Cat penis.</jobString>
+		<workAmount>1200</workAmount>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CatPenis</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>CatPenis</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>CatPenis</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SexReassignment">
+		<defName>AttachDogPenis</defName>
+		<label>attach Dog penis</label>
+		<description>Attaches a Dog penis.</description>
+		<workerClass>rjw.Recipe_InstallPrivates</workerClass>
+		<jobString>Attaching Dog penis.</jobString>
+		<workAmount>1200</workAmount>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DogPenis</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>DogPenis</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>DogPenis</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SexReassignment">
+		<defName>AttachDragonPenis</defName>
+		<label>attach dragon penis</label>
+		<description>Attaches a Dragon penis.</description>
+		<workerClass>rjw.Recipe_InstallPrivates</workerClass>
+		<jobString>Attaching Dragon penis.</jobString>
+		<workAmount>1200</workAmount>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DragonPenis</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>DragonPenis</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>DragonPenis</addsHediff>
+	</RecipeDef>
+
+	<!-- Breasts -->
+	<RecipeDef ParentName="BreastSurgery">
+		<defName>AttachSmallBreasts</defName>
+		<label>attach small breasts</label>
+		<description>Attaches a pair of small breasts.</description>
+		<workerClass>rjw.Recipe_InstallBreasts</workerClass>
+		<jobString>Attaching a pair of small breasts.</jobString>
+		<workAmount>1200</workAmount>
+		<skillRequirements>
+			<Medicine>8</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SmallBreasts</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>SmallBreasts</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>SmallBreasts</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="BreastSurgery">
+		<defName>AttachBreasts</defName>
+		<label>attach normal breasts</label>
+		<description>Attaches a pair of breasts.</description>
+		<workerClass>rjw.Recipe_InstallBreasts</workerClass>
+		<jobString>Attaching a pair of breasts.</jobString>
+		<workAmount>1200</workAmount>
+		<skillRequirements>
+			<Medicine>8</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Breasts</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>Breasts</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>Breasts</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="BreastSurgery">
+		<defName>AttachLargeBreasts</defName>
+		<label>attach large breasts</label>
+		<description>Attaches a pair of large breasts.</description>
+		<workerClass>rjw.Recipe_InstallBreasts</workerClass>
+		<jobString>Attaching a pair of large breasts.</jobString>
+		<workAmount>1200</workAmount>
+		<skillRequirements>
+			<Medicine>8</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>LargeBreasts</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>LargeBreasts</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>LargeBreasts</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="BreastSurgery">
+		<defName>AttachHugeBreasts</defName>
+		<label>attach huge breasts</label>
+		<description>Attaches a pair of huge breasts.</description>
+		<workerClass>rjw.Recipe_InstallBreasts</workerClass>
+		<jobString>Attaching a pair of huge breasts.</jobString>
+		<workAmount>1200</workAmount>
+		<skillRequirements>
+			<Medicine>8</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HugeBreasts</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>HugeBreasts</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>HugeBreasts</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AnalSurgery">
+		<defName>AttachAnus</defName>
+		<label>attach normal anus</label>
+		<description>Attaches an anus.</description>
+		<workerClass>rjw.Recipe_InstallAnus</workerClass>
+		<jobString>Attaching an anus.</jobString>
+		<workAmount>1200</workAmount>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Anus</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>Anus</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>Anus</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AnalSurgery">
+		<defName>AttachLooseAnus</defName>
+		<label>attach loose anus</label>
+		<description>Attaches a loose anus.</description>
+		<workerClass>rjw.Recipe_InstallAnus</workerClass>
+		<jobString>Attaching a loose anus.</jobString>
+		<workAmount>1200</workAmount>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>LooseAnus</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>LooseAnus</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>LooseAnus</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AnalSurgery">
+		<defName>AttachTightAnus</defName>
+		<label>attach tight anus</label>
+		<description>Attaches a tight anus.</description>
+		<workerClass>rjw.Recipe_InstallAnus</workerClass>
+		<jobString>Attaching a tight anus.</jobString>
+		<workAmount>1200</workAmount>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>TightAnus</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>TightAnus</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>TightAnus</addsHediff>
+	</RecipeDef>
+
+	<!-- Attach simple prosthetic privates -->
+
+	<RecipeDef ParentName="SexReassignment">
+		<defName>InstallHydraulicPenis</defName>
+		<label>install hydraulic penis</label>
+		<description>Installs a hydraulic penis.</description>
+		<workerClass>rjw.Recipe_InstallPrivates</workerClass>
+		<jobString>Installing hydraulic penis.</jobString>
+		<workAmount>1500</workAmount>
+		<skillRequirements>
+			<Medicine>7</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HydraulicPenis</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>HydraulicPenis</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>HydraulicPenis</addsHediff>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SexReassignment">
+		<defName>InstallHydraulicVagina</defName>
+		<label>install hydraulic vagina</label>
+		<description>Installs a hydraulic vagina.</description>
+		<workerClass>rjw.Recipe_InstallPrivates</workerClass>
+		<jobString>Installing hydraulic vagina.</jobString>
+		<workAmount>1500</workAmount>
+		<skillRequirements>
+			<Medicine>7</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HydraulicVagina</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>HydraulicVagina</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>HydraulicVagina</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="BreastSurgery">
+		<defName>InstallHydraulicBreasts</defName>
+		<label>install hydraulic breasts</label>
+		<description>Installs a pair of hydraulic breasts.</description>
+		<workerClass>rjw.Recipe_InstallBreasts</workerClass>
+		<jobString>Installing hydraulic breasts.</jobString>
+		<workAmount>1500</workAmount>
+		<skillRequirements>
+			<Medicine>7</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HydraulicBreasts</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>HydraulicBreasts</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>HydraulicBreasts</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AnalSurgery">
+		<defName>InstallHydraulicAnus</defName>
+		<label>install hydraulic anus</label>
+		<description>Installs a hydraulic anus.</description>
+		<workerClass>rjw.Recipe_InstallAnus</workerClass>
+		<jobString>Installing hydraulic anus.</jobString>
+		<workAmount>1500</workAmount>
+		<skillRequirements>
+			<Medicine>7</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HydraulicAnus</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>HydraulicAnus</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>HydraulicAnus</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SexReassignment">
+		<defName>AttachPegDick</defName>
+		<label>attach peg dick</label>
+		<description>Attaches a peg dick.</description>
+		<workerClass>rjw.Recipe_InstallPrivates</workerClass>
+		<jobString>Attaching peg dick.</jobString>
+		<workAmount>900</workAmount>
+		<skillRequirements>
+			<Medicine>2</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PegDick</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>PegDick</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>PegDick</addsHediff>
+	</RecipeDef>
+
+	<!-- Attach bionic privates -->
+
+	<RecipeDef ParentName="SexReassignment">
+		<defName>InstallBionicVagina</defName>
+		<label>install bionic vagina</label>
+		<description>Installs a bionic vagina.</description>
+		<workerClass>rjw.Recipe_InstallPrivates</workerClass>
+		<jobString>Installing bionic vagina.</jobString>
+		<workAmount>2000</workAmount>
+		<skillRequirements>
+			<Medicine>14</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BionicVagina</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>BionicVagina</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>BionicVagina</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="SexReassignment">
+		<defName>AttachBionicPenis</defName>
+		<label>attach bionic penis</label>
+		<description>Attaches a bionic penis.</description>
+		<workerClass>rjw.Recipe_InstallPrivates</workerClass>
+		<jobString>Attaching bionic penis.</jobString>
+		<workAmount>1500</workAmount>
+		<skillRequirements>
+			<Medicine>14</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BionicPenis</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>BionicPenis</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>BionicPenis</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="BreastSurgery">
+		<defName>InstallBionicBreasts</defName>
+		<label>install bionic breasts</label>
+		<description>Installs a pair of bionic breasts.</description>
+		<workerClass>rjw.Recipe_InstallBreasts</workerClass>
+		<jobString>Installing bionic breasts.</jobString>
+		<workAmount>2000</workAmount>
+		<skillRequirements>
+			<Medicine>14</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BionicBreasts</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>BionicBreasts</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>BionicBreasts</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AnalSurgery">
+		<defName>InstallBionicAnus</defName>
+		<label>install bionic anus</label>
+		<description>Installs a bionic anus.</description>
+		<workerClass>rjw.Recipe_InstallAnus</workerClass>
+		<jobString>Installing bionic anus.</jobString>
+		<workAmount>2000</workAmount>
+		<skillRequirements>
+			<Medicine>14</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BionicAnus</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>BionicAnus</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>BionicAnus</addsHediff>
+	</RecipeDef>
+
+	<!-- Remove privates -->
+
+	<RecipeDef ParentName="SexReassignment">
+		<defName>Nullify</defName>
+		<label>nullify</label>
+		<description>Removes sex organs.</description>
+		<workerClass>rjw.Recipe_Nullify</workerClass>
+		<jobString>Nullifying.</jobString>
+		<workAmount>1600</workAmount>
+		<skillRequirements>
+			<Medicine>2</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="BreastSurgery">
+		<defName>RemoveBreasts</defName>
+		<label>remove breasts</label>
+		<description>Removes breasts.</description>
+		<workerClass>rjw.Recipe_RemoveBreasts</workerClass>
+		<jobString>Removing breasts.</jobString>
+		<workAmount>1600</workAmount>
+		<skillRequirements>
+			<Medicine>2</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AnalSurgery">
+		<defName>RemoveAnus</defName>
+		<label>remove anus</label>
+		<description>Removes anus.</description>
+		<workerClass>rjw.Recipe_RemoveAnus</workerClass>
+		<jobString>Removing anus.</jobString>
+		<workAmount>1600</workAmount>
+		<skillRequirements>
+			<Medicine>2</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<!--sterilization-->
+	<!--hideBodyPartNames>true</hideBodyPartNames-->
+	<!--targetsBodyPart>true</targetsBodyPart-->
+
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>Sterilization</defName>
+		<label>sterilization</label>
+		<description>Prevents reproduction without removing genitals.</description>
+		<jobString>sterilizing.</jobString>
+		<workAmount>1000</workAmount>
+		<skillRequirements>
+			<Medicine>2</Medicine>
+		</skillRequirements>
+		<recipeUsers>
+			<li>Human</li>
+			<li>Alpaca</li>
+			<li>Alphabeaver</li>
+			<li>Boomalope</li>
+			<li>Boomrat</li>
+			<li>Capybara</li>
+			<li>Caribou</li>
+			<li>Cassowary</li>
+			<li>Cat</li>
+			<li>Chicken</li>
+			<li>Chinchilla</li>
+			<li>Cobra</li>
+			<li>Cougar</li>
+			<li>Cow</li>
+			<li>Deer</li>
+			<li>Dromedary</li>
+			<li>Elephant</li>
+			<li>Elk</li>
+			<li>Emu</li>
+			<li>Fox_Arctic</li>
+			<li>Fox_Fennec</li>
+			<li>Fox_Red</li>
+			<li>Gazelle</li>
+			<li>Bear_Grizzly</li>
+			<li>Hare</li>
+			<li>Husky</li>
+			<li>Ibex</li>
+			<li>Iguana</li>
+			<li>LabradorRetriever</li>
+			<li>Lynx</li>
+			<li>Megascarab</li>
+			<li>Megasloth</li>
+			<li>Monkey</li>
+			<li>Muffalo</li>
+			<li>Ostrich</li>
+			<li>Panther</li>
+			<li>Pig</li>
+			<li>Bear_Polar</li>
+			<li>Raccoon</li>
+			<li>Rat</li>
+			<li>Rhinoceros</li>
+			<li>Snowhare</li>
+			<li>Squirrel</li>
+			<li>Thrumbo</li>
+			<li>Tortoise</li>
+			<li>Turkey</li>
+			<li>Warg</li>
+			<li>WildBoar</li>
+			<li>Wolf_Arctic</li>
+			<li>Wolf_Timber</li>
+			<li>YorkshireTerrier</li>
+		</recipeUsers>
+		<appliedOnFixedBodyParts>
+			<li>Genitals</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>Sterilized</addsHediff>
+		<workerClass>rjw.Recipe_InstallImplantToExistParts</workerClass>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+		</fixedIngredientFilter>
+	</RecipeDef>
+  
+	<!-- IUD Sergery -->
+
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>RJW_InstallIUD</defName>
+		<label>install IUD</label>
+		<description>Prevents reproduction temporaly. recoverble anytime.</description>
+		<jobString>installing IUD.</jobString>
+		<workAmount>300</workAmount>
+		<recipeUsers>
+		<li>Human</li>
+		</recipeUsers>
+		<appliedOnFixedBodyParts>
+		<li>Genitals</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>RJW_IUD</addsHediff>
+		<workerClass>rjw.Recipe_InstallIUD</workerClass>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Silver</li>
+					</thingDefs>
+				</filter>
+				<count>0.3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>0.1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>Steel</li>
+				<li>Silver</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+  
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>RJW_RemovelIUD</defName>
+		<label>remove IUD</label>
+		<description>Prevents reproduction temporaly. recoverble anytime.</description>
+		<jobString>removing IUD.</jobString>
+		<workAmount>300</workAmount>
+		<recipeUsers>
+		<li>Human</li>
+		</recipeUsers>
+		<appliedOnFixedBodyParts>
+		<li>Genitals</li>
+		</appliedOnFixedBodyParts>
+		<removesHediff>RJW_IUD</removesHediff>
+		<workerClass>Recipe_RemoveHediff</workerClass>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+		</fixedIngredientFilter>
+	</RecipeDef>
+  
+	<!--Futa creation-->
+	<RecipeDef Abstract="True" Name="FutaMaking" ParentName="SexReassignment">
+		<description>Adds a penis of chosen size to a female.</description>
+		<workerClass>rjw.Recipe_MakeFuta</workerClass>
+		<workAmount>1200</workAmount>
+		<jobString>Attaching penis.</jobString>
+	</RecipeDef>
+  
+	<!--natural penises-->
+	<RecipeDef ParentName="FutaMaking">
+		<defName>AddPenis</defName>
+		<label>add penis</label>
+		<workAmount>1200</workAmount>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Penis</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>Penis</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>Penis</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="FutaMaking">
+		<defName>AddMicropenis</defName>
+		<label>add micropenis</label>
+		<jobString>adding micropenis.</jobString>
+		<workAmount>1200</workAmount>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Micropenis</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>Micropenis</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>Micropenis</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="FutaMaking">
+		<defName>addSmallPenis</defName>
+		<label>add small penis</label>
+		<jobString>adding small penis.</jobString>
+		<workAmount>1200</workAmount>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SmallPenis</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>SmallPenis</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>SmallPenis</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="FutaMaking">
+		<defName>addBigPenis</defName>
+		<label>add big penis</label>
+		<jobString>adding big penis.</jobString>
+		<workAmount>1200</workAmount>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BigPenis</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>BigPenis</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>BigPenis</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="FutaMaking">
+		<defName>addHugePenis</defName>
+		<label>add huge penis</label>
+		<jobString>adding huge penis.</jobString>
+		<workAmount>1200</workAmount>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HugePenis</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>HugePenis</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>HugePenis</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="FutaMaking">
+		<defName>addHorsePenis</defName>
+		<label>add horse penis</label>
+		<jobString>adding horse penis.</jobString>
+		<workAmount>1200</workAmount>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HorsePenis</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>HorsePenis</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>HorsePenis</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="FutaMaking">
+		<defName>addCatPenis</defName>
+		<label>add Cat penis</label>
+		<jobString>adding Cat penis.</jobString>
+		<workAmount>1200</workAmount>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CatPenis</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>CatPenis</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>CatPenis</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="FutaMaking">
+		<defName>addDogPenis</defName>
+		<label>add Dog penis</label>
+		<jobString>adding Dog penis.</jobString>
+		<workAmount>1200</workAmount>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DogPenis</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>DogPenis</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>DogPenis</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="FutaMaking">
+		<defName>addDragonPenis</defName>
+		<label>add dragon penis</label>
+		<jobString>adding Dragon penis.</jobString>
+		<workAmount>1200</workAmount>
+		<skillRequirements>
+			<Medicine>10</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DragonPenis</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>DragonPenis</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>DragonPenis</addsHediff>
+	</RecipeDef>
+
+	<!--bionic penis-->
+	<RecipeDef ParentName="FutaMaking">
+		<defName>AddBionicPenis</defName>
+		<label>adds bionic penis</label>
+		<jobString>Attaching bionic penis.</jobString>
+		<workAmount>1500</workAmount>
+		<skillRequirements>
+			<Medicine>14</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BionicPenis</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>BionicPenis</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>BionicPenis</addsHediff>
+	</RecipeDef>
+</Defs>

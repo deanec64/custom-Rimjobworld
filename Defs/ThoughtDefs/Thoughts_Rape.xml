@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<ThoughtDef>
+		<defName>FeelingBroken</defName>
+		<!--<thoughtClass>Thought_Memory</thoughtClass>--><!--without this it works, with it doesn't. Better leave it this way-->
+		<workerClass>rjw.ThoughtWorker_FeelingBroken</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<stages>
+			<li>
+				<label>dizzy</label>
+				<description>I feel exhausted and dizzy after they raped me so many times.</description>
+				<baseMoodEffect>-10</baseMoodEffect>
+			</li>
+			<li>
+				<label>my body feels broken</label>
+				<description>No...I don't want...aah...ahhh...my body feels...broken...</description>
+				<baseMoodEffect>-20</baseMoodEffect>
+			</li>
+			<li>
+				<label>begging for more</label>
+				<description>Masters, please punish me for more, my humble body is all yours. Please fill me with your cum.</description>
+				<baseMoodEffect>40</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>GotRaped</defName>
+		<thoughtClass>Thought_Memory</thoughtClass>
+		<durationDays>10.0</durationDays>
+		<stackLimit>100</stackLimit>
+		<stackedEffectMultiplier>0.4</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<label>raped</label>
+				<description>I was raped.</description>
+				<baseMoodEffect>-18</baseMoodEffect>
+			</li>
+		</stages>
+		<nullifyingTraits>
+			<li>Masochist</li>
+		</nullifyingTraits>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>MasochistGotRaped</defName>
+		<thoughtClass>Thought_Memory</thoughtClass>
+		<durationDays>5.0</durationDays>
+		<stackLimit>5</stackLimit>
+		<stackedEffectMultiplier>0.7</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<label>raped (Masochist)</label>
+				<description>I was used and thrown around like a piece of meat. Something about it, though, just feels... right.</description>
+				<baseMoodEffect>4</baseMoodEffect>
+			</li>
+		</stages>
+		<requiredTraits>
+			<li>Masochist</li>
+		</requiredTraits>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>HateMyRapist</defName>
+		<thoughtClass>Thought_MemorySocial</thoughtClass>
+		<durationDays>10.0</durationDays>
+		<stackLimit>5</stackLimit>
+		<stackedEffectMultiplier>0.4</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<label>raped me</label>
+				<description>I was raped by {0}.</description>
+				<baseOpinionOffset>-130</baseOpinionOffset>
+			</li>
+		</stages>
+		<nullifyingTraits>
+			<li>Masochist</li>
+		</nullifyingTraits>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>KindaLikeMyRapist</defName>
+		<thoughtClass>Thought_MemorySocial</thoughtClass>
+		<durationDays>10.0</durationDays>
+		<stackLimit>5</stackLimit>
+		<stackedEffectMultiplier>0.7</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<label>raped me (Masochist)</label>
+				<description>I was raped by {0}.</description>
+				<baseOpinionOffset>20</baseOpinionOffset>
+			</li>
+		</stages>
+		<requiredTraits>
+			<li>Masochist</li>
+		</requiredTraits>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>AllowedMeToGetRaped</defName>
+		<thoughtClass>Thought_MemorySocial</thoughtClass>
+		<durationDays>10.0</durationDays>
+		<stackLimit>5</stackLimit>
+		<stackedEffectMultiplier>0.5</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<label>allowed me to get raped</label>
+				<description>I was suffering while {0} just looked the other way.</description>
+				<baseOpinionOffset>-30</baseOpinionOffset>
+			</li>
+		</stages>
+		<nullifyingTraits>
+			<li>Masochist</li>
+		</nullifyingTraits>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>StoleSomeLovin</defName>
+		<thoughtClass>Thought_Memory</thoughtClass>
+		<durationDays>1.0</durationDays>
+		<stackLimit>3</stackLimit>
+		<stackedEffectMultiplier>0.4</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<label>stole some lovin’</label>
+				<description>I forced myself on some bitch. The sex was pretty shit, but it's better than nothing.</description>
+				<baseMoodEffect>2</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>MadeSomeLovin</defName>
+		<thoughtClass>Thought_Memory</thoughtClass>
+		<durationDays>1.0</durationDays>
+		<stackLimit>3</stackLimit>
+		<stackedEffectMultiplier>0.4</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<label>made some lovin’</label>
+				<description>Spend some good time rolling in a hay.</description>
+				<baseMoodEffect>4</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>BloodlustStoleSomeLovin</defName>
+		<thoughtClass>Thought_Memory</thoughtClass>
+		<durationDays>1.5</durationDays>
+		<stackLimit>3</stackLimit>
+		<stackedEffectMultiplier>0.4</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<label>stole some lovin’ (Bloodlust)</label>
+				<description>I forced myself on some bitch. The screaming, the tears, the blood, it was all such a rush!</description>
+				<baseMoodEffect>10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+</Defs>

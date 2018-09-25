@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<!--<rjw.MiscTranslationDef>
+		<defName>DesignatorComfortPrisoner</defName>
+		<targetClass>rjw.Designator_ComfortPrisoner</targetClass>
+		<label>comfort prisoner</label>
+		<description>Designate the prisoner as a tool to satisfy everyone's sexual need.</description>
+	</rjw.MiscTranslationDef>-->
+
+	<rjw.MiscTranslationDef>
+		<defName>rjw_vatgrown_sex_slave</defName>
+		<targetClass>rjw.nymph_backstories</targetClass>
+		<label>Vat-Grown Sex Slave</label>
+		<description>[PAWN_nameDef] is made as a sex machine, rather than a human. During [PAWN_possessive] growing period in the factory, [PAWN_pronoun] was taught plenty of social skills and sex skills, just to satisfy various sex demands.</description>
+		<stringA>SexSlave</stringA>
+	</rjw.MiscTranslationDef>
+
+	<rjw.MiscTranslationDef>
+		<defName>rjw_feisty</defName>
+		<targetClass>rjw.nymph_backstories</targetClass>
+		<label>Feisty Nymph</label>
+		<description>[PAWN_nameDef] struts around the colony like a conqueror examining a newly annexed territory. You try to focus on your work but [PAWN_pronoun] won't let you.\n
+"I heard what you said about me!" [PAWN_pronoun] accuses. You didn't say anything about [PAWN_objective]. [PAWN_pronoun] knows that. "Wanna fight?" [PAWN_pronoun] challenges. You already know what [PAWN_pronoun] means: a few minutes of play wrestling and then you take [PAWN_objective], or, if you hesitate, [PAWN_pronoun] takes you.\n
+Though [PAWN_nameDef] can be hard to get along with you've come to appreciate how [PAWN_pronoun]'s more practical than the others.\n
+You explain to [PAWN_objective], "See these things here? They need to be over there" and "Those people are trying to kill us, so let's kill them first." [PAWN_pronoun] listens, and does what is necessary.</description>
+		<stringA>Nymph</stringA>
+	</rjw.MiscTranslationDef>
+
+	<rjw.MiscTranslationDef>
+		<defName>rjw_curious</defName>
+		<targetClass>rjw.nymph_backstories</targetClass>
+		<label>Curious Nymph</label>
+		<description>Hold the covering plate back and place the actuator in slot C. Line the rod up. No, that won't do, it needs to be perfect. Now pop the JC-444 chip in place.\n
+Solder the orange wire to pin #16 and the striped wire to pin #5.\n
+Suddenly, there [PAWN_pronoun] is. You aren't surprised to see [PAWN_nameDef], you just didn't hear [PAWN_objective] approach. By now you're used to it.\n
+You continue your work in silence as [PAWN_pronoun] hovers over you, her large eyes fixated on the rapid, rythmic, deliberate motions of your hands.</description>
+		<stringA>Nymph</stringA>
+	</rjw.MiscTranslationDef>
+
+	<rjw.MiscTranslationDef>
+		<defName>rjw_tender</defName>
+		<targetClass>rjw.nymph_backstories</targetClass>
+		<label>Tender Nymph</label>
+		<description>[PAWN_nameDef] has a pair of charming eyes, and [PAWN_possessive] voice is soft and sweet. Due to [PAWN_possessive] previous nurse job, [PAWN_pronoun] tends people quite well.\n
+[PAWN_pronoun]'s crouched in the corner, hands over [PAWN_possessive] ears and tears in [PAWN_possessive] eyes. You don't understand, then you notice it: the distant sound of the pained squeals of pigs being slaughtered.</description>
+		<stringA>Nymph</stringA>
+	</rjw.MiscTranslationDef>
+
+	<rjw.MiscTranslationDef>
+		<defName>rjw_chatty</defName>
+		<targetClass>rjw.nymph_backstories</targetClass>
+		<label>Chatty Nymph</label>
+		<description>No one can be more loquacious than [PAWN_nameDef]. [PAWN_pronoun] has a flexible tongue, a sharp mind, and hot lips.</description>
+		<stringA>Nymph</stringA>
+	</rjw.MiscTranslationDef>
+
+	<rjw.MiscTranslationDef>
+		<defName>rjw_broken</defName>
+		<targetClass>rjw.nymph_backstories</targetClass>
+		<label>Broken Nymph</label>
+		<description>Maybe [PAWN_nameDef] suffered some terrible things, [PAWN_pronoun] looks rather emaciated, and no one wants to speak with [PAWN_objective].\n
+[PAWN_pronoun] only behaves a bit vivaciously while staring at some rod-like stuffs.</description>
+		<stringA>Nymph</stringA>
+	</rjw.MiscTranslationDef>
+</Defs>

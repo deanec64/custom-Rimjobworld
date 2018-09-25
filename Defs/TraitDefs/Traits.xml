@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<TraitDef>
+		<defName>Nymphomaniac</defName>
+		<commonality>0.1</commonality>
+		<commonalityFemale>0.08</commonalityFemale>
+		<degreeDatas>
+			<li>
+				<label>nymphomaniac</label>
+				<description>[PAWN_nameDef] loves sex and always wants more.</description>
+			</li>
+		</degreeDatas>
+		<conflictingTraits>
+			<li>DislikesMen</li>
+			<li>DislikesWomen</li>
+		</conflictingTraits>
+		<requiredWorkTags>
+			<li>Social</li>
+		</requiredWorkTags>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>Rapist</defName>
+		<commonality>0.1</commonality>
+		<commonalityFemale>0.02</commonalityFemale>
+		<degreeDatas>
+			<li>
+				<label>rapist</label>
+				<description>[PAWN_nameDef] doesn't take &#34;No&#34; as an answer.</description>
+				<!--<allowedMentalBreaks>
+					<li>RandomRape</li>
+				</allowedMentalBreaks>-->
+				<randomMentalState>RandomRape</randomMentalState>
+				<randomMentalStateMtbDaysMoodCurve>
+					<points>
+						<li>(0, 7.5)</li>
+						<li>(50, 25)</li>
+						<li>(100, 50)</li>
+					</points>
+				</randomMentalStateMtbDaysMoodCurve>
+			</li>
+		</degreeDatas>
+		<conflictingTraits>
+			<li>Kind</li>
+		</conflictingTraits>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>Necrophiliac</defName>
+		<commonality>0.05</commonality>
+		<commonalityFemale>0</commonalityFemale>
+		<degreeDatas>
+			<li>
+				<label>necrophiliac</label>
+				<description>Dead people can't say no, can they?</description>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+
+	<TraitDef>
+		<defName>Zoophile</defName>
+		<commonality>0.03</commonality>
+		<commonalityFemale>0.03</commonalityFemale>
+		<degreeDatas>
+			<li>
+				<label>zoophile</label>
+				<description>[PAWN_nameDef] likes to walk on the wild side.</description>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+</Defs>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<InteractionDef>
+		<defName>AnalBreeding</defName>
+		<label>anal breeding</label>
+		<workerClass>rjw.InteractionWorker_AnalSexAttempt</workerClass>
+		<symbol>UI/Commands/Breeding</symbol>
+		<socialFightBaseChance>0.0</socialFightBaseChance>
+		<logRulesInitiator>
+			<rulesStrings>
+				<li>r_logentry->Mounted [OTHER_nameDef].</li>
+			</rulesStrings>
+		</logRulesInitiator>
+		<logRulesRecipient>
+			<rulesStrings>
+				<li>r_logentry->Was mounted by [OTHER_nameDef].</li>
+			</rulesStrings>
+		</logRulesRecipient>
+	</InteractionDef>
+	
+	<InteractionDef>
+		<defName>VaginalBreeding</defName>
+		<label>vaginal breeding</label>
+		<workerClass>rjw.InteractionWorker_VaginalSexAttempt</workerClass>
+		<symbol>UI/Commands/Breeding</symbol>
+		<socialFightBaseChance>0.0</socialFightBaseChance>
+		<logRulesInitiator>
+			<rulesStrings>
+				<li>r_logentry->Mounted [OTHER_nameDef].</li>
+			</rulesStrings>
+		</logRulesInitiator>
+		<logRulesRecipient>
+			<rulesStrings>
+				<li>r_logentry->Was mounted by [OTHER_nameDef].</li>
+			</rulesStrings>
+		</logRulesRecipient>
+	</InteractionDef>
+
+  <InteractionDef>
+    <defName>RequestBreeding</defName>
+    <label>request breeding</label>
+    <workerClass>rjw.InteractionWorker_VaginalSexAttempt</workerClass>
+    <symbol>UI/Commands/Breeding</symbol>
+    <socialFightBaseChance>0.0</socialFightBaseChance>
+    <logRulesInitiator>
+      <rulesStrings>
+        <li>r_logentry->[OTHER_nameDef] presented to [INITIATOR_nameDef].</li>
+      </rulesStrings>
+    </logRulesInitiator>
+    <logRulesRecipient>
+      <rulesStrings>
+        <li>r_logentry->Presented to [OTHER_nameDef].</li>
+      </rulesStrings>
+    </logRulesRecipient>
+  </InteractionDef>
+</Defs>

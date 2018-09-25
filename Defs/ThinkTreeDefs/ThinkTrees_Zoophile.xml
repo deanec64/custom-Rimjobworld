@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<ThinkTreeDef>
+		<defName>BestialityTree</defName>
+		<insertTag>Humanlike_PreMain</insertTag>
+		<insertPriority>16</insertPriority>
+		<thinkRoot Class="ThinkNode_Priority">
+			<subNodes>
+				<li Class="rjw.ThinkNode_ConditionalBestiality">
+					<subNodes>
+						<li Class="rjw.ThinkNode_ChancePerHour_Bestiality">
+							<subNodes>
+								<li Class="rjw.JobGiver_Bestiality" />
+							</subNodes>
+						</li>
+					</subNodes>
+				</li>
+			</subNodes>
+		</thinkRoot>
+	</ThinkTreeDef>
+
+	<ThinkTreeDef>
+		<defName>AnimalSexualEmergencyTree</defName>
+		<insertTag>Animal_PreWander</insertTag>
+		<insertPriority>14</insertPriority>
+		<thinkRoot Class="ThinkNode_Priority">
+			<subNodes>
+				<li Class="rjw.ThinkNode_ConditionalCanBreed">
+					<subNodes>
+						<li Class="rjw.ThinkNode_ChancePerHour_Breed">
+							<subNodes>
+								<li Class="rjw.JobGiver_Breed" />
+							</subNodes>
+						</li>
+					</subNodes>
+				</li>
+			</subNodes>
+		</thinkRoot>
+	</ThinkTreeDef>
+</Defs>

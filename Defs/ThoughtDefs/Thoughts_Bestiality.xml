@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<ThoughtDef>
+		<defName>GotBredByAnimal</defName>
+		<thoughtClass>Thought_Memory</thoughtClass>
+		<durationDays>10.0</durationDays>
+		<stackLimit>5</stackLimit>
+		<stackedEffectMultiplier>0.4</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<label>raped by animal</label>
+				<description>An animal tried to breed with me.</description>
+				<baseMoodEffect>-20</baseMoodEffect>
+			</li>
+		</stages>
+		<nullifyingTraits>
+			<li>Masochist</li>
+			<li>Zoophile</li>
+		</nullifyingTraits>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>MasochistGotBredByAnimal</defName>
+		<thoughtClass>Thought_Memory</thoughtClass>
+		<durationDays>5.0</durationDays>
+		<stackLimit>5</stackLimit>
+		<stackedEffectMultiplier>0.7</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<label>raped by animal (Masochist)</label>
+				<description>An animal tried to breed with me. I kinda liked it...</description>
+				<baseMoodEffect>6</baseMoodEffect>
+			</li>
+		</stages>
+		<requiredTraits>
+			<li>Masochist</li>
+		</requiredTraits>
+	</ThoughtDef>
+
+  <ThoughtDef>
+    <defName>ZoophileGotBredByAnimal</defName>
+    <thoughtClass>Thought_Memory</thoughtClass>
+    <durationDays>5.0</durationDays>
+    <stackLimit>5</stackLimit>
+    <stackedEffectMultiplier>0.7</stackedEffectMultiplier>
+    <stages>
+      <li>
+        <label>bred by animal (Zoophile)</label>
+        <description>An animal bred me.</description>
+        <baseMoodEffect>10</baseMoodEffect>
+      </li>
+    </stages>
+    <requiredTraits>
+      <li>Zoophile</li>
+    </requiredTraits>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>GotLickedByAnimal</defName>
+    <thoughtClass>Thought_Memory</thoughtClass>
+    <durationDays>10.0</durationDays>
+    <stackLimit>5</stackLimit>
+    <stackedEffectMultiplier>0.4</stackedEffectMultiplier>
+    <stages>
+      <li>
+        <label>raped by animal</label>
+        <description>An animal forced their tongue inside me.</description>
+        <baseMoodEffect>-5</baseMoodEffect>
+      </li>
+    </stages>
+    <nullifyingTraits>
+      <li>Masochist</li>
+      <li>Zoophile</li>
+    </nullifyingTraits>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>MasochistGotLickedByAnimal</defName>
+    <thoughtClass>Thought_Memory</thoughtClass>
+    <durationDays>5.0</durationDays>
+    <stackLimit>5</stackLimit>
+    <stackedEffectMultiplier>0.7</stackedEffectMultiplier>
+    <stages>
+      <li>
+        <label>raped by animal (Masochist)</label>
+        <description>An animal forced their tongue inside me.  I kinda liked it...</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+    </stages>
+    <requiredTraits>
+      <li>Masochist</li>
+    </requiredTraits>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>ZoophileGotLickedByAnimal</defName>
+    <thoughtClass>Thought_Memory</thoughtClass>
+    <durationDays>5.0</durationDays>
+    <stackLimit>5</stackLimit>
+    <stackedEffectMultiplier>0.7</stackedEffectMultiplier>
+    <stages>
+      <li>
+        <label>ravished by animal (Zoophile)</label>
+        <description>An animal ravished me.</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+    </stages>
+    <requiredTraits>
+      <li>Zoophile</li>
+    </requiredTraits>
+  </ThoughtDef>
+</Defs>

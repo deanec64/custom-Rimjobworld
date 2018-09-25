@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<ThingDef ParentName="PlantBase">
+		<defName>PlantHumpShroom</defName>
+		<label>humpshroom shroom</label>
+		<description>Thick shroom with tough flesh, thick juice and smooth soft skin. Exhibits aphrodisiac effects when consumed.</description>
+		<statBases>
+			<MaxHitPoints>85</MaxHitPoints>
+			<Nutrition>0.15</Nutrition>
+		</statBases>
+		<graphicData>
+			<texPath>Humpshroom</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<selectable>true</selectable>
+		<pathCost>10</pathCost>
+		<plant>
+			<fertilitySensitivity>1.0</fertilitySensitivity>
+			<growDays>9.00</growDays>
+			<harvestTag>Standard</harvestTag>
+			<harvestedThingDef>HumpShroom</harvestedThingDef>
+			<harvestYield>3</harvestYield>
+			<sowMinSkill>4</sowMinSkill>
+			<sowTags>
+				<li>Ground</li>
+				<li>Hydroponic</li>
+			</sowTags>
+			<topWindExposure>0.1</topWindExposure>
+			<visualSizeRange>
+				<min>0.3</min>
+				<max>1.0</max>
+			</visualSizeRange>
+		</plant>
+	</ThingDef>
+	
+	<ThingDef ParentName="DrugBase">
+		<defName>HumpShroom</defName>
+		<label>Hump shroom</label>
+		<description>A shroom with tough flesh, thick juice and smooth soft skin. Exhibits aphrodisiac effects when consumed. Lightly addictive however.</description>
+		<tradeability>Sellable</tradeability>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<tickerType>Rare</tickerType>
+		<graphicData>
+		<texPath>HumpshroomCollected</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>40</MarketValue>
+			<Mass>0.1</Mass>
+			<DeteriorationRate>4</DeteriorationRate>
+			<Nutrition>0.20</Nutrition>
+		</statBases>
+		<techLevel>Neolithic</techLevel>
+		<ingestible>
+			<baseIngestTicks>100</baseIngestTicks>
+			<chairSearchRadius>4</chairSearchRadius>
+			<preferability>RawTasty</preferability>
+			<tasteThought></tasteThought>
+			<foodType>VegetableOrFruit</foodType>
+			<joy>0.5</joy>      
+			<joyKind>Social</joyKind>
+			<nurseable>true</nurseable>
+			<drugCategory>Social</drugCategory>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>HumpShroomEffect</hediffDef>
+					<severity>0.50</severity>
+					<toleranceChemical>HumpShroom</toleranceChemical>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>HumpShroomTolerance</hediffDef>
+					<severity>0.032</severity>
+					<divideByBodySize>true</divideByBodySize>
+				</li>
+				<li Class="IngestionOutcomeDoer_OffsetNeed">
+					<need>Sex</need>
+					<offset>-0.5</offset>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>30</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+			<li Class="CompProperties_Drug">
+			<chemical>HumpShroom</chemical>
+			<addictiveness>0.010</addictiveness>
+			<minToleranceToAddict>0.15</minToleranceToAddict>
+			<existingAddictionSeverityOffset>0.1</existingAddictionSeverityOffset>
+			<needLevelOffset>1</needLevelOffset>
+			<listOrder>30</listOrder>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<HediffDef>
+		<defName>HumpShroomEffect</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>Induced libido</label>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<scenarioCanAdd>true</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.9</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<restFallFactor>1.33</restFallFactor>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<ThoughtDef>
+		<defName>HumpShroomEffect</defName>
+		<workerClass>ThoughtWorker_Hediff</workerClass>
+		<hediff>HumpShroomEffect</hediff>
+		<validWhileDespawned>true</validWhileDespawned>
+		<stages>
+			<li>
+				<label>Humpshroom aftertaste</label>
+				<description>Tastes funny.</description>
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<!-- Ambrosia addiction -->
+	<ChemicalDef>
+		<defName>HumpShroom</defName>
+		<label>humpshroom</label>
+		<addictionHediff>HumpShroomAddiction</addictionHediff>
+		<toleranceHediff>HumpShroomTolerance</toleranceHediff>
+		<onGeneratedAddictedToleranceChance>0.8</onGeneratedAddictedToleranceChance>
+	</ChemicalDef>
+	
+	<NeedDef ParentName="DrugAddictionNeedBase">
+		<defName>Chemical_HumpShroom</defName>
+		<needClass>Need_Chemical</needClass>
+		<label>humpshroom</label>
+		<description>Person is now hooked on shrooms. Without them, their bedroom performance may fall.</description>
+		<listPriority>10</listPriority>
+	</NeedDef>
+	
+	<HediffDef ParentName="DrugToleranceBase">
+		<defName>HumpShroomTolerance</defName>
+		<label>humpshroom tolerance</label>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.020</severityPerDay>
+			</li>
+			<li Class="HediffCompProperties_DrugEffectFactor">
+				<chemical>Ambrosia</chemical>
+			</li>
+		</comps>
+	</HediffDef>
+	
+	<HediffDef ParentName="AddictionBase">
+		<defName>HumpShroomAddiction</defName>
+		<hediffClass>Hediff_Addiction</hediffClass>
+		<label>humpshroom addiction</label>
+		<causesNeed>Chemical_HumpShroom</causesNeed>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.1</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>withdrawal</label>
+				<statOffsets>
+					<SexAbility>0.5</SexAbility>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+		
+	<ThoughtDef>
+		<defName>HumpShroomWithdrawal</defName>
+		<workerClass>ThoughtWorker_Hediff</workerClass>
+		<hediff>HumpShroomAddiction</hediff>
+		<validWhileDespawned>true</validWhileDespawned>
+		<stages>
+			<li>
+				<visible>false</visible>
+			</li>
+			<li>
+				<label>humpshroom withdrawal</label>
+				<description>I just feel nothing down there.</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<!--As usual stolen from CnP-->
+	<ThingDef ParentName="MakeableDrugPillBase">
+		<defName>RJW_Contraceptive</defName>
+		<label>Contraception pills</label>
+		<description>Deliver severe hit to fertility for one quadrum.</description>
+		<graphicData>
+			<texPath>Contraceptive</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<statBases>
+			<WorkToMake>120</WorkToMake>
+			<MarketValue>15</MarketValue>
+			<Mass>0.05</Mass>
+		</statBases>
+		<techLevel>Industrial</techLevel>
+		<ingestible>
+			<drugCategory>Medical</drugCategory>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>RJW_Contraceptive</hediffDef>
+					<severity>1.0</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<recipeMaker>
+			<researchPrerequisite>DrugProduction</researchPrerequisite>
+			<recipeUsers>
+				<li>DrugLab</li>
+			</recipeUsers>
+		</recipeMaker>
+		<costList>
+			<MedicineHerbal>1</MedicineHerbal>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Drug">
+			<addictiveness>0</addictiveness>
+			<listOrder>1000</listOrder>
+				<overdoseSeverityOffset>
+					<min>0.08</min>
+					<max>0.14</max>
+				</overdoseSeverityOffset>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<HediffDef>
+		<defName>RJW_Contraceptive</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>contraceptive</label>
+		<defaultLabelColor>(0.75, 0.75, 1.0)</defaultLabelColor>
+		<comps>
+			<!-- Disappears after a season's time -->
+			<li Class="HediffCompProperties_Disappears">
+				<disappearsAfterTicks>
+					<min>900000</min>
+					<max>900000</max>
+				</disappearsAfterTicks>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>Contracepted</label>
+				<capMods>
+					<li>
+						<capacity>Reproduction</capacity>
+						<setMax>0.1</setMax>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+</Defs>

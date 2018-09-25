@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<StatDef>
+		<defName>SexAbility</defName>
+		<label>sex ability</label>
+		<description>Measures whether or not a pawn is capable of sex, and how good they are at it</description>
+		<category>PawnSocial</category>
+		<defaultBaseValue>0.0</defaultBaseValue>
+		<minValue>0.0</minValue>
+		<toStringStyle>PercentTwo</toStringStyle>
+		<capacityFactors>
+			<li>
+				<capacity>Manipulation</capacity>
+				<weight>0.5</weight>
+			</li>
+		</capacityFactors>
+	</StatDef>
+
+	<StatDef>
+		<defName>Vulnerability</defName>
+		<label>vulnerability</label>
+		<description>Measures how likely a pawn is to be taken advantage of sexually</description>
+		<category>PawnSocial</category>
+		<defaultBaseValue>1.0</defaultBaseValue>
+		<minValue>0.0</minValue>
+		<maxValue>3.0</maxValue>
+		<noSkillFactor>0.9</noSkillFactor>
+		<toStringStyle>PercentTwo</toStringStyle>
+		<neverDisabled>true</neverDisabled>
+		<skillNeedFactors>
+			<li Class="SkillNeed_BaseBonus">
+				<skill>Melee</skill>
+				<baseValue>1.00</baseValue>
+				<bonusPerLevel>-0.06</bonusPerLevel>
+			</li>
+		</skillNeedFactors>
+		<capacityFactors>
+			<li>
+				<capacity>Sight</capacity>
+				<useReciprocal>true</useReciprocal>
+				<weight>0.2</weight>
+				<max>1.5</max>
+			</li>
+			<li>
+				<capacity>Moving</capacity>
+				<useReciprocal>true</useReciprocal>
+				<weight>0.2</weight>
+				<max>2</max>
+			</li>
+			<li>
+				<capacity>Manipulation</capacity>
+				<useReciprocal>true</useReciprocal>
+				<weight>0.75</weight>
+				<max>4</max>
+			</li>
+			<li>
+				<capacity>Consciousness</capacity>
+				<useReciprocal>true</useReciprocal>
+				<weight>0.4</weight>
+				<max>3</max>
+			</li>
+		</capacityFactors>
+	</StatDef>
+</Defs>

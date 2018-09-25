@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!--Zoophile parental relations, should give less powerful unhappiness-->
+<Defs>
+	<PawnRelationDef>
+		<defName>RJW_Sire</defName>
+		<label>father</label>
+		<labelFemale>mother</labelFemale>
+		<importance>195</importance>
+		<diedThought>MyFatherDied</diedThought>
+		<diedThoughtFemale>MyMotherDied</diedThoughtFemale>
+		<killedThought>KilledMyFather</killedThought>
+		<killedThoughtFemale>KilledMyMother</killedThoughtFemale>
+		<soldThought>SoldMyLovedOne</soldThought>
+		<opinionOffset>30</opinionOffset>
+		<generationChanceFactor>0.0</generationChanceFactor>
+		<incestOpinionOffset>0</incestOpinionOffset>
+		<implied>false</implied>
+		<familyByBloodRelation>true</familyByBloodRelation>
+	</PawnRelationDef>
+	
+	<PawnRelationDef>
+		<!--I don't know what a worker is supposed to do but I suspect it might have references to vanilla parent def in itself 
+		so I cut it and explicitly add relations in the code for birthing.
+		It will likely cause grandparent relations go amiss-->
+		<!--<workerClass>PawnRelationWorker_Child</workerClass>-->
+		<defName>RJW_Pup</defName>
+		<label>son</label>
+		<labelFemale>daughter</labelFemale>
+		<importance>190</importance>
+		<diedThought>MyPupDied</diedThought>
+		<diedThoughtFemale>MyPupDiedFemale</diedThoughtFemale>
+		<killedThought>KilledMyPup</killedThought>
+		<killedThoughtFemale>KilledMyPupFemale</killedThoughtFemale>
+		<soldThought>SoldMyPup</soldThought>
+		<opinionOffset>30</opinionOffset>
+		<generationChanceFactor>1.0</generationChanceFactor>
+		<attractionFactor>0.03</attractionFactor>
+		<incestOpinionOffset>-30</incestOpinionOffset>
+		<implied>false</implied>
+		<familyByBloodRelation>true</familyByBloodRelation>
+	</PawnRelationDef>
+</Defs>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+		<JobDef>
+		<defName>StruggleInBondageGear</defName>
+		<driverClass>rjw.JobDriver_StruggleInBondageGear</driverClass>
+		<reportString>struggling</reportString>
+	</JobDef>
+
+	<JobDef>
+		<defName>UnlockBondageGear</defName>
+		<driverClass>rjw.JobDriver_UseItemOn</driverClass>
+		<reportString>unlocking</reportString>
+	</JobDef>
+
+	<JobDef>
+		<defName>GiveBondageGear</defName>
+		<driverClass>rjw.JobDriver_UseItemOn</driverClass>
+		<reportString>equipping</reportString>
+	</JobDef>
+</Defs>

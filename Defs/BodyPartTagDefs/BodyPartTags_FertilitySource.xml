@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<BodyPartTagDef>
+		<defName>RJW_FertilitySource</defName>
+		<label>fertility_source</label>
+		<description>Neccessary for reproduction</description>
+		<vital>false</vital>	
+	</BodyPartTagDef>
+</Defs>

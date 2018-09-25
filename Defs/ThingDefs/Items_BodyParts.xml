@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<!-- ThingDef base fFrom core -->
+	<ThingDef Name="rjw_BodyPartBase" Abstract="True">
+		<thingClass>ThingWithComps</thingClass>
+		<category>Item</category>
+		<useHitPoints>true</useHitPoints>
+		<selectable>true</selectable>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<Beauty>-6</Beauty>
+		</statBases>
+		<altitudeLayer>Item</altitudeLayer>
+		<tickerType>Never</tickerType>
+		<alwaysHaulable>true</alwaysHaulable>
+		<tradeTags>
+			<li>TechHediff</li>
+		</tradeTags>
+		<comps>
+			<li Class="CompProperties_Forbiddable" />
+		</comps>
+		<pathCost>10</pathCost>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartBase" Name="rjw_BodyPartNaturalBase" Abstract="True">
+		<thingCategories>
+			<li>BodyPartsNatural</li>
+		</thingCategories>
+		<statBases>
+			<DeteriorationRate>4.0</DeteriorationRate>
+		</statBases>
+		<tickerType>Rare</tickerType>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>1.0</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartBase" Name="rjw_BodyPartArtificialBase" Abstract="True">
+		<thingCategories>
+			<li>BodyPartsArtificial</li>
+		</thingCategories>
+		<statBases>
+			<DeteriorationRate>2.0</DeteriorationRate>
+		</statBases>
+	</ThingDef>
+
+	<!-- Natural Penises -->
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>Penis</defName>
+		<label>penis</label>
+		<description>A severed penis. It's average size, and that's fine. Nothing wrong with that at all. Really, it's OK. There's no shame in being average. It's just... you know... just average.</description>
+		<graphicData>
+			<texPath>male_genital</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.16</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>Micropenis</defName>
+		<label>micropenis</label>
+		<description>A severed pinky. Uh, no wait...</description>
+		<graphicData>
+			<texPath>male_genital</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>30</MarketValue>
+			<Mass>0.09</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>SmallPenis</defName>
+		<label>small penis</label>
+		<description>A severed penis. It's rather small, so I hope you've got a great severed personality.</description>
+		<graphicData>
+			<texPath>male_genital</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>120</MarketValue>
+			<Mass>0.12</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>BigPenis</defName>
+		<label>big penis</label>
+		<description>A large severed penis.</description>
+		<graphicData>
+			<texPath>male_genital</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>330</MarketValue>
+			<Mass>0.19</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>HugePenis</defName>
+		<label>huge penis</label>
+		<description>A huge severed penis.</description>
+		<graphicData>
+			<texPath>male_genital</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>450</MarketValue>
+			<Mass>0.22</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>HorsePenis</defName>
+		<label>horse penis</label>
+		<description>A severed horse penis. Huge for a human.</description>
+		<graphicData>
+			<texPath>male_genital</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.40</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>CatPenis</defName>
+		<label>cat penis</label>
+		<description>A severed cat penis. Long, thin and barbed.</description>
+		<graphicData>
+			<texPath>male_genital</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.16</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>DogPenis</defName>
+		<label>dog penis</label>
+		<description>A severed dog penis. Thick and knotted.</description>
+		<graphicData>
+			<texPath>male_genital</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.16</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>DragonPenis</defName>
+		<label>dragon penis</label>
+		<description>A severed dragon penis. Thick and HARD.</description>
+		<graphicData>
+			<texPath>male_genital</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>1.00</Mass>
+		</statBases>
+	</ThingDef>
+
+	<!-- Natural Vaginas -->
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>Vagina</defName>
+		<label>vagina</label>
+		<description>A severed vagina. Average size.</description>
+		<graphicData>
+			<texPath>female_genital</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.10</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>TightVagina</defName>
+		<label>tight vagina</label>
+		<description>A severed tight vagina. Tight for most penises.</description>
+		<graphicData>
+			<texPath>female_genital</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.10</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>LooseVagina</defName>
+		<label>loose vagina</label>
+		<description>A severed loose vagina. Most penises can slide inside it with ease.</description>
+		<graphicData>
+			<texPath>female_genital</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.10</Mass>
+		</statBases>
+	</ThingDef>
+
+	<!-- Natural Breasts -->
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>Breasts</defName>
+		<label>breasts</label>
+		<description>A pair of severed C-cup breasts.</description>
+		<graphicData>
+			<texPath>breast</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<!-- Average C-cup boobs weight -->
+			<Mass>0.69</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>SmallBreasts</defName>
+		<label>small breasts</label>
+		<description>A pair of severed A-cup breasts.</description>
+		<graphicData>
+			<texPath>breast</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<!-- Average A-cup boobs weight -->
+			<Mass>0.23</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>LargeBreasts</defName>
+		<label>large breasts</label>
+		<description>A pair of severed E-cup breasts.</description>
+		<graphicData>
+			<texPath>breast</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<!-- Average E-cup boobs weight -->
+			<Mass>1.38</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>HugeBreasts</defName>
+		<label>huge breasts</label>
+		<description>A pair of severed H-cup breasts.</description>
+		<graphicData>
+			<texPath>breast</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<!-- Average H-cup boobs weight -->
+			<Mass>2.53</Mass>
+		</statBases>
+	</ThingDef>
+
+	<!-- Natural Anuses -->
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>Anus</defName>
+		<label>anus</label>
+		<description>A severed anus.</description>
+		<graphicData>
+			<texPath>anus</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.12</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>TightAnus</defName>
+		<label>tight anus</label>
+		<description>A severed tight anus.</description>
+		<graphicData>
+			<texPath>anus</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.12</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>LooseAnus</defName>
+		<label>loose anus</label>
+		<description>Hey, look a donut. Just kidding, it's an anus.</description>
+		<graphicData>
+			<texPath>anus</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.12</Mass>
+		</statBases>
+	</ThingDef>
+
+	<!-- Simple prosthetic penises -->
+	<ThingDef ParentName="rjw_BodyPartArtificialBase">
+		<defName>PegDick</defName>
+		<label>peg dick</label>
+		<description>A wooden dildo designed to replace a missing penis. Be careful of splinters.</description>
+		<graphicData>
+			<texPath>male_artificial_genital</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>5</MarketValue>
+			<Mass>1.50</Mass>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="rjw_BodyPartArtificialBase">
+		<defName>HydraulicPenis</defName>
+		<label>hydraulic penis</label>
+		<description>A prosthetic penis. Cold metal phallus. Has built in fluid delivery system.</description>
+		<graphicData>
+			<texPath>male_artificial_genital</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>100</MarketValue>
+			<Mass>1.50</Mass>
+		</statBases>
+	</ThingDef>
+
+	<!-- Simple prosthetic vaginas -->
+	<ThingDef ParentName="rjw_BodyPartArtificialBase">
+		<defName>HydraulicVagina</defName>
+		<label>hydraulic vagina</label>
+		<description>A prosthetic vagina. Its cold metal grip is uncomfortable but it has great suction power.</description>
+		<graphicData>
+			<texPath>female_artificial_genital</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>100</MarketValue>
+			<Mass>1.00</Mass>
+		</statBases>
+	</ThingDef>
+
+	<!-- Simple prosthetic breasts -->
+	<ThingDef ParentName="rjw_BodyPartArtificialBase">
+		<defName>HydraulicBreasts</defName>
+		<label>hydraulic breasts</label>
+		<description>Prosthetic breasts. Conical metal with increased pumping action, spray your friends.</description>
+		<graphicData>
+			<texPath>artificial_breast</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>100</MarketValue>
+			<Mass>3.00</Mass>
+		</statBases>
+	</ThingDef>
+
+	<!-- Simple prosthetic anuses -->
+	<ThingDef ParentName="rjw_BodyPartArtificialBase">
+		<defName>HydraulicAnus</defName>
+		<label>hydraulic anus</label>
+		<description>A prosthetic anus. Its cold metal grip is uncomfortable but it has great suction power.</description>
+		<graphicData>
+			<texPath>artificial_anus</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>100</MarketValue>
+			<Mass>1.00</Mass>
+		</statBases>
+	</ThingDef>
+
+	<!-- Bionic penises -->
+	<ThingDef ParentName="rjw_BodyPartArtificialBase">
+		<defName>BionicPenis</defName>
+		<label>bionic penis</label>
+		<description>A high-tech prosthetic penis. Features include:
+- Adjustable size allows you to fit in any vagina.
+- Over 50 different vibration modes, including 10 of the most stimulating waveforms known to science
+- State-of-the-art neural interface activates neural pathways you didn't even know you had to make you feel things you never even imagined.</description>
+		<graphicData>
+			<texPath>male_artificial_genital</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>900</MarketValue>
+			<Mass>0.50</Mass>
+		</statBases>
+	</ThingDef>
+
+	<!-- Bionic vaginas -->
+	<ThingDef ParentName="rjw_BodyPartArtificialBase">
+		<defName>BionicVagina</defName>
+		<label>bionic vagina</label>
+		<description>A high-tech prosthetic vagina. Features include:
+- Interior lined with 150 million micro-g-spots
+- Resizes to fit any penis
+- Auto-lubrication with boro-graphitic pseudofluid, smooth but never slimy (includes toggleable sliminess in case you're into that)</description>
+		<graphicData>
+			<texPath>female_artificial_genital</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>1300</MarketValue>
+			<Mass>0.10</Mass>
+		</statBases>
+	</ThingDef>
+
+	<!-- Bionic breasts -->
+	<ThingDef ParentName="rjw_BodyPartArtificialBase">
+		<defName>BionicBreasts</defName>
+		<label>bionic breasts</label>
+		<description>High-tech prosthetic breasts. Features include:
+- Resizes to any desired size</description>
+		<graphicData>
+			<texPath>artificial_breast</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>1300</MarketValue>
+			<Mass>1.50</Mass>
+		</statBases>
+	</ThingDef>
+
+	<!-- Bionic anuses -->
+	<ThingDef ParentName="rjw_BodyPartArtificialBase">
+		<defName>BionicAnus</defName>
+		<label>bionic anus</label>
+		<description>A high-tech prosthetic anus. Features include:
+- Resizes to any desired size
+- Auto-lubrication with boro-graphitic pseudofluid, smooth but never slimy (includes toggleable sliminess in case you're into that)</description>
+		<graphicData>
+			<texPath>artificial_anus</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>1300</MarketValue>
+			<Mass>0.1</Mass>
+		</statBases>
+	</ThingDef>
+	
+	<!-- Insect privates parts -->
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>OvipositorM</defName>
+		<label>ovipositor (Male)</label>
+		<description>Ovipositor used by insects to fertilize eggs.</description>
+		<graphicData>
+			<texPath>male_genital</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>35</MarketValue>
+			<Mass>0.50</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>OvipositorF</defName>
+		<label>ovipositor (Female)</label>
+		<description>Ovipositor used by insects to lay eggs.</description>
+		<graphicData>
+			<texPath>female_genital</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>50</MarketValue>
+			<Mass>2.00</Mass>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>InsectAnus</defName>
+		<label>insect anus</label>
+		<description>Insect anus.</description>
+		<graphicData>
+			<texPath>anus</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>50</MarketValue>
+			<Mass>0.50</Mass>
+		</statBases>
+	</ThingDef>
+	
+	<!-- Demon privates parts -->
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>DemonTentaclesPenis</defName>
+		<label>demon tentacles</label>
+		<description>A severed demon tentacle. Long and flexible, constantly leaking demonic fluids.</description>
+		<graphicData>
+			<texPath>male_genital</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.16</Mass>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>DemonPenis</defName>
+		<label>demon penis</label>
+		<description>A severed demon penis. It's average humanlike size, constantly leaking demonic fluids.</description>
+		<graphicData>
+			<texPath>male_genital</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.16</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>DemonVagina</defName>
+		<label>demon vagina</label>
+		<description>A severed demon vagina, full of small tentacles, constantly leaking demonic fluids.</description>
+		<graphicData>
+			<texPath>female_genital</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.10</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="rjw_BodyPartNaturalBase">
+		<defName>DemonAnus</defName>
+		<label>demon anus</label>
+		<description>A severed demon anus... full of tentacles.</description>
+		<graphicData>
+			<texPath>anus</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Mass>0.12</Mass>
+		</statBases>
+	</ThingDef>
+</Defs>

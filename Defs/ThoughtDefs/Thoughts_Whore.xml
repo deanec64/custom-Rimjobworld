@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<rjw.ThoughtDef_Whore>
+		<defName>Whorish_Thoughts</defName>
+		<thoughtClass>rjw.ThoughtWorker_Whore</thoughtClass>
+		<durationDays>2.0</durationDays>
+		<stackLimit>1</stackLimit>
+		<stackedEffectMultiplier>0.4</stackedEffectMultiplier>
+		<!--Numbers of whoring times needed to pass to next stage, one less than the stages count-->
+		<!--I couldn't find a way to move them to thoughtStageDefs, fo a better code structure-->
+		<stageCounts>
+			<li>30</li>
+			<li>50</li>
+			</stageCounts>
+		<storyOffset>30</storyOffset><!--Special stories count as this much experience to grow accustomed-->
+		<stages>
+			<li>
+				<label>Recentful whore</label>
+				<description>We just need money! I'm not a ...</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+			<li>
+				<label>Whore</label>
+				<description>Whatever... Next!</description>
+				<baseMoodEffect>-1</baseMoodEffect>
+			</li>
+			<li>
+				<label>WHORE</label>
+				<description>I said NEXT!</description>
+				<baseMoodEffect>+5</baseMoodEffect>
+			</li>
+		</stages>
+	</rjw.ThoughtDef_Whore>
+
+	<rjw.ThoughtDef_Whore>
+		<defName>Whorish_Thoughts_Captive</defName>
+		<thoughtClass>rjw.ThoughtWorker_Whore</thoughtClass>
+		<durationDays>4.0</durationDays>
+		<stackLimit>10</stackLimit>
+		<stackedEffectMultiplier>0.4</stackedEffectMultiplier>
+		<!--Numbers of whoring times needed to pass to next stage, one less than the stages count-->
+		<!--I couldn't find a way to move them to thoughtStageDefs, fo a better code structure-->
+		<stageCounts>
+			<li>30</li>
+			<li>40</li>
+			<li>80</li>
+		</stageCounts>
+		<storyOffset>10</storyOffset>
+		<!--Special stories count as this much experience to grow accustomed-->
+		<stages>
+			<li>
+				<label>Forced whore</label>
+				<description>They forced me to serve as a sex toy!</description>
+				<baseMoodEffect>-20</baseMoodEffect>
+			</li>
+			<li>
+				<label>Unwilling whore</label>
+				<description>I'm not just a rental ride!</description>
+				<baseMoodEffect>-10</baseMoodEffect>
+			</li>
+			<li>
+				<label>Accustomed whore</label>
+				<description>Just no beatings, please.</description>
+				<baseMoodEffect>-1</baseMoodEffect>
+			</li>
+			<li>
+				<label>Complete whore</label>
+				<description>I could get more clients if not these restraints!</description>
+				<baseMoodEffect>+5</baseMoodEffect>
+			</li>
+		</stages>
+	</rjw.ThoughtDef_Whore>
+</Defs>

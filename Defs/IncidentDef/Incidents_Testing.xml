@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<IncidentDef>
+		<defName>TestInc</defName>
+		<label>test inc</label>
+		<category>Misc</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>rjw.IncidentWorker_TestInc</workerClass>
+		<letterLabel>Something Happened</letterLabel>
+		<letterText>Something Happened</letterText>
+		<letterDef>ThreatSmall</letterDef>
+		<baseChance>0.0</baseChance>
+		<minRefireDays>9999</minRefireDays>
+	</IncidentDef>
+
+	<IncidentDef>
+		<defName>TestInc2</defName>
+		<label>test inc2</label>
+		<category>Misc</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>rjw.IncidentWorker_TestInc2</workerClass>
+		<letterLabel>Something Happened2</letterLabel>
+		<letterText>Something Happened2</letterText>
+		<letterDef>ThreatSmall</letterDef>
+		<baseChance>0.0</baseChance>
+		<minRefireDays>9999</minRefireDays>
+	</IncidentDef>
+</Defs>

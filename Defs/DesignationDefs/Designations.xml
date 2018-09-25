@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<DesignationDef>
+		<defName>ComfortPrisoner</defName>
+		<texturePath>UI/Commands/comfort_prisoner_true</texturePath>
+		<targetType>Thing</targetType>
+	</DesignationDef>
+
+	<DesignationDef>
+		<defName>ComfortPrisonerNoSticky</defName>
+		<texturePath>UI/Commands/comfort_prisoner_invisible</texturePath>
+		<targetType>Thing</targetType>
+	</DesignationDef>
+
+	<DesignationDef>
+		<defName>RJW_ForBreeding</defName>
+		<texturePath>UI/Commands/comfort_prisoner_invisible</texturePath>
+		<targetType>Thing</targetType>
+	</DesignationDef>
+ 
+</Defs>

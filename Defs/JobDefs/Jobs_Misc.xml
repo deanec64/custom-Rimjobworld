@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<JobDef>
+		<defName>Fappin</defName>
+		<driverClass>rjw.JobDriver_Fappin</driverClass>
+		<reportString>fappin'.</reportString>
+		<casualInterruptible>false</casualInterruptible>
+	</JobDef>
+
+	<JobDef>
+		<defName>GettinLoved</defName>
+		<driverClass>rjw.JobDriver_GettinLoved</driverClass>
+		<reportString>lovin'.</reportString>
+		<casualInterruptible>false</casualInterruptible>
+	</JobDef>
+
+	<JobDef>
+		<defName>GettinRaped</defName>
+		<driverClass>rjw.JobDriver_GettinRaped</driverClass>
+		<reportString>gettin' raped.</reportString>
+		<checkOverrideOnDamage>Never</checkOverrideOnDamage>
+		<casualInterruptible>false</casualInterruptible>
+	</JobDef>
+
+  <JobDef>
+    <defName>GettinBred</defName>
+    <driverClass>rjw.JobDriver_GettinRaped</driverClass>
+    <reportString>gettin' bred.</reportString>
+    <checkOverrideOnDamage>Never</checkOverrideOnDamage>
+    <casualInterruptible>false</casualInterruptible>
+  </JobDef>
+
+  <JobDef>
+    <defName>GettinLicked</defName>
+    <driverClass>rjw.JobDriver_GettinLoved</driverClass>
+    <reportString>gettin' licked.</reportString>
+    <checkOverrideOnDamage>Never</checkOverrideOnDamage>
+    <casualInterruptible>false</casualInterruptible>
+  </JobDef>
+
+  <JobDef>
+    <defName>GettinSucked</defName>
+    <driverClass>rjw.JobDriver_GettinLoved</driverClass>
+    <reportString>gettin' sucked.</reportString>
+    <checkOverrideOnDamage>Never</checkOverrideOnDamage>
+    <casualInterruptible>false</casualInterruptible>
+  </JobDef>
+</Defs>

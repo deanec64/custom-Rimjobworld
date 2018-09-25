@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<ThinkTreeDef>
+		<defName>ViolateCorpseTree</defName>
+		<insertTag>Humanlike_PreMain</insertTag>
+		<insertPriority>16</insertPriority>
+		<thinkRoot Class="ThinkNode_Priority">
+			<subNodes>
+				<li Class="rjw.ThinkNode_ConditionalNecro">
+					<subNodes>
+						<li Class="rjw.ThinkNode_ChancePerHour_Necro">
+							<subNodes>
+								<li Class="rjw.JobGiver_ViolateCorpse" />
+							</subNodes>
+						</li>
+					</subNodes>
+				</li>
+			</subNodes>
+		</thinkRoot>
+	</ThinkTreeDef>
+</Defs>

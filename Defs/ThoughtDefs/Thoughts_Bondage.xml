@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<ThoughtDef>
+		<defName>Bound</defName>
+		<workerClass>rjw.ThoughtWorker_Bound</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<nullifyingTraits>
+			<li>Masochist</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>bound</label>
+				<description>This thing is seriously annoying. I wish I could take it off.</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+			<li>
+				<label>gagged</label>
+				<description>Ish shnn ish shrrrrsh uhnnninnn</description>
+				<baseMoodEffect>-4</baseMoodEffect>
+			</li>
+			<li>
+				<label>bound and gagged</label>
+				<description>Ufff ish hhhh shrrrnnn shhhrrr! hhhek shi thfffff!</description>
+				<baseMoodEffect>-8</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>MasochistBound</defName>
+		<workerClass>rjw.ThoughtWorker_Bound</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<requiredTraits>
+			<li>Masochist</li>
+		</requiredTraits>
+		<stages>
+			<li>
+				<label>masochist bound</label>
+				<description>Heh... heh heh...</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+			<li>
+				<label>masochist gagged</label>
+				<description>Nnnn shsh hhhch uhnnn</description>
+				<baseMoodEffect>4</baseMoodEffect>
+			</li>
+			<li>
+				<label>masochist bound and gagged</label>
+				<description>Shnnn ihhh shrrr fff shnnn... shsh chhhnnn uhfsh~!</description>
+				<baseMoodEffect>8</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+</Defs>

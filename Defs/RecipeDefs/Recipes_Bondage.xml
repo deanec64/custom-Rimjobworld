@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<RecipeDef>
+		<defName>MakeHololock</defName>
+		<label>make hololock</label>
+		<description>Make a hololock.</description>
+		<jobString>Making hololock.</jobString>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>9000</workAmount>
+		<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Jade</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Plasteel</li>
+				<li>ComponentIndustrial</li>
+				<li>Jade</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Hololock>1</Hololock>
+		</products>
+		<skillRequirements>
+			<Crafting>6</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>MakeArmbinder</defName>
+		<label>make armbinder</label>
+		<description>Make an armbinder.</description>
+		<jobString>Making armbinder.</jobString>
+		<workSpeedStat>TailoringSpeed</workSpeedStat>
+		<soundWorking>Recipe_Tailor</soundWorking>
+		<workAmount>5000</workAmount>
+		<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DevilstrandCloth</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Hololock</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>DevilstrandCloth</li>
+				<li>Steel</li>
+				<li>Hololock</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Armbinder>1</Armbinder>
+		</products>
+		<skillRequirements>
+			<Crafting>6</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>MakeGag</defName>
+		<label>make gag</label>
+		<description>Make a gag.</description>
+		<jobString>Making gag.</jobString>
+		<workSpeedStat>TailoringSpeed</workSpeedStat>
+		<soundWorking>Recipe_Tailor</soundWorking>
+		<workAmount>1500</workAmount>
+		<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DevilstrandCloth</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Hololock</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>DevilstrandCloth</li>
+				<li>Steel</li>
+				<li>Hololock</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Gag>1</Gag>
+		</products>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>MakeChastityBelt</defName>
+		<label>make chastity belt</label>
+		<description>Make a chastity belt.</description>
+		<jobString>Making chastity belt.</jobString>
+		<workSpeedStat>TailoringSpeed</workSpeedStat>
+		<soundWorking>Recipe_Tailor</soundWorking>
+		<workAmount>4000</workAmount>
+		<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Hololock</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Plasteel</li>
+				<li>Hololock</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<ChastityBelt>1</ChastityBelt>
+		</products>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>
+</Defs>

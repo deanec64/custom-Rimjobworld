@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<NeedDef>
+		<defName>Sex</defName>
+		<needClass>rjw.Need_Sex</needClass>
+		<label>sex</label>
+		<description>Represents fulfillment of sexual need, which is gained by doing sexual related activities and declined by time &amp; turn-ons. Sleeping pauses the need.</description>
+		<baseLevel>0.60</baseLevel>
+		<fallPerDay>0.00</fallPerDay>
+		<showOnNeedList>true</showOnNeedList>
+		<listPriority>49</listPriority>
+		<major>false</major>
+		<freezeWhileSleeping>true</freezeWhileSleeping>
+		<minIntelligence>Humanlike</minIntelligence>
+		<colonistsOnly>false</colonistsOnly>
+		<showForCaravanMembers>true</showForCaravanMembers>
+	</NeedDef>
+</Defs>

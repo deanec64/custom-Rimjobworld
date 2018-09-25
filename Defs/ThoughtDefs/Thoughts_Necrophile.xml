@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<ThoughtDef>
+		<defName>ViolatedCorpse</defName>
+		<thoughtClass>Thought_Memory</thoughtClass>
+		<durationDays>1.5</durationDays>
+		<stackLimit>3</stackLimit>
+		<stackedEffectMultiplier>0.4</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<label>had sex with a corpse</label>
+				<description>{0} wasn't the only thing that was stiff if you know what I mean...</description>
+				<baseMoodEffect>10</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+</Defs>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<ThoughtDef>
+		<defName>NeedSex</defName>
+		<workerClass>rjw.ThoughtWorker_NeedSex</workerClass>
+		<stages>
+			<li>
+				<label>sexually frustrated</label>
+				<description>I NEED IT!!!</description>
+				<baseMoodEffect>-10</baseMoodEffect>
+			</li>
+			<li>
+				<label>horny</label>
+				<description>It's been too long. I can't stop thinking about sex.</description>
+				<baseMoodEffect>-6</baseMoodEffect>
+			</li>
+			<li>
+				<label>sexually satisfied</label>
+				<description>I had a good roll in the hay.</description>
+				<baseMoodEffect>8</baseMoodEffect>
+			</li>
+			<li>
+				<label>ahegao</label>
+				<description>My legs are numb, my tongue's flopped out, and my eyes have rolled back in my head.</description>
+				<baseMoodEffect>14</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>Fapped</defName>
+		<thoughtClass>Thought_Memory</thoughtClass>
+		<durationDays>1.0</durationDays>
+		<stackLimit>3</stackLimit>
+		<stackedEffectMultiplier>0.4</stackedEffectMultiplier>
+		<stages>
+			<li>
+				<label>just fapped</label>
+				<description>I just fapped. Alone.</description>
+				<baseMoodEffect>-1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+</Defs>

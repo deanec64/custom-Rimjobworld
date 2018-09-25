@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<rjw.force_off_gear_def Abstract="True" Name="ForceOffGenericGear">
+		<workerClass>rjw.Recipe_ForceOffGear</workerClass>
+		<effectWorking>Surgery</effectWorking>
+		<soundWorking>Recipe_Surgery</soundWorking>
+		<workSpeedStat>MedicalOperationSpeed</workSpeedStat>
+		<workSkill>Medicine</workSkill>
+		<workSkillLearnFactor>8</workSkillLearnFactor>
+		<workAmount>1500</workAmount>
+		<surgerySuccessChanceFactor>2.0</surgerySuccessChanceFactor>
+		<deathOnFailedSurgeryChance>0.0</deathOnFailedSurgeryChance>
+		<!-- The surgery doesn't actually target a body part but this must be set to true so that the game will call
+		rjw.Recipe_ForceOffGear.GetPartsToApplyOn, which is used to hide the recipe from the operations list on pawns that
+		aren't wearing the relevant gear. -->
+		<targetsBodyPart>true</targetsBodyPart>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+	</rjw.force_off_gear_def>
+
+	<rjw.force_off_gear_def ParentName="ForceOffGenericGear">
+		<defName>ForceOffArmbinder</defName>
+		<label>force off armbinder</label>
+		<description>Forcibly removes an armbinder without the key at the cost of significant damage to the wearer.</description>
+		<jobString>Forcibly removing armbinder.</jobString>
+		<removes_apparel>Armbinder</removes_apparel>
+		<failure_affects>Torso</failure_affects>
+		<destroys_one_of>
+			<li>Hand</li>
+		</destroys_one_of>
+		<major_burns_on>
+			<li>Hand</li>
+			<li>Arm</li>
+		</major_burns_on>
+		<minor_burns_on>
+			<li>Torso</li>
+		</minor_burns_on>
+	</rjw.force_off_gear_def>
+
+	<rjw.force_off_gear_def ParentName="ForceOffGenericGear">
+		<defName>ForceOffGag</defName>
+		<label>force off gag</label>
+		<description>Forcibly removes a gag without the key at the cost of significant damage to the wearer.</description>
+		<jobString>Forcibly removing gag.</jobString>
+		<removes_apparel>Gag</removes_apparel>
+		<failure_affects>Head</failure_affects>
+		<destroys_one_of>
+			<li>Jaw</li>
+		</destroys_one_of>
+		<major_burns_on>
+			<li>Head</li>
+			<li>Neck</li>
+		</major_burns_on>
+	</rjw.force_off_gear_def>
+
+	<rjw.force_off_gear_def ParentName="ForceOffGenericGear">
+		<defName>ForceOffChastityBelt</defName>
+		<label>force off chastity belt</label>
+		<description>Forcibly removes a chastity belt without the key at the cost of significant damage to the wearer.</description>
+		<jobString>Forcibly removing chastity belt.</jobString>
+		<removes_apparel>ChastityBelt</removes_apparel>
+		<failure_affects>Torso</failure_affects>
+		<destroys_one_of>
+			<li>Genitals</li>
+		</destroys_one_of>
+		<major_burns_on>
+			<li>Torso</li>
+		</major_burns_on>
+		<minor_burns_on>
+			<li>Leg</li>
+		</minor_burns_on>
+	</rjw.force_off_gear_def>
+</Defs>

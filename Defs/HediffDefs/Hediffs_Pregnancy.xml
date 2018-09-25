@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!--all pregnancies--> 
+<Defs>
+	<HediffDef Name="RJW_pregnancy_template" Abstract="True">
+		<label>Pregnant</label>
+		<defaultLabelColor>(1, 0.41, 0.81)</defaultLabelColor>
+		<initialSeverity>0.001</initialSeverity>
+		<stages>
+			<li>
+				<label>early-stage</label>
+				<vomitMtbDays>2.5</vomitMtbDays>
+			</li>
+			<li>
+				<label>middle-stage</label>
+				<minSeverity>0.333</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.15</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>late-stage</label>
+				<minSeverity>0.666</minSeverity>
+				<vomitMtbDays>2</vomitMtbDays>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.30</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>having contractions</label>
+				<minSeverity>0.98</minSeverity>
+				<painOffset>0.3</painOffset>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<setMax>0.0</setMax>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+ 
+	<HediffDef ParentName="RJW_pregnancy_template">
+		<defName>RJW_pregnancy</defName>
+		<hediffClass>rjw.Hediff_HumanlikePregnancy</hediffClass>
+	</HediffDef>
+
+	<HediffDef ParentName="RJW_pregnancy_template">
+		<defName>RJW_pregnancy_beast</defName>
+		<hediffClass>rjw.Hediff_BestialPregnancy</hediffClass>
+	</HediffDef>
+</Defs>

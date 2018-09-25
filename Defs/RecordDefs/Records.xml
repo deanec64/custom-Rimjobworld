@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<RecordDef>
+		<defName>CountOfFappin</defName>
+		<label>fappin&apos; done</label>
+		<description>The number of times I masturbated.</description>
+		<type>Int</type>
+	</RecordDef>
+
+	<RecordDef>
+		<defName>CountOfSex</defName>
+		<label>lovin&apos; made</label>
+		<description>The number of love-making I did.</description>
+		<type>Int</type>
+	</RecordDef>
+
+	<RecordDef>
+		<defName>CountOfSexWithOthers</defName>
+		<label>humanlikes loved</label>
+		<description>The number of love-making I did with humanlikes.</description>
+		<type>Int</type>
+	</RecordDef>
+
+	<RecordDef>
+		<defName>CountOfSexWithAnimals</defName>
+		<label>animals loved</label>
+		<description>The number of love-making I did with animals.</description>
+		<type>Int</type>
+	</RecordDef>
+
+	<RecordDef>
+		<defName>CountOfSexWithInsects</defName>
+		<label>insects loved</label>
+		<description>The number of love-making I did with insects.</description>
+		<type>Int</type>
+	</RecordDef>
+
+	<RecordDef>
+		<defName>CountOfRaped</defName>
+		<label>rapes done</label>
+		<description>The number of times I raped others.</description>
+		<type>Int</type>
+	</RecordDef>
+
+	<RecordDef>
+		<defName>CountOfRapedOthers</defName>
+		<label>humanlikes raped</label>
+		<description>The number of times I raped humanlikes.</description>
+		<type>Int</type>
+	</RecordDef>
+
+	<RecordDef>
+		<defName>CountOfRapedAnimals</defName>
+		<label>animals raped</label>
+		<description>The number of times I raped animals.</description>
+		<type>Int</type>
+	</RecordDef>
+
+	<RecordDef>
+		<defName>CountOfRapedInsects</defName>
+		<label>insects raped</label>
+		<description>The number of times I raped insects.</description>
+		<type>Int</type>
+	</RecordDef>
+
+	<RecordDef>
+		<defName>CountOfSexWithCorpse</defName>
+		<label>corpses raped</label>
+		<description>The number of times I raped corpses.</description>
+		<type>Int</type>
+	</RecordDef>
+
+	<RecordDef>
+		<defName>CountOfBeenRaped</defName>
+		<label>rapes experienced</label>
+		<description>The number of times I got raped.</description>
+		<type>Int</type>
+	</RecordDef>
+
+	<RecordDef>
+		<defName>CountOfBeenRapedByOthers</defName>
+		<label>rapes (by humanlikes) experienced</label>
+		<description>The number of times I got raped by humanlikes.</description>
+		<type>Int</type>
+	</RecordDef>
+
+	<RecordDef>
+		<defName>CountOfBeenRapedByAnimals</defName>
+		<label>rapes (by animals) experienced</label>
+		<description>The number of times I got bred by animals.</description>
+		<type>Int</type>
+	</RecordDef>
+
+	<RecordDef>
+		<defName>CountOfBeenRapedByInsects</defName>
+		<label>rapes (by insects) experienced</label>
+		<description>The number of times I got raped by insects.</description>
+		<type>Int</type>
+	</RecordDef>
+
+	<RecordDef>
+		<defName>GetRapedAsComfortPrisoner</defName>
+		<label>rapes experienced as a designation target</label>
+		<description>The number of times I got raped as a comfort prisoner/comfort colonist.</description>
+		<type>Int</type>
+	</RecordDef>
+
+	<RecordDef>
+		<defName>CountOfWhore</defName>
+		<label>whorin&apos;</label>
+		<description>The number of times I sold myself.</description>
+		<type>Int</type>
+	</RecordDef>
+
+	<RecordDef>
+		<defName>EarnedMoneyByWhore</defName>
+		<label>silvers earned as a whore</label>
+		<description>The amount of silvers I have earned as a whore.</description>
+		<type>Int</type>
+	</RecordDef>
+</Defs>

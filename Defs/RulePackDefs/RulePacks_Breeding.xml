@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<RulePackDef>
+		<defName>AnalBreedingSucceeded</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name-> [RECIPIENT_nameDef] was anally bred.</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	
+	<RulePackDef>
+		<defName>VaginalBreedingSucceeded</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name-> [RECIPIENT_nameDef] was vaginally bred.</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+  <RulePackDef>
+    <defName>BreedingFailed</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name-> Can't breed with [RECIPIENT_nameDef].</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+</Defs>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<rjw.std_def>
+		<defName>HIV</defName>
+		<label>HIV</label>
+		<description>HIV consists of two parts: an acute and a chronic infection. Both parts follow the same course, reducing the infected pawn's blood filtration as their severity increases. The acute phase progresses rapidly but can be fought by the pawn's immune system, whereas the chronic phase progresses very slowly but can never be cured. Treatment can modestly slow the progress of the disease.</description>
+		<hediff_def>ChronicHIV</hediff_def>
+		<cohediff_def>AcuteHIV</cohediff_def>
+		<catch_chance>0.05</catch_chance>
+		<spawn_chance>0.005</spawn_chance>
+		<spawn_severity>0.80</spawn_severity>
+		<applied_on_genitals>false</applied_on_genitals>
+	</rjw.std_def>
+
+	<rjw.std_def>
+		<defName>Herpes</defName>
+		<label>herpes</label>
+		<description>Herpes is an incurable but nonfatal disease. Affected pawns experience pain and itchiness in the affected body parts. Treatment is effective at reducing the intensity of the symptoms.</description>
+		<hediff_def>Herpes</hediff_def>
+		<catch_chance>0.14</catch_chance>
+		<spawn_chance>0.04</spawn_chance>
+		<spawn_severity>1.00</spawn_severity>
+		<applied_on_genitals>true</applied_on_genitals>
+	</rjw.std_def>
+
+	<rjw.std_def>
+		<defName>Warts</defName>
+		<label>warts</label>
+		<description>Genital warts are unsightly and cause an itching/burning sensation. They are easily treated and never fatal.</description>
+		<hediff_def>Warts</hediff_def>
+		<catch_chance>0.20</catch_chance>
+		<environment_pitch_chance>0.07</environment_pitch_chance>
+		<applied_on_genitals>true</applied_on_genitals>
+	</rjw.std_def>
+
+	<rjw.std_def>
+		<defName>Syphilis</defName>
+		<label>syphilis</label>
+		<description>Syphilis is a serious disease that affects the mind. If left untreated, it leads to corrupted thoughts, mood problems, potential permanent damage to the brain, liver, and kidneys, and, ultimately, death. The good news is that it is easily defeated by proper treatment.</description>
+		<hediff_def>Syphilis</hediff_def>
+		<catch_chance>0.08</catch_chance>
+		<environment_pitch_chance>0.03</environment_pitch_chance>
+		<autocure_below_severity>0.01</autocure_below_severity>
+		<applied_on_genitals>false</applied_on_genitals>
+	</rjw.std_def>
+</Defs>

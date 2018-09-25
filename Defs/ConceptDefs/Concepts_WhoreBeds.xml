@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<!--===================== Concepts taught through the learning readout, when opportunities arise ===================-->
+<Defs>
+	<ConceptDef>
+		<defName>WhoreBeds</defName>
+		<label>Whore beds</label>
+		<priority>50</priority>
+		<needsOpportunity>True</needsOpportunity>
+		<helpText>Whores prefer to work in beds.\n\nThere are specific whore beds you can build for them.</helpText>
+		<highlightTags>
+			<li>MainTab-Architect-Closed</li>
+			<li>DesignationCategoryButton-Furniture-Closed</li>
+			<li>Designator-Build-WhoreBed</li>
+		</highlightTags>
+	</ConceptDef>
+</Defs>

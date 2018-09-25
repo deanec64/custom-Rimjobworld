@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<HediffDef Name="Sex_Change_Thoughts_Syndrome" Abstract="True">
+		<hediffClass>HediffWithComps</hediffClass>
+		<defaultLabelColor>(1, 0.41, 0.71)</defaultLabelColor>
+		<!--This will staart from top severity and go down gradually, the code will change initial severity if needed for particular pawn-->
+		<initialSeverity>1.0</initialSeverity>
+		<minSeverity>0.001</minSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.01</severityPerDay>
+			</li>
+			<li Class="HediffCompProperties_Disappears">
+				<!--These are long but lowest stage is actually bonus mood.-->
+				<!--The code will modify the severity so that some pawns are happy right away and others only get used to it before effect vanishes-->
+				<disappearsAfterTicks>
+					<!--60 days (1 year)-->
+					<min>3600000</min>
+					<!--1.5 years-->
+					<max>4800000</max>
+				</disappearsAfterTicks>
+			</li>
+		</comps>
+
+		<stages>
+			<li>
+				<label>ignorance</label>
+				<becomeVisible>false</becomeVisible>
+			</li>
+			<li>
+				<label>acceptance</label>
+				<minSeverity>0.01</minSeverity>
+				<becomeVisible>false</becomeVisible>
+			</li>
+			<li>
+				<label>saddness</label>
+				<minSeverity>0.25</minSeverity>
+				<becomeVisible>false</becomeVisible>
+			</li>
+			<li>
+				<label>anger</label>
+				<becomeVisible>false</becomeVisible>
+				<minSeverity>0.4</minSeverity>
+			</li>
+			<li>
+				<label>rejection</label>
+				<minSeverity>0.7</minSeverity>
+				<becomeVisible>false</becomeVisible>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<!--THese six are all the same, the flavor text is different-->
+	<HediffDef ParentName="Sex_Change_Thoughts_Syndrome">
+		<defName>hediff_male2female</defName>
+		<label>male2female</label>
+	</HediffDef>
+
+	<HediffDef ParentName="Sex_Change_Thoughts_Syndrome">
+		<defName>hediff_male2trap</defName>
+		<label>male2trap</label>
+	</HediffDef>
+
+	<HediffDef ParentName="Sex_Change_Thoughts_Syndrome">
+		<defName>hediff_female2male</defName>
+		<label>female2male</label>
+	</HediffDef>
+
+	<HediffDef ParentName="Sex_Change_Thoughts_Syndrome">
+		<defName>hediff_female2trap</defName>
+		<label>female2trap</label>
+	</HediffDef>
+
+	<HediffDef ParentName="Sex_Change_Thoughts_Syndrome">
+		<defName>hediff_female2futa</defName>
+		<label>female2futa</label>
+	</HediffDef>
+
+	<HediffDef ParentName="Sex_Change_Thoughts_Syndrome">
+		<defName>hediff_futa2female</defName>
+		<label>futa2female</label>
+	</HediffDef>
+
+	<!--hidden hediffs to track original sex-->
+	<HediffDef Name="Sex_Change_Original_Sex" Abstract="True">
+		<hediffClass>HediffWithComps</hediffClass>
+		<defaultLabelColor>(1, 0.41, 0.71)</defaultLabelColor>
+		<maxSeverity>1.0</maxSeverity>
+		<stages>
+			<li>
+				<becomeVisible>false</becomeVisible>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef ParentName="Sex_Change_Original_Sex">
+		<defName>hediff_was_boy</defName>
+		<label>was_boy</label>
+	</HediffDef>
+
+	<HediffDef ParentName="Sex_Change_Original_Sex">
+		<defName>hediff_was_girl</defName>
+		<label>was_girl</label>
+	</HediffDef>
+
+	<!--whatever this may mean:-->
+	<HediffDef ParentName="Sex_Change_Original_Sex">
+		<defName>hediff_was_futa</defName>
+		<label>was_futa</label>
+	</HediffDef>
+
+	<HediffDef ParentName="Sex_Change_Original_Sex">
+		<defName>hediff_was_trap</defName>
+		<label>was_trap</label>
+	</HediffDef>
+</Defs>

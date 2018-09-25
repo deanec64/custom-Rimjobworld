@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<ThingDef ParentName="BuildingNaturalBase">
+		<defName>WhoreSleepingSpot</defName>
+		<label>whore sleeping spot</label>
+		<description>Designates a spot on the ground where people whore.</description>
+		<thingClass>rjw.Building_WhoreBed</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Furniture/Bed/SleepSpot</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,4)</drawSize>
+		</graphicData>
+		<altitudeLayer>FloorEmplacement</altitudeLayer>
+		<statBases>
+			<WorkToBuild>0</WorkToBuild>
+			<Comfort>0.4</Comfort>
+			<SurgerySuccessChanceFactor>0.7</SurgerySuccessChanceFactor>
+		</statBases>
+		<scatterableOnMapGen>false</scatterableOnMapGen>
+		<useHitPoints>False</useHitPoints>
+		<size>(1,2)</size>
+		<passability>Standable</passability>
+		<drawGUIOverlay>True</drawGUIOverlay>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<building>
+			<bed_showSleeperBody>True</bed_showSleeperBody>
+			<sowTag>SupportPlantsOnly</sowTag>
+			<canPlaceOverImpassablePlant>false</canPlaceOverImpassablePlant>
+			<ai_chillDestination>false</ai_chillDestination>
+		</building>
+		<designationHotKey>Misc1</designationHotKey>
+		<!--<researchPrerequisites>
+		<li>Whore_Sleeping_Spot</li>
+		</researchPrerequisites>-->
+	</ThingDef>
+
+	<ThingDef ParentName="BuildingNaturalBase">
+		<defName>BedWhore</defName>
+		<label>whore bed</label>
+		<description>A bed specially designed for whores.</description>
+		<thingClass>rjw.Building_WhoreBed</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Furniture/Bed/BedWhore</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(3,4)</drawSize>
+			<damageData>
+				<rect>(0,0.05,1,1.95)</rect>
+			</damageData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>140</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<Beauty>1</Beauty>
+			<WorkToBuild>870</WorkToBuild>
+			<Mass>50</Mass>
+			<BedRestEffectiveness>1</BedRestEffectiveness>
+			<Comfort>0.75</Comfort>
+			<ImmunityGainSpeedFactor>1.1</ImmunityGainSpeedFactor>
+		</statBases>
+		<size>(1,2)</size>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>35</costStuffCount>
+		<building>
+			<bed_showSleeperBody>False</bed_showSleeperBody>
+			<bed_healPerDay>3</bed_healPerDay>
+		</building>
+		<comps>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>EndTable</li>
+					<li>Dresser</li>
+				</linkableFacilities>
+			</li>
+		</comps>
+		<fillPercent>0.4</fillPercent>
+		<pathCost>60</pathCost>
+		<staticSunShadowHeight>0.17</staticSunShadowHeight>
+		<castEdgeShadows>True</castEdgeShadows>
+		<designationHotKey>Misc2</designationHotKey>
+		<passability>PassThroughOnly</passability>
+		<drawGUIOverlay>True</drawGUIOverlay>
+		<canOverlapZones>false</canOverlapZones>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+		<!--<researchPrerequisites>
+		<li>Bed_Whore</li>
+		</researchPrerequisites>-->
+	</ThingDef>
+
+	<ThingDef ParentName="BuildingNaturalBase">
+		<defName>DoubleBedWhore</defName>
+		<label>double whore bed</label>
+		<description>A simple double-wide bed that fits two people, specially designed for whores.</description>
+		<thingClass>rjw.Building_WhoreBed</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Furniture/Bed/DoubleBedWhore</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(4,4)</drawSize>
+			<damageData>
+				<rect>(0,0.05,2,1.95)</rect>
+			</damageData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<WorkToBuild>1740</WorkToBuild>
+			<Mass>85</Mass>
+			<Comfort>0.75</Comfort>
+			<Beauty>2</Beauty>
+			<BedRestEffectiveness>1</BedRestEffectiveness>
+			<ImmunityGainSpeedFactor>1.1</ImmunityGainSpeedFactor>
+		</statBases>
+		<size>(2,2)</size>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>70</costStuffCount>
+		<building>
+			<bed_showSleeperBody>False</bed_showSleeperBody>
+			<bed_healPerDay>3</bed_healPerDay>
+		</building>
+		<comps>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>EndTable</li>
+					<li>Dresser</li>
+				</linkableFacilities>
+			</li>
+		</comps>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<fillPercent>0.4</fillPercent>
+		<pathCost>60</pathCost>
+		<leaveResourcesWhenKilled>True</leaveResourcesWhenKilled>
+		<staticSunShadowHeight>0.17</staticSunShadowHeight>
+		<castEdgeShadows>True</castEdgeShadows>
+		<designationHotKey>Misc3</designationHotKey>
+		<passability>PassThroughOnly</passability>
+		<drawGUIOverlay>True</drawGUIOverlay>
+		<canOverlapZones>false</canOverlapZones>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+		<!--<researchPrerequisites>
+		<li>Double_Bed_Whore</li>
+		</researchPrerequisites>-->
+	</ThingDef>
+
+	<ThingDef ParentName="BuildingNaturalBase">
+		<defName>RoyalBedWhore</defName>
+		<label>royal whore bed</label>
+		<description>A luxurious gold-inlaid bed fit for the highborn whores. Very comfy and beautiful. Fits two.</description>
+		<thingClass>rjw.Building_WhoreBed</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Furniture/Bed/RoyalBedWhore</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(4,4)</drawSize>
+			<damageData>
+				<rect>(0,0.05,2,1.95)</rect>
+			</damageData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<WorkToBuild>4500</WorkToBuild>
+			<Mass>90</Mass>
+			<Beauty>25</Beauty>
+			<BedRestEffectiveness>1.05</BedRestEffectiveness>
+			<Comfort>0.90</Comfort>
+			<ImmunityGainSpeedFactor>1.1</ImmunityGainSpeedFactor>
+		</statBases>
+		<size>(2,2)</size>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>110</costStuffCount>
+		<costList>
+			<Gold>50</Gold>
+		</costList>
+		<building>
+			<bed_showSleeperBody>False</bed_showSleeperBody>
+			<bed_healPerDay>3</bed_healPerDay>
+		</building>
+		<comps>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>EndTable</li>
+					<li>Dresser</li>
+				</linkableFacilities>
+			</li>
+		</comps>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<fillPercent>0.4</fillPercent>
+		<pathCost>60</pathCost>
+		<leaveResourcesWhenKilled>True</leaveResourcesWhenKilled>
+		<staticSunShadowHeight>0.17</staticSunShadowHeight>
+		<castEdgeShadows>True</castEdgeShadows>
+		<designationHotKey>Misc4</designationHotKey>
+		<passability>PassThroughOnly</passability>
+		<drawGUIOverlay>True</drawGUIOverlay>
+		<canOverlapZones>false</canOverlapZones>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+		<!--<researchPrerequisites>
+		<li>Royal_Bed_Whore</li>
+		</researchPrerequisites>-->
+	</ThingDef>
+</Defs>

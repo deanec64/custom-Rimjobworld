@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<RulePackDef>
+		<defName>AnalSexSucceeded</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name-> [RECIPIENT_nameDef] had anal sex.</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+	
+	<RulePackDef>
+		<defName>AnalSexFailed</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name-> [RECIPIENT_nameDef] has no anus.</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+	<RulePackDef>
+		<defName>VaginalSexSucceeded</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name-> [RECIPIENT_nameDef] had vaginal sex.</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+	
+	<RulePackDef>
+		<defName>VaginalSexFailed</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name-> [RECIPIENT_nameDef] has no vagina.</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+	
+	<RulePackDef>
+		<defName>OtherSexSucceeded</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name-> [RECIPIENT_nameDef] had sex.</li>
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+</Defs>

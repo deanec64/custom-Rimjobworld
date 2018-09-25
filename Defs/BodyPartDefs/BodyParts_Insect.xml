@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<BodyPartDef>
+		<defName>InsectGenitals</defName>
+		<label>insectGenitals</label>
+		<hitPoints>20</hitPoints>
+		<frostbiteVulnerability>0.1</frostbiteVulnerability>
+		<skinCovered>true</skinCovered>
+		<canSuggestAmputation>true</canSuggestAmputation>
+		<bleedRate>1.0</bleedRate>
+		<tags>
+			<li>RJW_FertilitySource</li>
+		</tags>
+	</BodyPartDef>
+</Defs>

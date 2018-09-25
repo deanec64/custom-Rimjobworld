@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<HediffDef>
+		<defName>FeelingBroken</defName>
+		<hediffClass>rjw.AdvancedHediffWithComps</hediffClass>
+		<label>Stages to broken body</label>
+		<defaultLabelColor>(0.5, 0.7, 0.45)</defaultLabelColor>
+		<makesSickThought>false</makesSickThought>
+		<initialSeverity>0.025</initialSeverity>
+		<maxSeverity>1</maxSeverity>
+		<scenarioCanAdd>true</scenarioCanAdd>
+		<tendable>false</tendable>
+		<comps>
+			<li Class="rjw.HediffCompProperties_SeverityPerDayIfRest">
+				<severityPerDayByRestDays>
+					<points>
+						<li>(1,0)</li>
+						<li>(10,-0.025)</li>
+					</points>
+				</severityPerDayByRestDays>
+			</li>
+			<li Class="rjw.HediffCompProperties_WhenRapid">
+				<severityRateByRestDays>
+					<points>
+						<li>(0,0.1)</li>
+						<li>(1,1)</li>
+					</points>
+				</severityRateByRestDays>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>early-stage</label>
+				<becomeVisible>false</becomeVisible>
+			</li>
+			<li>
+				<label>In a trance</label>
+				<minSeverity>0.1</minSeverity>
+				<painOffset>0.1</painOffset>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<postFactor>0.8</postFactor>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<postFactor>0.8</postFactor>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>Broken body</label>
+				<minSeverity>0.3</minSeverity>
+				<painOffset>0.05</painOffset>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<postFactor>0.75</postFactor>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<postFactor>0.65</postFactor>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<postFactor>0.9</postFactor>
+					</li>
+					<li>
+						<capacity>Talking</capacity>
+						<postFactor>0.9</postFactor>
+					</li>
+				</capMods>
+				<statOffsets>
+					<Vulnerability>0.25</Vulnerability>
+				</statOffsets>
+			</li>
+			<li>
+				<label>Extremely broken body</label>
+				<minSeverity>0.5</minSeverity>
+				<painOffset>-0.1</painOffset>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<postFactor>0.7</postFactor>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<postFactor>0.4</postFactor>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<postFactor>0.7</postFactor>
+					</li>
+					<li>
+						<capacity>Talking</capacity>
+						<postFactor>0.8</postFactor>
+					</li>
+				</capMods>
+				<statOffsets>
+					<Vulnerability>0.5</Vulnerability>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+</Defs>

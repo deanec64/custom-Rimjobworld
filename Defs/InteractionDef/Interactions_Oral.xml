@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<InteractionDef>
+		<defName>Rimming</defName>
+		<label>rimming</label>
+		<workerClass>rjw.InteractionWorker_AnalSexAttempt</workerClass>
+		<symbol>Things/Mote/SpeechSymbols/Romance</symbol>
+		<socialFightBaseChance>0.0</socialFightBaseChance>
+		<recipientThought>MadeSomeLovin</recipientThought>
+		<logRulesInitiator>
+			<rulesStrings>
+				<li>r_logentry->Licked the anus of [OTHER_nameDef].</li>
+			</rulesStrings>
+		</logRulesInitiator>
+		<logRulesRecipient>
+			<rulesStrings>
+				<li>r_logentry->Was licked by [OTHER_nameDef].</li>
+			</rulesStrings>
+		</logRulesRecipient>
+	</InteractionDef>
+	
+	<InteractionDef>
+		<defName>Cunnilingus</defName>
+		<label>cunnilingus</label>
+		<workerClass>rjw.InteractionWorker_VaginalSexAttempt</workerClass>
+		<symbol>Things/Mote/SpeechSymbols/Romance</symbol>
+		<socialFightBaseChance>0.0</socialFightBaseChance>
+		<recipientThought>MadeSomeLovin</recipientThought>
+		<logRulesInitiator>
+			<rulesStrings>
+				<li>r_logentry->Licked the vagina of [OTHER_nameDef].</li>
+			</rulesStrings>
+		</logRulesInitiator>
+		<logRulesRecipient>
+			<rulesStrings>
+				<li>r_logentry->Was licked by [OTHER_nameDef].</li>
+			</rulesStrings>
+		</logRulesRecipient>
+	</InteractionDef>
+
+  <InteractionDef>
+    <defName>Fellatio</defName>
+    <label>Fellatio</label>
+    <workerClass>rjw.InteractionWorker_VaginalSexAttempt</workerClass>
+    <symbol>Things/Mote/SpeechSymbols/Romance</symbol>
+    <socialFightBaseChance>0.0</socialFightBaseChance>
+    <recipientThought>MadeSomeLovin</recipientThought>
+    <logRulesInitiator>
+      <rulesStrings>
+        <li>r_logentry->Sucked the penis of [OTHER_nameDef].</li>
+      </rulesStrings>
+    </logRulesInitiator>
+    <logRulesRecipient>
+      <rulesStrings>
+        <li>r_logentry->Had their penis sucked by [OTHER_nameDef].</li>
+      </rulesStrings>
+    </logRulesRecipient>
+  </InteractionDef>
+</Defs>
